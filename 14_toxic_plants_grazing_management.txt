@@ -1,0 +1,226 @@
+SOURCE: Forage Crops - Grazing Management: Toxic Plants (MF3244)
+AUTHORS: Jaymelynn Farney (Beef Systems Specialist), Doug Shoup (Agronomist), Dave
+Rethorst (DVM), Dale Blasi (Beef Stocker Management Specialist), John Holman
+(Agronomist, Cropping Systems)
+PUBLISHER: Kansas State University Research and Extension, April 2018
+(Great Plains Grazing project - Kansas State, Oklahoma State, University of Oklahoma,
+Tarleton State, Samuel Roberts Noble Foundation, USDA-ARS)
+
+---
+
+CONTEXT
+
+Cover crops grown for agronomic/soil benefits are increasingly considered for grazing
+or haying too - appealing for additional revenue plus soil stabilization benefits. But
+some species that work well as cover crops are NOT safe as forage and can be toxic or
+fatal to livestock. This is a critical distinction Ellis should always flag: cover crop
+suitability and forage/grazing safety are NOT the same evaluation.
+
+METABOLIC DISORDERS (mechanism-based, can occur across many forage types)
+
+BLOAT
+Frothy bloat: thick, foamy gas builds in the rumen faster than the animal can belch it
+out - can be fatal if pressure isn't relieved.
+Prevention: bloat-prevention agents (ionophores, poloxalene) in feed/water; provide dry
+roughage before introducing high-risk forage; delay turnout until midday; graze
+grass-legume MIXTURES rather than pure legume stands; avoid pastures with more than 50%
+bloat-causing legumes.
+
+GLUCOSINOLATES
+Natural bitter/"hot"-tasting compounds, concentrated in seeds, found in brassica-family
+plants. Interfere with thyroid function, cause liver/kidney lesions, reduce mineral
+uptake. Most serious effect: inhibited iodine uptake, reducing thyroxine production and
+causing goiters.
+
+GRASS TETANY (aka grass staggers / wheat pasture poisoning)
+A metabolic disorder from low blood magnesium. Mainly affects OLDER LACTATING COWS
+grazing succulent, immature grass. Symptoms: uncoordinated gait (staggers),
+convulsion, coma, death.
+Prevention: supplement magnesium via mineral or high-magnesium feed when grass is
+lush; graze the highest-risk pastures with steers, heifers, and dry cows instead
+(less susceptible classes); increasing legumes to ~30% of pasture composition can also
+reduce risk.
+
+NITRATE TOXICITY
+Plant nitrate converts to nitrite in the rumen, which binds hemoglobin to form
+methemoglobin - reducing the blood's oxygen-carrying capacity. Symptoms: grayish/
+brownish discoloration of nonpigmented skin and mucous membranes (mouth, nose, eyes,
+vulva), blood color shift from bright red to chocolate brown, staggering gait, rapid
+pulse, labored breathing, frequent urination, collapse, coma, death. Pregnant animals
+may abort.
+Risk factors: heavy nitrogen fertilization of cool-season grasses; nitrate can
+accumulate to dangerous levels on cool cloudy days, during drought, or under any
+condition that slows grass growth/metabolism.
+Treatment: intravenous methylene blue if diagnosed early - but since this isn't always
+readily available, PREVENTION is the priority: always test forage before feeding when
+nitrate risk is suspected.
+
+POLIOENCEPHALOMALACIA (PEM)
+High dietary sulfur creates hydrogen sulfide gas in the rumen, leading to brain lesions.
+Symptoms: muscle incoordination, circling, stupor, blindness, facial tremors,
+recumbency, convulsions, death.
+Sulfur guidelines: diets with <15% forage: max tolerable sulfur 0.30%; diets with >40%
+forage: max tolerable sulfur 0.50%.
+Treatment (supportive): IV thiamine injections and dexamethasone to reduce cerebral
+edema.
+
+PRUSSIC ACID POISONING (Hydrocyanic acid / HCN)
+Occurs rapidly on high-risk forages, can cause sudden death. HCN deprives cells of
+oxygen, causing asphyxiation. Symptoms: staggering, gasping, trembling, convulsions,
+respiratory failure, blue-tinged mucous membranes. Diagnosed post-mortem by bright
+cherry-red blood.
+Treatment: IV sodium nitrite and sodium thiosulfate (veterinarian administered).
+Ruminants (cattle, sheep) are more susceptible than non-ruminants; horses and pigs may
+be unaffected.
+Key risk windows: new/young regrowth, right after a drought breaks, and IMMEDIATELY
+FOLLOWING A FREEZE are all high-HCN periods. Wait 10 days after a killing frost before
+grazing/feeding high-risk species. Baled hay is NOT a prussic acid risk since HCN
+evaporates during curing/drying (but nitrate risk remains in hay - see below).
+
+SWEETCLOVER POISONING
+Coumarin in sweetclover converts to dicoumarin when the plant is SPOILED or damaged
+(moldy). Dicoumarin interferes with vitamin K metabolism and blood clotting, causing
+hemorrhaging. Occurs mainly from feeding MOLDY sweetclover hay - rarely from grazing
+live sweetclover.
+Prevention: plant low-coumarin clover varieties. Treatment: IV vitamin K or whole
+blood.
+
+SPECIFIC HIGH-RISK PLANTS
+
+HAIRY VETCH
+A nitrogen-fixing cover crop NOT recommended as a stock/forage crop due to toxicity in
+cattle and horses. Causes an allergic-type reaction: subcutaneous swelling,
+photosensitization, hair matting, skin sloughing, oral ulcers, cough, alopecia,
+weakness, appetite loss, diarrhea, decreased milk production, sporadic abortion,
+red-tinged urine, death. Mortality rate in affected animals: 50-100%, usually from
+kidney failure. Risk exists at ANY growth stage.
+Highest-risk animals: black-pigmented-skin cattle/horses (Angus, Angus cross,
+Holstein, black horses) - though Hereford cattle can also be affected. Poisoning
+appears linked to herd genetics (deaths cluster within specific herds), but no genetic
+test currently exists to predict individual sensitivity.
+
+LUPIN
+Good protein/energy source, but ONLY 4 species are considered nontoxic: narrowflower
+lupine, white lupine, European yellow lupine, tarwi. SIX species are particularly
+toxic to cattle and sheep: silky, tailcup, velvet, silvery, summer, and sulfur lupine -
+these can kill sheep and cause birth defects (cleft palates, crooked legs, malformed
+spines) in calves from pregnant cows that consumed them. Species identification
+matters critically before grazing any lupin stand.
+
+AMARANTH
+Related to pigweed. Grain-production species (love-lies-bleeding, red amaranth,
+Prince-of-Wales feather) are marketed for food/cereal use. But several "true weed"
+amaranth species are hard to control and problematic: spiny amaranth/pigweed, redroot
+pigweed, and Palmer amaranth (consistently HIGH in nitrate and potentially toxic to
+cattle). Species-level identification matters here too.
+
+BRASSICAS (kale, rapeseed, swede, turnip, canola, mustard)
+High-quality, high-protein feed - aboveground parts run 20-25% crude protein with
+60-80% digestibility; roots run 10-14% CP, 80-85% digestible. Ready to graze ~75 days
+after planting; regrowth possible if not overgrazed; palatability increases after a
+freeze.
+Cautions: high moisture, low fiber - offer other dry feeds to maintain rumen function.
+Low in copper, manganese, zinc - supplement with a properly balanced mineral,
+especially for breeding animals.
+Improper-grazing risks: polioencephalomalacia, hemolytic anemia (mainly a kale issue),
+pulmonary emphysema, nitrate poisoning, bloat (especially with canola), and
+glucosinolate-related metabolic issues. Sheep may show photosensitivity.
+Brassicas should comprise NO MORE than 75% of total diet. Offer an iodized mineral
+pack to counter glucosinolate effects on iodine uptake. Test for nitrate before
+turnout. Introduce animals to a brassica diet gradually over 5-7 days; never turn out
+hungry animals - fill them on hay first.
+Canola specifically: high in sulfur, raising PEM risk - test sulfur levels in both
+plant and water source; provide trace mineralized salt/mineral supplement.
+
+FLAX
+Grazing NOT recommended due to prussic acid risk, especially green flax straw right
+after a freeze. However, HARVESTED flax SEED is a good high-protein feed (35% CP,
+unique fatty acid profile good for horses). Flax straw after seed harvest is
+high-cellulose/high-lignin = poor-quality forage regardless of toxicity concerns, so
+it's not recommended for grazing OR haying.
+
+SMALL GRAINS (barley, oats, rye, ryegrass, wheat, triticale)
+Rapidly growing lush grasses risk grass tetany (more common in spring, but can occur
+with cool-season fall/winter growth too). High-protein grasses may contribute to
+bloat.
+Management: magnesium supplementation (8-12% magnesium free-choice mineral) started
+BEFORE turnout, ensuring palatability for adequate intake; increasing legumes to ~30%
+of pasture may reduce tetany risk. Nitrate risk increases with heavy nitrogen
+fertilization - watch cool, cloudy, drought, or slow-growth conditions.
+
+LEGUMES (general)
+Sweetclover, yellow clover, white clover, and low-coumarin varieties (red clover,
+Banat sweetclover) do NOT cause sweetclover poisoning when GRAZED live - the risk is
+specifically from moldy HAY. Avoid feeding moldy sweetclover hay within 2 weeks of
+calving (abortion risk).
+Bloat risk: forage under 50% clover is less problematic. Never give hungry animals
+access to lush clover stands; provide dry hay first to reduce bloat risk. Clovers pose
+LESS bloat risk than alfalfa. Annual lespedeza, birdsfoot trefoil, and sainfoin are NOT
+known to cause bloat - though certain birdsfoot trefoil species may carry prussic acid.
+Cattle can safely graze lablab, cowpea, sunhemp, mungbean, soybean (low bloat risk,
+though sheep are less tolerant - a small percentage of crossbred sheep may show
+photosensitivity from cowpea). Sheep grazing rain-damaged mature soybean risk
+lupinosis-like symptoms from the fungus Phomopsis - can cause acute liver atrophy and
+death.
+
+SORGHUM, SUDANGRASS, MILLETS, AND CORN
+All sorghum/sudangrass types carry prussic acid (HCN) risk for grazing cattle - risk
+level scales: sudangrass LOWEST (rarely kills), sorghum-sudangrass hybrids
+INTERMEDIATE, straight sorghum HIGHEST/most toxic.
+Corn does NOT carry prussic acid risk, but cattle are at greater risk than sheep for
+prussic acid poisoning generally, and sorghums/corn both carry nitrate toxicity risk.
+Sorghum grazing protocol: graze only once plants reach 18"+ height (HCN is highest
+when young/growing, right after a drought breaks, during regrowth, and immediately
+after a freeze). Use rotational grazing in summer; don't graze any single paddock's
+regrowth for more than 5 days. Wait 10 days after a killing frost before grazing or
+feeding sorghum, and delay grazing sorghum STALKS specifically until after a killing
+freeze. Baled/cured sorghum hay is NOT a prussic acid risk (HCN evaporates during
+curing) - but nitrate risk remains in the hay itself.
+Sorghum hay nitrate management: test before harvest; raise cutting height, leaving the
+bottom third of the stalk in the field (where nitrate concentration is highest); delay
+harvest if test results are high, to let the plant metabolize more nitrate.
+Millet (pearl or foxtail): nitrate risk possible, but NOT prussic acid risk - these
+grasses are considered safe/recommended specifically for horses on that basis.
+Corn grazing: Mississippi research found steer gains of 1.9-2.0 lbs/day grazing dried
+corn after ear development. Cattle graze SELECTIVELY (leaves, tops, ears, then stalks
+last) - risking acidosis/founder from concentrated ear/grain consumption. Management:
+strip-graze corn, allowing only 2-3 days of access per paddock, to prevent
+over-selection and maintain a stable rumen microbial environment; this also improves
+overall forage utilization even when cattle end up only grazing stalks.
+
+QUICK-REFERENCE TABLE HIGHLIGHTS (selected entries; C=class, W=warm/H=high-water-use
+etc. omitted for brevity - flagging toxicity notes only)
+
+- Amaranth: some species OK, some poisonous
+- Beet (bulb): choking risk, all livestock species
+- Brassica hybrid / Kale / Radish / Rapeseed / Turnip: nitrate, polioencephalomalacia,
+  anemia, emphysema - all cattle
+- Buckwheat: photosensitive dermatitis - horses specifically
+- Canola: nitrate toxicity, bloat, polioencephalomalacia - all cattle
+- Carrot (root): scouring risk in cattle
+- Flax: prussic acid (green flax specifically); seeds are safe
+- Mustard: glucosinolate toxicity - all livestock species
+- Sunflower: nitrate risk
+- Barley/Cereal rye/Oats/Ryegrass/Triticale/Wheat: grass tetany, bloat - all cattle,
+  especially lactating cows
+- Corn: nitrate, acidosis, founder - all cattle
+- Forage sorghum/Foxtail millet/Grain sorghum/Proso millet: nitrate + prussic acid -
+  cattle and sheep
+- Sorghum-Sudan grass: prussic acid - cattle and sheep
+- Sudan grass: minimal prussic acid chance - cattle and sheep
+- Alfalfa/Field Pea/Guar/Red clover: bloat risk - all cattle
+- Cowpea: minimal bloat chance, photosensitivity possible in sheep
+- Forage lespedeza: can cause milk decrease in lactating dairy cows after bloom
+- Hairy vetch: poisonous/allergy risk - cattle and horses (NOT recommended as feed)
+- Lupin: some species OK, some poisonous - cattle and sheep
+- Sainfoin: minimal bloat chance, but potential lupinosis risk in sheep
+- Sweetclover / White clover: bloat + "sweet clover poisoning" + vitamin K
+  interference - all cattle
+
+BOTTOM-LINE PRACTICAL GUIDANCE
+
+These recommendations are general - always consult a veterinarian before grazing or
+feeding any of the plants discussed, and consult an area livestock extension
+specialist to select forage crops genuinely suitable for a specific operation. Testing
+forage for nitrate before turnout is one of the single highest-value, lowest-cost risk
+mitigations available across nearly every crop discussed in this guide.

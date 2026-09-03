@@ -1,0 +1,120 @@
+SOURCE: Grassland Conservation Practices for a Sustainable System
+PUBLISHER: USDA Natural Resources Conservation Service (Iowa NRCS)
+URL: www.ia.nrcs.usda.gov
+
+---
+
+PURPOSE
+
+A menu of standard NRCS conservation practices a landowner/operator can consider for
+grassland/grazing management, each with a description, maintenance requirements, and
+a yes/no self-assessment prompt. Useful as a checklist against Ellis's other grazing
+knowledge - if a producer is missing one of these, it's a candidate improvement.
+
+ACCESS CONTROL
+Limiting the time or season that vehicles/livestock can access water bodies,
+environmentally sensitive areas, or hazardous areas.
+Maintenance: periodic barrier inspection and repair.
+
+BRUSH MANAGEMENT
+Reducing/eliminating undesirable vegetation to increase vigor, amount, and quality of
+desired vegetation, and increase wildlife habitat.
+Maintenance: spot-treat individual plants/areas needing re-treatment as needed.
+
+FENCE
+A constructed barrier controlling animal traffic patterns to reduce erosion and control
+access, permitting vegetation recovery or stockpiling.
+Maintenance: routine inspection as an ongoing program; inspect specifically in spring
+after snowmelt and after storm events for weaknesses, breaks, or malfunctions.
+
+FORAGE HARVEST MANAGEMENT
+Timely cutting/removal of forage for optimized yield, quality, stand life, pest control,
+and wildlife habitat maintenance.
+Maintenance: clear fields of debris before harvest (protects machinery); don't cut
+while dew/rain is still on leaves; mow most recent seedings ahead of older stands.
+
+GRADE STABILIZATION STRUCTURE
+A structure controlling channel grade in natural/constructed water courses - can double
+as a livestock water source, wildlife habitat, and gully erosion control.
+Maintenance: requires a documented operation/maintenance plan with periodic inspection
+and prompt repair/replacement of damaged components.
+
+HEAVY USE PROTECTION AREA
+Stabilizing areas frequented by vehicles or livestock to reduce erosion near critical
+water bodies, improve water quality, and improve herd health.
+Maintenance: documented operation/maintenance plan reviewed with the landowner/operator.
+
+NUTRIENT MANAGEMENT
+Proper placement of the correct nutrient amount at the correct plant growth stage -
+increases forage production, reduces nutrient loss to surface/groundwater, increases
+production and profit.
+Maintenance: equipment must be calibrated for uniform distribution at planned rates;
+document actual application rates; changes in animal numbers or feed management
+require re-analysis of nutrient needs.
+
+PASTURE AND HAY PLANTING
+Establishing desired native/introduced forages to supply feed during normally
+low-production periods, reduce erosion/runoff, improve water quality, increase carbon
+sequestration.
+Maintenance: inspect/calibrate planting equipment for proper rate/distribution/depth;
+monitor growth for water stress; cutting, herbicides, or grazing management may be
+needed to control undesirable plants during establishment.
+
+PEST MANAGEMENT
+Reducing impacts of invasive species, weeds, and pest invasions while minimizing
+impacts to soil/water resources and non-target plants/animals.
+Maintenance: operator responsible for proper implementation and equipment maintenance;
+plans should be reviewed/updated periodically; a safety plan should be developed.
+
+PRESCRIBED BURNING
+Used to increase quantity, quality, and vigor of certain desired plant species, and
+reduce competition from undesired species.
+Maintenance: burn strictly according to a prescribed burn plan; monitor smoke,
+liability, and safety/health precautions.
+
+PRESCRIBED GRAZING
+Managing vegetation harvest with grazing animals to maintain/improve the desired plant
+community and groundwater quality, reduce erosion, and improve wildlife cover.
+Maintenance: regularly monitor data and grazing records to confirm objectives are
+being met, adjusting the grazing plan as needed.
+
+RIPARIAN FOREST BUFFER
+Trees/shrubs established adjacent to a stream, lake, or water body to improve water
+quality, reduce sediment delivery, create aquatic shade, and mitigate flood damage.
+Maintenance: periodic tree maintenance and harvest; as the buffer matures, tree
+harvesting itself becomes important for plant health and buffer function (i.e. this
+isn't "plant and forget").
+
+WATER WELL
+A well constructed to an aquifer providing water for domestic livestock and general
+farm water needs.
+Maintenance: keep well log and permit documents on file; any maintenance/modification/
+repair should be done by a Certified Well Driller or Certified Pump Installer.
+
+WATERING FACILITY
+Permanent or portable tanks/troughs increasing even distribution of grazing animals,
+promoting even grazing, and providing a water source for wildlife too.
+Maintenance: documented operation/maintenance plan; keep tank/trough clear of debris,
+algae, sludge; check for leaks; check for erosion in adjacent areas (a sign of an
+undersized or poorly-placed facility).
+
+WILDLIFE HABITAT MANAGEMENT (Uplands or Wetlands)
+Rehabilitating degraded uplands/wetlands, or creating/enhancing areas for wildlife food
+and cover.
+Maintenance: requires a plan addressing wildlife needs, food source establishment,
+vegetation management, acceptable uses, and timing/operation of any water control
+structures.
+
+WINDBREAK/SHELTERBELT ESTABLISHMENT
+Linear plantings of multiple tree/shrub rows providing shelter for structures,
+wildlife, livestock, and people; improves air quality; provides noise/visual screening;
+manages snow deposition.
+Maintenance: control competing vegetation; protect planting from livestock/wildlife;
+replace dead trees; supplemental water may be needed for establishment; protect from
+fire with firebreaks; inspect at least every six months.
+
+PASTURE CONDITION SCORE (PCS) - tie-in to the fuller NRCS PCS guide
+Framed here as the master diagnostic: "Could your PCS be improved with conservation
+practices?" This sheet is essentially a menu to consult AFTER running a Pasture
+Condition Score assessment - each low-scoring PCS indicator points toward specific
+practices from this list as the corrective action.

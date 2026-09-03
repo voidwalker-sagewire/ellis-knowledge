@@ -1,0 +1,204 @@
+SOURCE: Water Resources Development for Managing Intensive Grazing of Beef
+PUBLISHER: Illinois Grazing Manual Fact Sheet, USDA NRCS Illinois
+AUTHORS (acknowledgments): Ted L. Funk (Extension Specialist, Agricultural
+Engineering), Stanley Solomon (Extension Educator, Engineering Technology)
+ADDITIONAL CONTEXT drawn from: Watering Systems for Grazing Livestock (Iowa State
+Pm-1604), Livestock Water Supply Lesson 7 (University of Maine Extension), Great
+Lakes Basin Grazing Network / Michigan State University Extension watering systems
+guide
+
+---
+
+WHY A GOOD WATER SYSTEM MATTERS
+
+"Development of a good pasture watering system can make or break a grazing system."
+Key considerations: water quality and quantity, supply equipment, groundwater
+protection, and human/animal safety. Rotational/management-intensive grazing systems
+are NOT effective if water isn't readily available to every paddock - this is
+consistently the infrastructure bottleneck that limits how intensively a system can
+actually be managed.
+
+WATER QUANTITY REQUIREMENTS
+
+Beef cattle water needs vary dramatically by season:
+- Winter: roughly 9 gallons per 1,000 lbs bodyweight per day
+- Hot summer days: nearly 30 gallons per 1,000 lbs bodyweight per day
+(over a 3x swing between winter and peak summer demand - system sizing needs to
+account for the hot-weather case, not an average)
+
+General reference table (gallons/head/day, varies by source and animal class):
+lactating dairy cows need meaningfully MORE water than dry cows or growing stock -
+one Cornell study found lactating Holsteins need roughly 5 additional gallons/day
+beyond baseline maintenance needs. Always size for the highest-demand class actually
+present in the herd.
+
+DISTANCE TO WATER - THE KEY DESIGN PARAMETER
+
+Ideally, distance to water should be no more than about 800 feet from any point in a
+paddock (other sources cite a 300-500 ft or 600-900 ft range depending on grazing
+intensity - shorter distances are better and become more important as grazing
+intensity increases). Pasture is poorly utilized beyond this range regardless of
+forage quality, since cattle won't walk far enough for water and back to fully use
+distant forage.
+
+Placing the tank within 500-800 feet of the paddock means cattle visit the tank ONE AT
+A TIME or in small numbers, rather than the whole herd converging at once - this
+significantly reduces the demand/flow-rate burden on the system compared to
+continuous grazing where the whole herd may drink together.
+
+TANK SIZING AND EQUIPMENT
+
+Small tanks (20-50 gallons) are common and workable for intensive grazing, AS LONG AS
+valve sizing and pipe sizing keep the tank level near full while cattle drink - this
+also reduces the risk of cattle tipping smaller tanks over. Only a slow/intermittent
+supply source (e.g. a direct-connect solar pump with no battery buffer) requires a
+much larger tank holding a full day's water supply or more, to bridge gaps in supply.
+
+Tank valve selection: inexpensive float valves may only supply 2-3 gallons/minute -
+often insufficient once 2+ animals are drinking simultaneously at a small tank.
+Full-flow floats can deliver up to 20 gpm with proper pipe/system design - worth the
+modest extra cost for busier tanks. A bottom-inlet float device controls water level
+while staying out of cattle's reach (reduces damage/fouling risk).
+
+Energy-free or electrically-heated permanent waterers: size for one watering space
+(roughly 1 cup or 2 lineal feet of tank) per 25 head.
+
+WELLHEAD AND GROUNDWATER PROTECTION
+
+Protect wells/groundwater with proper wellhead construction (check state health
+department guidelines); seal abandoned wells properly. Any tank/waterer fed by well
+water or a water district pipeline should have a vacuum-break or backflow prevention
+device - this prevents tank water (potentially contaminated by livestock) from
+siphoning back INTO the water supply line if line pressure drops. Most top-mounted
+commercial float valves include an air gap or anti-siphon feature, but local plumbing
+codes/health regulations may require specific additional backflow prevention
+equipment.
+
+WATER SOURCE OPTIONS (in rough order of complexity/cost)
+
+PONDS AND STREAMS: Can supply water, but it's desirable to FENCE cattle away from
+direct surface-water access where possible, allowing only a small controlled access
+point (or none at all) - this protects water quality, prevents bank erosion, and
+improves riparian habitat. A good alternative: pump or gravity-feed water FROM the
+pond/stream to a separate pasture tank, keeping cattle off the water body entirely.
+
+SIPHONS: A gravity-feed system usable when a pond/static source isn't far from the
+target pasture and there's sufficient elevation drop. The pipe must encounter a rise
+between inlet and outlet (going up and over the pond bank), with the outlet ending
+LOWER than the pond's water level. The pipe must be guaranteed leak-proof from the
+pond waterline up, or the siphon loses its prime. Friction losses in the pipe must be
+accounted for in delivery calculations. A float valve at the tank controls the
+system; a floating inlet or gravel screen inlet at the pond end is used, though any
+screen adds some pressure drop.
+
+RAM PUMPS: Usable in rare cases with a spring-fed stream that has adequate flow and
+gravity head - delivers water UPHILL from the stream with NO external power source
+required (a mechanical pump powered entirely by the flowing water's own energy). Only
+delivers a fraction of the total water flowing through it - one manufacturer example
+cited: a 1-foot drop to a 10-foot lift delivers roughly 15-20% of the water used by
+the pump. Check manufacturer specs before relying on this for a full herd's water
+needs.
+
+SOLAR-POWERED PUMPS: Useful where a water source exists but no electric utility power
+is nearby. Systems are typically set up with a LARGE tank (up to 5 days' supply) to
+buffer through cloudy periods when solar output drops. Economics improve or worsen
+based on well depth/lift required and flow rate needed - deeper wells or higher lifts
+make solar pumping more expensive, so it's not favorable in every situation. Contact
+local extension or NRCS for system sizing help; the technology itself is
+well-established with multiple equipment sources available.
+
+WIND-POWERED PUMPS: Generally less reliable than solar during the core May-September
+grazing season in many regions (wind resource is more variable seasonally than
+solar). A hybrid wind/solar system may pencil out for an extended grazing season in
+some situations.
+
+NOSE PUMPS (cattle-operated, mechanical): Good for lifting water up to about 20 feet
+over fairly short distances. The animal itself pumps water a stroke at a time via a
+piston/valve mechanism activated by pushing the plunger while drinking. Only one
+animal can access at a time, limiting practicality for larger herds - figure roughly
+25 head served per nose pump.
+
+SHALLOW-WELL SUCTION PUMPS: The simplest well pump type. Limited by maximum suction
+lift (depth to water plus friction head in the suction line) - theoretically
+atmospheric pressure allows nearly 30 feet of lift, but practically the reliable limit
+is more like 15-20 feet. A good foot valve is essential to avoid losing prime when the
+pump shuts off; many shallow-well pumps are not self-priming. Whether a shallow-well
+or deep-well pump is needed depends on the well's actual draw-down under real
+cattle-watering demand conditions, not just static water table depth.
+
+ELECTRIC POWER SUPPLY FOR PUMPS
+
+Requires adequately-sized wiring to maintain sufficient voltage at the pump motor -
+undersized wire or a long wire run causes voltage drop, which can overheat and
+prematurely fail the motor. Wire sizing depends on full-load motor amps (FLA) and
+wire run length; consult an electrical reference (e.g. Midwest Plan Service MWPS-28,
+Farm Buildings Wiring Handbook) for sizing tables and proper grounding practices for
+pumps and heated waterers.
+
+PIPE SELECTION
+
+For GRAVITY-FLOW systems: linear low-density polyethylene (LLDPE) pipe is sufficient.
+For PRESSURIZED systems: use rolled high-density polyethylene (HDPE) rated for a
+minimum 150 PSI. Use a pressure-flow chart to select the correct minimum pipe size for
+the expected flow rate - undersized pipe creates excessive friction loss and
+inadequate delivery at the tank (see friction-loss reference table below).
+
+SETTING UP THE SYSTEM - PRACTICAL SEQUENCING ADVICE
+
+Start with a PORTABLE, FLEXIBLE layout. Lay pipe on top of the ground initially, while
+still refining paddock layout and water placement - only bury pipe once the system
+configuration is confirmed as final. A common approach: install a main trunk line
+underground once confirmed, with risers and quick-disconnects feeding movable
+tanks at various points.
+
+Economic payback note: analyses of grazing systems consistently show that money spent
+providing water to multiple locations (or every paddock) pays back rapidly through
+improved forage utilization and grazing distribution - this is a genuinely
+high-ROI infrastructure investment, not a luxury.
+
+OTHER PRACTICAL NOTES
+
+- Black pipe on top of the ground will heat water somewhat in direct sun. This is
+  usually NOT a problem in summer since cattle actually prefer/best-use water near
+  rumen temperature anyway. Running pipe under taller forage/vegetation, or under a
+  fence line, provides natural shading that minimizes solar heating if desired.
+- Temporary/mobile tanks can be placed under an electric fence line to keep cattle
+  pressure off the equipment and reduce tank tip-overs.
+- Moving portable tank location each time a paddock is regrazed helps prevent
+  concentrated forage kill and mud problems from repeatedly using the exact same spot.
+- Permanent tank areas should be graveled or otherwise treated for all-weather access
+  - a combination of geotextile fabric covered with gravel creates a stable base and
+  prevents the area from becoming a mud pit.
+
+REFERENCE TABLES
+
+Friction loss in feet per 100 feet of plastic pipe (selected values, by pipe nominal
+size and flow rate):
+- 4 gpm: 3/4" pipe = 3.7 ft loss; 1" = 1.2 ft; 1.25" = 0.3 ft; 1.5" = 0.1 ft
+- 8 gpm: 1" pipe = 4.1 ft loss; 1.25" = 1.1 ft; 1.5" = 0.5 ft
+- 12 gpm: 1.25" pipe = 2.3 ft loss; 1.5" = 1.1 ft; 2" = 0.3 ft
+- 20 gpm: 1.5" pipe = 2.6 ft loss; 2" = 0.8 ft
+(Higher flow rates need progressively larger pipe to keep friction loss manageable -
+undersizing pipe for the target flow rate is a common practical mistake.)
+
+Feet-of-head to PSI conversion (useful for gravity-flow/elevation-drop calculations):
+- 10 ft of head = 4.33 PSI
+- 20 ft of head = 8.66 PSI
+- 30 ft of head = 12.99 PSI
+- 50 ft of head = 21.66 PSI
+Reverse (PSI to feet of head):
+- 10 PSI = 23.10 ft
+- 20 PSI = 46.20 ft
+- 30 PSI = 69.30 ft
+- 50 PSI = 115.5 ft
+
+PRACTICAL TAKEAWAY FOR ELLIS
+
+The core design question for any water system upgrade is: what's the elevation
+relationship and distance between the water source and where cattle need to drink?
+That single relationship determines whether gravity/siphon (cheapest, no power
+needed), a nose pump (cheap, low-volume, single-animal), a ram pump (free power but
+narrow use case), or a powered pump (solar/electric, most flexible but highest cost)
+is the right tool. Distance-to-water under ~800 feet from any paddock point is the
+target that actually drives full forage utilization - everything else is in service
+of hitting that number affordably.

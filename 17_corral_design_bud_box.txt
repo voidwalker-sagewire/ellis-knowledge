@@ -1,0 +1,161 @@
+SOURCE (combined):
+1) "Pasture and Corral Handling Basics" - Illinois Grazing Manual Fact Sheet, USDA NRCS
+   (prepared by Roger Staff, NRCS Illinois; methods from Bud Williams, captured in print
+   by Temple Grandin)
+2) "Designing a Bud Box for Cattle Handling" (MF3349) - A.J. Tarpoff, Justin Waggoner,
+   Christopher Reinhardt, Joel DeRouchey, Sandy Johnson, Eli Sheppard, Joe Harner -
+   Kansas State University Research and Extension, September 2017
+
+---
+
+PART 1: PASTURE AND CORRAL HANDLING BASICS (NRCS/Bud Williams/Grandin methods)
+
+IN THE PASTURE
+
+- Remember flight zones: use just enough pressure to move an animal without sending it
+  over the fence.
+- Point of balance: livestock tend to move FORWARD if you're behind their shoulder and
+  BACKWARD if you're in front of their shoulder. If livestock won't move forward in an
+  alleyway, try walking past them from front to back (with a hotshot set down, not in
+  use).
+- Take your time: it's faster to do it right the first time than to redo it.
+- Keep moving: people in motion are easy for livestock to read and relate to. When
+  motion stops, livestock get nervous - their instinct is to turn and clearly see what
+  stopped, because in nature something that stops suddenly might be a predator about to
+  pounce. Move back and forth BEHIND a group rather than following straight behind them.
+- Walk in straight lines, not curves.
+- Guide the FRONT animals, not the middle of the herd - the majority will follow the
+  leaders.
+- Don't stop when you reach an open gate. Livestock already know the gate is there -
+  push them through at a reasonable pace. Stopping to "let them find the hole" removes
+  all pressure, causing them to turn and face you, which means starting the whole
+  approach over again. Going straight through is simpler.
+- Cull animals that are consistently wild or aggressive - this is a genetics/temperament
+  issue that gentle handling alone often can't fix, and it protects both the handler and
+  the rest of the herd's calm.
+
+IN THE CORRAL
+
+- Eliminate shadows, trash, chains, and other visual distractions - these cause balking.
+- Don't yell.
+- Remove protruding bolts, nails, sharp corners - safety for both livestock and people.
+- Eliminate noisy chutes/headgates where possible.
+- Always have an escape route in mind for yourself.
+- Don't fight an animal that gets mad - one of you will get hurt, and it doesn't matter
+  if "the animal wins" that particular moment.
+- Livestock like to go back where they came from - USE this instinct when designing
+  facilities and moving animals into crowd tubs for sorting, rather than fighting it.
+- Don't overfill the crowd tub and lanes.
+- Don't place a back-up gate right at the entrance of the lane from the crowd tub - it
+  causes balking. Place it one body-length up from the entrance instead.
+- On hotshot (electric prod) use: think of it as if the hotshot had a short in the
+  handle, so every time you shock an animal, you get shocked too. Use it only when
+  absolutely necessary - this framing naturally cuts down unnecessary use. Often an
+  animal would have moved on its own if you'd waited just two more seconds before
+  reaching for it.
+- Take your time in the corral too - there are no medals for the fastest handling job,
+  and rushing usually costs more time than it saves through balking and re-work.
+- Before handling livestock, discuss the plan and goals with your crew - a shared plan
+  prevents conflicting pressure/positioning that confuses the herd.
+
+---
+
+PART 2: THE BUD BOX DESIGN (K-State Extension, MF3349)
+
+WHAT IT IS
+
+Developed by stockmanship instructor Bud Williams. Essentially a rectangular pen where
+the alleyway leading to the chute sits at a RIGHT ANGLE to the point of entry into the
+box. Cattle are brought in, and the handler's position along the opposite side
+stimulates them to move past the handler and into the alleyway. A gate closes behind
+the cattle as they enter, forming the box; the handler then works along the fence
+adjacent to the alley, moving forward toward the closed end to push cattle past
+themselves and into the alley.
+
+WHY IT WORKS - THREE BEHAVIOR PRINCIPLES
+1. Cattle want to move past the handler
+2. Cattle want to be with other cattle (herd instinct)
+3. Cattle want to go back the way they came in
+
+IMPORTANT USAGE RULE: A Bud Box should NOT be used as a holding pen. Only bring in as
+many cattle as will fit down the alley to the chute at one time - overfilling defeats
+the design's psychology.
+
+DESIGN CHARACTERISTICS VS. A CONVENTIONAL ROUND TUB
+
+Round/circular tub systems use large sweeping alleyways and multiple crowding gates -
+more material, larger footprint, higher construction cost. A Bud Box has OPEN SIDES,
+no sweeping bends, and doesn't need multiple crowding gates - cheaper to build and a
+smaller footprint. It typically does NOT need solid sheeting/sides (open sides support
+natural cattle movement and visibility of the handler); sheeting can be added only
+where specific distractions are impairing flow.
+
+BASIC DIMENSIONS
+Standard Bud Box: 12 feet wide x 20 feet long (deep), closed on one end with a gate at
+the other; alleyway placed perpendicular to the box at the gated end.
+Minimum box (12'x20') handles processing of 5-6 head of mature cows at a time. General
+rule: 5-6 feet of alleyway length per head of mature cattle. Alleyways should be a
+minimum of 28 inches wide.
+Curved alley sections (if used) should be long enough to fit at least 2 head, so
+following animals can always see the animal ahead - visibility of a herd-mate ahead
+keeps cattle moving calmly through a curve.
+Loadout boxes for semi-trailers should be sized larger - a common size is a 14-foot-wide
+alley, 30 feet deep, to accommodate the larger head counts filling trailer
+compartments.
+Handler-on-foot alleys: minimum recommended width 12 feet. If horses are used to move
+cattle through the facility: recommended alley width increases to 16 feet.
+
+CORRAL AND WORKING FACILITY DIMENSIONS (general reference table)
+
+                              To 600 lb   600-1200 lb   Over 1200 lb (cow-calf)
+Holding area (sq ft/head)         14           17            20
+Crowding pen (sq ft/head)          6           10            20
+Working chute, vertical sides:
+  Width                          18"          24"           28"
+  Length (minimum)                20'          20'           20'
+Working chute, sloping sides:
+  Width at bottom (inside)        13"          15"           16"
+  Width at top (inside)           20"          24"           28"
+  Length (minimum)                20'          20'           20'
+Working chute fence:
+  Recommended min height          45"          50"           60"
+  Post depth in ground (min)      30"          30"           30"
+Corral fence:
+  Recommended height              60"          60"           60"
+  Post depth in ground (min)      30"          30"           30"
+Loading chute:
+  Width                          26"          26"          26"-30"
+  Length (minimum)                12'          12'           12'
+  Rise (in/ft)                   3.5"         3.5"          3.5"
+
+RAMP HEIGHT BY TRAILER/TRUCK TYPE
+Stock trailer: 15" | Pickup truck: 28" | Stock truck: 40" | Tractor-trailer: 48" |
+Double-deck trailer: 100"
+
+ADAPTABILITY
+
+The Bud Box concept adapts to many pen configurations: split/double alleyways for
+additional sorting or loading capacity, curved alleys where space requires it (larger
+diameter curves work better - a lead animal stays visible to followers; too small a
+diameter leaves insufficient room to hold 4-5 head in the single-file section), round
+tubs converted to Bud-Box-style exit logic (cattle enter, turn, and exit through a
+single-file alley NEAR the entrance point rather than 90-180 degrees away, as is
+typical with conventional half/quarter-circle tubs), straight pens, angled pens
+(reduces 90-degree turns to improve flow), integration into an existing building,
+pie-shaped multi-purpose pens (useful for smaller operations needing flexible feeding/
+holding/sick pens, with perimeter space for feed bunks/water troughs), and placement
+at the corner of multiple adjoining pastures for a shared working facility.
+
+Additional practical features that can be incorporated: emergency fence passes
+(allowing a handler to step through the fence to escape if needed), rear stop gates
+inside alleyways, and dedicated calving-assistance setups (headgate + swing-away side
+gates) when integrated into a building.
+
+IMPORTANT CAVEAT FROM THE SOURCE
+
+The Bud Box "requires a basic understanding of cattle handling principles and may
+require additional training for inexperienced individuals. As with any cattle working
+facility, the cattle-handling skills and attitude of the handler influence the success
+of the facility." In other words: the facility design supports good stockmanship, but
+doesn't replace it - a Bud Box used by a handler who doesn't understand flight
+zone/point of balance principles won't perform as intended.

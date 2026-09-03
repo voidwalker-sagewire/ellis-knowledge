@@ -1,0 +1,102 @@
+SOURCE: E528G - Improved Grazing Management on Pasture for Plant Productivity and
+Health with Monitoring Activities (Conservation Stewardship Program Enhancement)
++ Washington State Supplement to E528 references
+PUBLISHER: USDA, Conservation Stewardship Program, April 2022 (WA supplement Nov 2022)
+
+---
+
+WHAT THIS IS
+
+A specific USDA Conservation Stewardship Program (CSP) "enhancement" activity built on
+top of NRCS Conservation Practice Standard 528 (Prescribed Grazing). It's a formal
+program requiring documentation and a qualifying professional's involvement - useful to
+know as a reference framework even outside formal program enrollment, since it lays out
+a rigorous version of what a complete grazing management plan looks like.
+
+CRITERIA (what "improved grazing management" means under this standard)
+
+- A written plan matching forage quantity/quality produced to grazing/browsing demand
+- Herbage removal in accordance with site production limits, plant growth rate, forage
+  plant physiological needs, and animal nutritional needs
+- Adjusting intensity, frequency, timing, and duration of grazing/browsing (with
+  sufficient recovery time) to meet written objectives for plant communities and
+  associated resources
+- Planned deferment (non-grazing period under 1 year) and/or rest (1+ year) for
+  critical plant-need periods: post-planting/renovation, severe drought, etc.
+- Managing grazing/browsing to maintain adequate cover on sensitive areas: riparian
+  areas, wetlands, habitats of concern, karst areas
+- Managing livestock movement based on plant growth rate, available forage, and
+  allowable utilization target, with contingency plans for episodic disturbance events
+- A soils test for organic matter and nutrient analysis (via a land grant university or
+  accredited lab) on applicable acres
+- Fertilizer/soil amendments applied according to current soil test results when plant
+  vigor needs improvement
+- Guidance followed from a Certified Forage and Grassland Professional, Certified
+  Range Management Consultant, Certified Professional in Range Management, an
+  approved NRCS Technical Service Provider, or a non-affiliated consultant with a
+  relevant bachelor's+ degree and 5+ years of pastureland conservation planning
+  experience
+
+REQUIRED GRAZING MANAGEMENT PLAN COMPONENTS (useful as a template regardless of
+program enrollment)
+
+1. Producer goals, objectives, and resource concerns
+2. Location and condition of structural improvements
+3. Watering sites with availability, quantity, and quality
+4. Forage inventory
+5. Forage-animal balance sheet
+6. Grazing plan for livestock movement
+7. Contingency plan
+8. Monitoring plan
+
+MONITORING REQUIREMENTS UNDER THIS STANDARD
+
+A qualified professional is expected to:
+1. Select a monitoring site in each forage type/mixture on the enrolled acreage,
+   assessed with the Pasture Condition Scoring (PCS) tool
+2. Conduct and document PCS assessments at those sites
+3. Develop a written recommendation covering grazing duration/intensity, based on
+   desired health/productivity objectives, addressing cover, litter, and canopy needed
+   to maintain/improve infiltration and soil health while reducing compaction and other
+   identified resource concerns
+
+Ongoing participant responsibilities: identify key grazing areas and key forage
+species; monitor pastures for grazing utilization; keep pasture/herd in/out records;
+complete a forage utilization job sheet at season's end; document adjustments needed
+to maintain feed/forage balance.
+
+End-of-program documentation package: PCS score sheets with field notes/locations,
+soil test analysis, written professional recommendations and follow-up actions,
+pasture/herd in/out dates, completed forage utilization job sheet, animal/forage
+balance sheet, and written modifications to the grazing/monitoring plan addressing
+identified resource concerns.
+
+WASHINGTON STATE SUPPLEMENTAL REFERENCES (illustrates the kind of state-level technical
+resources that typically exist to support this work - a producer in any state should
+look for their own state's equivalent NRCS Field Office Technical Guide (FOTG) folder)
+
+- National Range and Pasture Handbook (Title 190, Part 645) - the umbrella federal
+  reference document
+- Ecological Site Descriptions - found in each state's NRCS Field Office Technical
+  Guide (FOTG), Section 2
+- Web Soil Survey - for identifying ecological sites tied to specific planning-unit
+  soils (websoilsurvey.sc.egov.usda.gov)
+- Interpreting Indicators of Rangeland Health (Technical Reference 1734-6) - a
+  rangeland-focused health assessment framework, complementary to Pasture Condition
+  Scoring
+- Range/Pasture Technical Notes covering native/non-native grass species critical
+  growth periods, fencing design worksheets, and riparian grazing management
+  (e.g. "Herbaceous Stubble Height as a Warning of Impending Cattle Grazing Damage to
+  Riparian Areas" - Hall & Bryant 1995; "Managing Grazing of Riparian Areas in the
+  Intermountain Region" - Clary & Webster 1989)
+- State wildlife agency Priority Habitats and Species (PHS) databases, useful for
+  identifying wildlife/habitat concerns relevant to a grazing plan
+
+PRACTICAL TAKEAWAY
+
+Even outside formal CSP enrollment, this standard is a good "gold standard checklist"
+for a genuinely complete grazing management plan - most producers doing serious
+regenerative/rotational grazing are already doing much of this informally (forage
+inventory, watering plan, PCS-style monitoring), and formalizing it into a written plan
+with the 8 core components listed above creates both a better management tool and (if
+ever desired) a program-ready document.

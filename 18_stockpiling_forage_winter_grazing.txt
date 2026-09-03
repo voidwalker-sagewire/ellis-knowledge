@@ -1,0 +1,145 @@
+SOURCE (combined from multiple extension services):
+- West Virginia University Extension (Edward B. Rayburn) - Tall Fescue Management 5184
+- Kansas State University / Kansas Forage Task Force - Stockpiling Tall Fescue for Winter Use
+- University of Georgia Extension (Dennis Hancock, Ricky Josey) - C920, Stockpiling Tall
+  Fescue for Fall and Winter Grazing
+- Ohio State University Extension (Clif Little, Guernsey County) - Stockpiling Tall
+  Fescue for Winter Grazing
+- University of Arkansas Extension (John Jennings) - FSA3133, Grazing Stockpiled
+  Forages to Reduce Hay Feeding
+- Alabama Cooperative Extension / Alabama Cattleman (Leanne Dillard) - Stockpiling
+  Perennial Grasses for Winter Grazing
+- Virginia Cooperative Extension / NRCS (Augusta County) - Stockpiling and Strip Grazing
+  Tall Fescue Demonstration Summary
+
+---
+
+WHAT IS STOCKPILING (aka "deferred grazing")
+
+The practice of removing livestock from a pasture or hayfield in late summer and
+letting forage accumulate through fall, then grazing it later in the fall/winter
+instead of feeding hay. It's one of the single highest-leverage cost reductions
+available to a cow-calf operation, since winter feed (hay) is typically the most
+expensive time of year to feed animals.
+
+WHY TALL FESCUE IS THE STANDOUT SPECIES FOR STOCKPILING
+
+Tall fescue is widely considered the best stockpiling species where it's adapted,
+for several converging reasons:
+- Grows well late into fall and accumulates substantial yield when conditions favor it
+- Remains green and stays high in digestibility/palatability even after frost - its
+  leaves don't deteriorate as fast as other stockpiled forages once cold weather hits
+- Forms a good sod, making it tolerant of treading/trampling even on saturated winter
+  soils - grazing it hard in winter has minimal impact on the following season's
+  productivity
+- In response to short days and cool nights, tall fescue accumulates HIGH soluble
+  carbohydrate levels in both leaves and stems - up to 20% of dry weight as free sugars
+  - which is why well-managed stockpiled fescue stays leafy, palatable, and high in
+  protein/sugar/digestible energy well into winter (protein levels can stay around 12%
+  even into February)
+- The heavy waxy leaf cuticle also makes stockpiled fescue notably freeze-resistant
+- Cattle will graze stockpiled tall fescue through fresh snow up to 8 inches deep
+
+TIMING - WHEN TO START STOCKPILING
+
+Start window: mid-July through mid-August is commonly cited as ideal (one Kansas
+source specifically emphasizes early September through mid-November as their regional
+window - timing shifts somewhat by latitude/climate, so check local extension guidance).
+General principle: the EARLIER stockpiling starts, the greater the total late-fall/
+winter YIELD will be - but earlier-started stockpiles will be somewhat LOWER in
+quality than later-started ones, since more of the growth period overlaps warmer
+weather. If fescue is stockpiled starting before July, yield ends up about the same
+but quality is lower.
+Little to no forage growth occurs after mid-October in most regions due to low light
+intensity and cooling temperatures - meaning the growth "clock" for a given season's
+stockpile effectively runs from the start date to mid-October.
+
+FERTILIZATION FOR STOCKPILING
+
+Maintain soil fertility per a current soil test before stockpiling - this is not
+optional if maximizing yield/quality matters. Well-maintained tall fescue responds well
+to NITROGEN fertilization early in the stockpiling period IF rainfall is adequate.
+Typical nitrogen rate cited: 50-80 lbs of actual N per acre (sources range: one gives
+60-80 lbs N/acre, another cites 50 lbs N/acre as sufficient in a successful field
+demonstration).
+Phosphorus (P2O5) and potassium (K2O) only need to be applied once per year, per soil
+test - fall is generally the best timing for that application ahead of a stockpiling
+season.
+Ammonium nitrate is noted as an excellent nitrogen source specifically because it
+minimizes surface volatilization losses compared to urea (urea is cheaper but loses
+more N to the atmosphere if not incorporated/rained in promptly).
+
+UTILIZATION - HOW TO ACTUALLY GRAZE IT (this is where most of the value is won or lost)
+
+Critical point: turning livestock loose on a large stockpiled area with unrestricted
+access wastes 60-70% of the forage to trampling and manuring on uneaten material.
+STRIP GRAZING (restricting daily/multi-day access with temporary poly-wire, moved
+progressively across the stockpiled field) is the standard high-utilization method -
+restricting access to roughly a 3-day supply of forage at a time can roughly DOUBLE
+the number of grazing days obtainable from the same stockpiled acreage compared to
+unrestricted access.
+
+WORKED EXAMPLE (grazing days calculation, from Ohio State source)
+A 1,200 lb dry beef cow needs ~3% of body weight in dry matter per day = 36 lbs DM/day.
+On a field with 4,000 lbs DM/acre stockpiled:
+- Poor management (unrestricted access, ~35% utilization): 1,400 lbs available forage
+  → 1,400 / 36 = ~39 grazing days per acre
+- Managed utilization (~70% utilization via strip grazing): 2,800 lbs available forage
+  → 2,800 / 36 = ~78 grazing days per acre
+Same field, same total forage grown - nearly DOUBLE the grazing days just from
+management method.
+
+A second worked example (Alabama source), using an equivalent per-day intake
+calculation for a group: 10 cows x 1,500 lbs x 2% dry matter intake = 300 lbs DM/day
+needed for the herd, or 9,000 lbs DM required for a 30-day grazing period. This is the
+basic math for sizing how many stockpiled acres a given herd size needs to bridge a
+target number of winter days.
+
+GRAZING METHOD COMPARISON (general pattern across sources)
+
+- Continuous stocking: lowest utilization efficiency, most waste
+- Moderate rotational stocking: improved utilization over continuous
+- Strip grazing (temporary poly-wire moved every 1-3 days): highest utilization,
+  most grazing days extracted per acre, and best manure/nutrient distribution across
+  the field
+
+FIELD-TESTED PROTOCOL EXAMPLE (Virginia NRCS demonstration, 17.4-acre tall fescue
+pasture, goal: 90+ days of stockpile for 60 days or less of winter hay feeding)
+
+1. Graze the designated pasture down to remove summer growth in early-to-mid August
+2. Remove livestock and fertilize with ~50 units N/acre after mid-August to boost
+   fall growth and quality
+3. Let forage grow and accumulate WITHOUT livestock access until the intended grazing
+   start date (this demonstration held off until December)
+4. Strip-graze the stockpile, moving temporary poly-wire every 3 days
+5. Result goals: maximize grazing days, distribute manure/urine nutrients evenly
+   across the field, maintain good ground cover, and cut winter feed costs
+   substantially (this demonstration reported saving over 50% on winter feed costs)
+
+OTHER STOCKPILING SPECIES BEYOND TALL FESCUE
+
+Bermudagrass is also cited as effective for stockpiling in warmer/transition climates,
+typically finished grazing by mid-to-late fall before frost dormancy sets in (unlike
+fescue, it doesn't hold quality as well after hard freezes). Both bermudagrass and
+tall fescue can meaningfully replace hay requirements in most beef operations when
+properly stockpiled and strip-grazed - though supplementation may still be needed for
+higher-nutritional-demand animal classes (young/growing stock, late-gestation or
+lactating cows) even on good stockpiled forage.
+
+Fescue managed specifically for fall stockpiled growth has been shown to out-yield
+sod-seeded annual ryegrass or small grains planted for the same fall/winter window -
+worth knowing if choosing between stockpiling an existing perennial stand versus
+seeding an annual cover for the same purpose.
+
+PRACTICAL TAKEAWAYS FOR ELLIS TO SURFACE
+
+1. Start planning stockpiling in mid-summer, not fall - by the time cold weather
+   arrives it's too late to build meaningful stockpile.
+2. A soil test and appropriate nitrogen application are what separate a mediocre
+   stockpile from an excellent one - don't skip the fertility step.
+3. However the stockpile is grazed, RESTRICTING daily access via strip grazing (not
+   turning cattle loose on the whole field) is the single highest-leverage decision -
+   it can roughly double usable grazing days from the same forage grown.
+4. Test stockpiled forage for quality (protein, digestibility) periodically through
+   the winter grazing period so supplementation decisions can be adjusted as forage
+   quality naturally declines with age/weathering.

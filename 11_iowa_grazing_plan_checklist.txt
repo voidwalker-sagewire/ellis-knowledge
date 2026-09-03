@@ -1,0 +1,104 @@
+SOURCE: Grazing Plan Checklist/Worksheet (Iowa)
+PUBLISHER: USDA Natural Resources Conservation Service, December 2018
+
+---
+
+PURPOSE
+
+A structured intake worksheet an NRCS planner or producer uses to capture everything
+needed to design or evaluate a grazing plan in one pass - objectives, soils, forage,
+weeds, herd health, fencing, and watering math all in one document.
+
+PRODUCER OBJECTIVES (checklist categories - useful as a self-assessment prompt)
+
+- Increase forage diversity / Increase forage yields
+- Improve grazing utilization / Use less hay or silage
+- Increase profit / Improve water quality
+- Increase number of livestock / Improve animal performance
+- Grass-based dairy / Convert CRP (Conservation Reserve Program land)
+- Reduce reliance on outside sources (rented pasture, feed supplement)
+- Extend the grazing season (move toward year-long grazing)
+- Grass-finished, organic, or direct-market niche markets
+Also asks: is this operation more of a business or a hobby (spectrum scale) - framing
+matters for how aggressively to invest in infrastructure/management.
+
+SOILS BASICS TO TRACK
+- Last year soils were tested
+- Last year lime was applied
+- Last year fertilizer was applied
+
+FORAGE INFORMATION (best captured on a pasture map)
+- Current grazing method: continuous, rotational, MIG (management-intensive grazing),
+  or high-density
+- Forage species present in each paddock
+- Estimated % tree cover per paddock (if applicable - silvopasture-type systems)
+- Hay fields, labeled with forage species mix (e.g. "Alf/Brome" = alfalfa/bromegrass)
+- Whether hay fields are ever grazed, and approximately when/how long
+- Cropland acres gleaned (grazed post-harvest)
+- Grazing season extension methods in use (stockpiling forage, planting turnips,
+  planting forage sorghum, etc.)
+- Additional tracts available for grazing/haying beyond the core system
+
+WEED/BRUSH PROBLEMS
+List by paddock. Common Iowa examples cited: Canada thistle, multiflora rose, black
+locust.
+
+HERD/PADDOCK HEALTH FLAGS
+Poor rates of gain, breeding problems, calving problems - these often trace back to
+grazing management gaps and are worth cross-referencing against forage inventory and
+pasture condition scores.
+
+PLAN MAP ITEMS (checklist for what to document on the pasture map)
+- Pasture Condition Score (attach score sheet - see NRCS PCS guide)
+- Existing and planned fence lines
+- Whether fencing is electrified, and whether temporary fence is used
+- Perimeter fence type (barbed, hi-tensile, woven) and wire count (1-8+)
+- Cross-fence type and wire count
+- Erosion or other concerns needing follow-up/discussion
+- Fields the producer wants to convert to pasture or hay
+- Stream crossings, heavy-use protection areas, riparian areas
+- Adjacent CRP acres that could be grazed (typically 1/2 annually or all every other
+  year under CRP grazing rules)
+
+LIVESTOCK DEFAULT WEIGHTS (reference table, useful for AU calculations)
+Cattle cow: 1,300 lbs | Bison calf (not weaned): 400 lbs | Elk (75% AUE - Animal Unit
+Equivalent): yearling/replacement 1,050 lbs, bulls 2,100 lbs | Stockers/backgrounders:
+750 lbs | Sheep ewe: 140 lbs | Replacement ewe lambs: 100 lbs | Ram: 160 lbs | Market
+lambs: 90 lbs | Horses (mares/studs/geldings): 1,100 lbs | Horse yearlings: 800 lbs |
+Spanish goat nannies: 135 lbs | Boer goat kids: 70 lbs | Dairy goat billies: 200 lbs |
+Alpacas/llamas: 150-300 lbs.
+
+PRODUCTION CALENDAR FIELDS TO DEFINE
+- Grazing months for the system (yearlong or specific months)
+- Breeding season type (year-round, 90-day, 60-day, AI, embryo transfer, other)
+- Birthing months
+- Weaning months
+- Number of herds managed separately (1, 2, 3, 4+)
+
+WATERING MATH - TWO METHODS
+
+Individual Watering Math (for intensive grazing systems where individuals water alone):
+Pipeline Capacity (gpm) Q = [(A x W) - C] / 720
+Where A = number of animals, W = daily water need per pair (default 20 gal/day/pair
+for a cow/calf pair, adjustable for other stock), C = tank capacity in gallons.
+
+Herd Watering Math (assumes 3 watering events/day, 30 min per event) - use the GREATER
+of these two results:
+Q = [(A x W / 3) - C] / 30   (checks: is the trough large enough?)
+Q = A x W / 240              (checks: is the supply rate itself sufficient?)
+
+WATER SOURCE CHECKLIST
+- Source type: pond, well, creek, rural water, or other
+- Are sources dependable? Are troughs frost-free?
+- Pump type if applicable: electric, solar, ram, nose (animal-activated), other
+- Pressure tank location/elevation and depth to static water level in well
+- Pressure tank on/off PSI settings (current vs. possible adjustment)
+- Pressure tank capacity in gallons
+- Pond water elevations: trough outlet elevation vs. highest water elevation (matters
+  for gravity-feed feasibility)
+
+PRACTICAL TAKEAWAY: This worksheet is essentially the "everything you need to know
+before designing a real grazing plan" checklist - useful as a self-audit even without
+formal NRCS program participation, since it forces documentation of forage, water,
+fencing, and livestock health data in one place before making fencing/water
+infrastructure investment decisions.

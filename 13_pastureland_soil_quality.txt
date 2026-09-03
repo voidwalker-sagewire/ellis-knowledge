@@ -1,0 +1,178 @@
+SOURCE: Pastureland Soil Quality (Information Sheets 1 & 2)
+PUBLISHER: USDA Natural Resources Conservation Service, July 2003
+(Prepared by the Soil Quality Institute, Grazing Lands Technology Institute, National
+Soil Survey Center, and Agricultural Research Service)
+
+---
+
+SHEET 1: INTRODUCTION
+
+WHAT IS PASTURELAND?
+Land supporting introduced or domestic native forage species, used primarily for
+livestock production, receiving periodic renovation/cultural treatment (tillage,
+fertilizer, mowing, weed control). Permanent pastureland = no intent to rotate to
+other crops. Some pastureland is irrigated; some carries trees as a secondary
+silvicultural enterprise; some is open savanna or partially cleared forest where
+introduced forage has naturalized and displaced most native herbaceous plants.
+
+WHAT IS PASTURELAND CONDITION?
+The status of the plant community and soil relative to the pasture's highest possible
+condition under "ideal" management. The land user selects the desired plant community
+based on adaptability to existing soil/climate, livestock production goals, and
+livestock forage preferences.
+Under ideal management, grazing pressure and inputs are managed to keep the desired
+plant community reasonably stable at desired species proportions. Over time, without
+intervention, permanent pastures naturalize - unintended species invade, shifting
+composition away from the land user's goals, often toward lower forage quality/
+quantity and reduced responsiveness to inputs.
+
+WHAT IS SOIL / SOIL QUALITY?
+Soil is a dynamic resource: mineral particles (sand/silt/clay), organic matter, air,
+water, and living organisms, with biological/chemical/physical properties that shift
+in response to management.
+Soil quality = the capacity of a specific soil to function within natural/managed
+ecosystem boundaries, sustain plant/animal productivity, maintain/enhance water and
+air quality, and support human health/habitation.
+
+WHAT DOES SOIL QUALITY AFFECT ON PASTURELAND?
+Plant production, reproduction, and mortality; erosion; vegetation composition; water
+availability and quality; wildlife habitat; carbon sequestration; livestock health and
+production.
+
+HOW ARE SOIL QUALITY AND PASTURE CONDITION RELATED?
+They're interdependent. Example causal chain given: increased surface compaction from
+excessive/untimely livestock traffic → decreased water infiltration capacity → less
+water available to plants → declining plant production → some species disappear while
+less-desirable species increase → in severe/prolonged cases, bare areas appear.
+The reverse chain also holds: vigorous, rapidly-growing plants increase organic matter
+inputs → improved water infiltration/availability → reduced erosion potential via
+vegetative cover (less raindrop impact, less soil movement).
+Important caveat: some shifts are IRREVERSIBLE (e.g. accelerated erosion changing the
+soil profile itself), while others are recoverable through changed grazing management.
+
+WHY DOES SOIL QUALITY MATTER PRACTICALLY?
+Changes in soil quality from agronomic/grazing management affect: how much rainfall/
+snowmelt is actually available for plant growth; surface runoff and erosion potential;
+nutrient availability for plant growth; seed germination, seedling establishment,
+vegetative reproduction, root growth, forage production; and the soil's ability to
+filter/protect water and air.
+
+---
+
+SHEET 2: INDICATORS FOR ASSESSMENT AND MONITORING
+
+WHAT ARE INDICATORS?
+Key soil or plant community characteristics that are measurable and sensitive to
+changes in management or environment. Environmental factors (e.g. time since last
+rainfall) can affect some indicators independent of management and must be considered
+when interpreting results.
+
+CATEGORIES OF INDICATORS USED ON PASTURELAND
+
+Soil properties: physical (bulk density, soil strength - reflect root growth/seedling
+emergence/infiltration limits), chemical (nutrients, organic matter, cation-exchange
+capacity, base saturation, pH - directly affect plant production and cover ability),
+and biological (earthworms and other organisms - some beneficial, some harmful like
+insect larvae/nematodes that can damage forage stands or infect livestock). Organic
+matter and aggregate stability reflect a COMBINATION of all three property types.
+
+Soil surface features: pedestals, exposed roots, rills, gullies, wind scours,
+terracettes, penetration resistance, stoniness, debris dams/windrows after storms -
+these reflect runoff and erosion processes, usually assessed qualitatively.
+
+Vegetative features: plant cover, desirable species presence, plant residue, plant
+vigor, species diversity - reflect the current plant community's makeup and cycling.
+
+Management factors: uniformity of plant removal, excessive-use areas, species
+adaptation to site, plant stress from insects/disease, current soil fertility/pH
+status - these are often the PRIMARY CAUSES behind changes in soil quality, making
+them the most actionable category.
+
+Environmental conditions: level of plant physiological stress from weather/site
+conditions at time of assessment - a confounding factor to account for, not a
+management lever.
+
+Spatial patterns and variability: landscape position, erosion, deposition affect
+water/nutrient distribution and cycling across a pasture. As distribution of organic
+matter and animal waste becomes LESS uniform (from poor grazing/traffic distribution),
+resource availability decreases in some patches and increases in others -
+inconsistency itself becomes a problem, not just overall averages.
+
+CROSS-REFERENCE TABLE: WHICH INDICATORS AFFECT WHICH CONCERN AREAS
+(D = direct impact, I = indirect impact, I-D = both)
+
+- Percent desirable plants: Soil/site stability (I), Site hydrology (I), Plant
+  community productivity (D), Livestock performance (D)
+- Plant cover: Soil/site stability (D), Site hydrology (D), Plant productivity (D),
+  Livestock performance (I)
+- Plant diversity: Soil/site stability (I), Site hydrology (I), Plant productivity (D),
+  Livestock performance (I-D)
+- Plant residue: all four areas (D) - the most broadly directly-impactful indicator
+- Plant vigor: Soil/site stability (I), Site hydrology (I), Plant productivity (D),
+  Livestock performance (D)
+- Percent legume: Soil/site stability (I), Site hydrology (I), Plant productivity (D),
+  Livestock performance (I-D)
+- Uniformity of use: Soil/site stability (I), Site hydrology (I), Plant productivity
+  (D), Livestock performance (D)
+- Livestock concentration areas: all four (D or I-D) - second most broadly impactful
+- Soil compaction: Soil/site stability (D), Site hydrology (D), Plant productivity
+  (I-D), Livestock performance (I)
+- Erosion: Soil/site stability (D), Site hydrology (D), Plant productivity (I-D),
+  Livestock performance (I)
+- Soil fertility: Soil/site stability (I), Site hydrology (I), Plant productivity (D),
+  Livestock performance (I-D)
+- Soil pH: Soil/site stability (I), Site hydrology (I), Plant productivity (D),
+  Livestock performance (I)
+- Severity of use: all four (D) - like plant residue, broadly directly impactful
+- Site adaptation of desired forage species: all four (D)
+- Climatic stresses: Soil/site stability (I), Site hydrology (I), Plant productivity
+  (D), Livestock performance (D)
+- Disease and insect pressure: Soil/site stability (I), Site hydrology (I), Plant
+  productivity (D), Livestock performance (I-D)
+- Salinity and/or sodicity: Soil/site stability (I), Site hydrology (I-D), Plant
+  productivity (D), Livestock performance (I-D)
+
+ASSESSMENT PRACTICALITIES
+
+Start any pasture assessment with the land user's DESIRED plant community, production
+goals, and environmental goals as the reference standard - not some generic ideal.
+NRCS forage suitability group reports and local university extension forage references
+should supplement this.
+
+Timing matters: some soil properties are relatively insensitive to seasonal change
+(e.g. total organic matter), while others (e.g. soil compaction, measured by
+penetration resistance) vary with recent soil moisture/temperature - for these, always
+maintain a livestock-traffic-free REFERENCE SITE (like a fence line) for comparison.
+
+Common assessment objectives: selecting monitoring sites (riparian zones, heavily-used
+areas, noxious weed areas), gathering inventory data for decisions (soil tests),
+identifying at-risk areas (streambanks, shorelines, access lanes), and targeting
+management inputs (stocking, fertilizer, water development, overseeding).
+
+Careful site selection matters: a pasture on varied landscape is best evaluated by
+sampling each representative landscape position/soil type separately, or by targeting
+only the positions with obvious problems. Note off-site influences (crop fields,
+woodlots, hedgerows, farmsteads, roads, past disturbances) as context for
+interpretation - e.g. a sparse stand in a recently row-crop-converted area has an
+obvious explanatory history.
+
+MONITORING PRACTICALITIES
+
+Monitoring = orderly collection/analysis/interpretation of quantitative data over time
+at PERMANENTLY MARKED locations, ideally with baseline data to establish trend.
+Designed so different observers can measure consistently.
+
+Common monitoring objectives: evaluating/documenting progress toward management
+goals, detecting early-warning changes before they become bigger problems, and
+determining overall trend (maintaining/declining/recovering).
+
+Site selection depends on objective: representative sites for progress/trend tracking;
+MOST VULNERABLE sites if the goal is catching problems early enough to modify
+management before they occur.
+
+Important expectation-setting: most degraded soil quality conditions CAN be reversed
+or even improved beyond the previous native condition - but for some properties (like
+organic matter content), it may take SEVERAL YEARS TO DECADES to reach a new
+equilibrium level for the specific site. Set monitoring frequency and expectations
+accordingly - don't expect fast wins on slow-moving indicators like total soil organic
+matter, even when management is doing everything right.

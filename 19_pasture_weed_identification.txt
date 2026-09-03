@@ -1,0 +1,177 @@
+SOURCE: Weed Identification in Pastures, Hayfields, and Sprayfields (AG-764W)
+AUTHORS: Becky Spearman, Michelle Shooter, Tiffanee Conrad-Acuña, Dan Wells, Randy Wood
+(NC Cooperative Extension Livestock Agents)
+PUBLISHER: North Carolina State University / NC Cooperative Extension Service
+NOTE: Condensed - retains identification detail for the most common/important weeds
+across categories; full plant glossary condensed to key terms.
+
+---
+
+WHY IDENTIFY WEEDS FIRST
+
+A weed is simply "a plant growing where you don't want it to grow." A pure grass stand
+is essentially impossible - volunteers always arrive from the seedbank or neighboring
+fields. New volunteers can mean MORE/better forage, or losses of quality/yield - the
+only way to know which is correct identification. Weeds can also injure or kill
+livestock if toxic, reduce hay yield/quality, and interfere with hay drying.
+
+SCOUTING METHOD
+
+Walk fields and scout at least 10-15 sites per field. Identify all plants and
+seedlings at each site. Best assessment timing: between seasons, about 1 week after
+cutting or grazing. Keep a written record of which weeds appear in which field and
+when first noticed - this tracks whether your control program is actually working.
+Some weeds take several years to bring under control, so records matter for judging
+real progress vs. normal year-to-year variation.
+
+PREVENTION
+
+Weeds spread via: hay bales, plants reaching maturity and seeding, livestock
+movement, mowing equipment, wind, water, wildlife. Contaminated pasture seed is
+another entry vector - buy CERTIFIED seed to avoid introducing weed seed along with
+your forage seed purchase.
+
+FOUR CONTROL METHOD CATEGORIES (used in combination, not alone)
+
+1. CULTURAL CONTROL - increases forage competitiveness so it out-competes weeds.
+   Fertilizing to correct soil pH and fertility is foundational - get this right BEFORE
+   layering on the other three methods.
+
+2. GRAZING MANAGEMENT - rotational grazing gives desired plants rest/regrowth time
+   they need to out-compete weeds, and in rotational systems animals will often
+   consume weeds they'd otherwise avoid under continuous grazing (less selective
+   avoidance when forage choice is more limited per paddock). Graze/mow at proper
+   height - never cut or graze too short, which favors weedy species over desired
+   forage.
+
+3. MECHANICAL CONTROL - usually mowing. More effective on BROADLEAF weeds than grass
+   weeds. Downsides: fuel cost, limited effect on large/mature weeds, and mowing can
+   actually SPREAD seed and encourage more weed growth if timed wrong. Burning (where
+   safe/permitted) is another mechanical-adjacent option for some forage types.
+
+4. CHEMICAL CONTROL - herbicides inhibiting plant growth processes. Select based on
+   desired forage species, weed species present, cost, and application ease. Best
+   postemergence timing is when weeds are young and actively growing:
+   - Cool-season weeds: best controlled October-December (also possible Feb-April)
+   - Warm-season weeds: best controlled April to mid-July
+   Always read and follow label directions, including grazing/haying restriction
+   windows - the label is legally binding, not just a suggestion.
+
+KEY PLANT ID VOCABULARY (condensed glossary)
+
+- Broadleaf (dicot): net-veined leaves, often wider than long, can have taproot/
+  bulbous/fibrous roots, often showy flowers, may have square or round stems
+- Grass/grass-like (monocot): parallel-veined, lance-like leaves
+- Sedge: resembles grass but has a distinctly TRIANGULAR/three-sided stem - this is
+  the reliable way to distinguish sedges from true grasses
+- Annual: germinates, flowers, seeds, and dies within one year
+- Biennial: 2-year cycle - forms a basal rosette (roots/leaves) year one, flowers/
+  seeds/dies year two
+- Perennial: lives longer than two years
+- Rosette: circular cluster of leaves at ground level, typical of biennial weeds
+  overwintering before their flowering year
+- Rhizome: underground creeping stem producing roots/shoots at nodes
+- Stolon: ABOVEground creeping stem producing roots/shoots at nodes
+- Taproot: single main root growing straight down, with smaller lateral roots
+
+TOXIC/PROBLEM WEEDS - IDENTIFICATION DETAIL
+
+HORSENETTLE (perennial, from rhizomes)
+Obvious leaf spines, up to 3 ft tall, star-shaped white-to-violet flowers with yellow
+center, berry fruit (green→yellow, wrinkled at maturity). Capable of poisoning
+livestock, but consumption is rare in practice BECAUSE of the prickly stems/leaves
+naturally deterring grazing.
+
+PIGWEED / AMARANTH (annual, ~60 species)
+Red stems, egg-shaped wavy-margined alternate leaves, up to 6.5 ft tall, shallow
+often-reddish taproot, small inconspicuous green flowers in dense compact panicles.
+CAN BE VERY TOXIC in large quantities due to potential NITRATE accumulation. Spiny
+amaranth and redroot pigweed are the two most common types on disturbed soils - spiny
+amaranth is distinguished by paired spines at the base of the leaf petiole and central
+stem.
+
+POKEWEED (perennial, 1-10 ft)
+Alternate pointed crinkled-edge leaves, pink/red stems, greenish-white flowers
+developing into dark purple berries. Commonly grows along fence lines.
+
+JOHNSONGRASS (aggressive perennial grass, spreads by rhizome AND seed, up to 8 ft)
+Prominent white leaf midvein, pink-to-rusty-red stem base, purplish hairy panicles.
+CRITICAL SAFETY NOTE: can be poisonous to livestock after wilting from frost, or new
+regrowth following drought or cutting - during hot dry weather, johnsongrass can carry
+enough PRUSSIC ACID to kill livestock in any quantity consumed. Can also cause death
+from nitrate poisoning. This is a genuinely dangerous pasture grass under the wrong
+conditions despite being a grass, not a broadleaf "weed" in the usual sense.
+
+DALLISGRASS (perennial, resembles crabgrass, usable as forage grass)
+Identified by hairy spikelets in 4 rows on 3-8 alternating branches. CAUTION: rank
+seedheads late in the season can become infected with an ergot-like fungus (turning
+gray-to-black and sappy) - cattle eating significant amounts of infected seedheads can
+develop "dallisgrass staggers," a serious but not usually fatal illness.
+
+HAIRY VETCH (annual/perennial legume, climbing to 6.5 ft)
+White-woolly appearance from long soft hairs, purple-to-blue flowers, shallow taproot
+with strong lateral branches. (Cross-reference: separately documented as toxic to
+cattle/horses in the toxic plants file - grows best on dry sandy soils.)
+
+WILD GARLIC / WILD ONION (perennial, from bulbs)
+Easily confused, but distinguishable by leaf cross-section: wild garlic leaves are
+HOLLOW and ROUND; wild onion leaves are FLATTER and more SOLID. Wild garlic persists
+later into the growing season than wild onion.
+
+BUTTERCUP (bulbous and hairy species, annual, common pasture weed)
+Deeply lobed leaves, yellow 5-petal flowers. Bulbous buttercup shows a distinctive
+bulbous swelling at the stem base - a reliable ID feature.
+
+SICKLEPOD (annual, 1-6 ft)
+Yellow flowers, long narrow seed pods, multidivided leaves. Leaflets are
+PHOTOSENSITIVE - they fold upward at night or on cloudy days (a genuinely useful field
+ID trick). Plants AND seeds are potentially toxic.
+
+COMMON LESPEDEZA (annual, mat-forming, usable as forage)
+Dark green trifoliate leaves with parallel veins near-right-angle to midvein, pink-
+to-purple flowers late summer. A genuinely useful forage species that also commonly
+volunteers as a "weed" in unwanted locations - context (is it wanted here or not)
+matters more than the plant itself for this one.
+
+NUTSEDGE (yellow and purple - true sedges, not grasses despite the name "nutgrass")
+Distinguished by triangular stem cross-section (the sedge tell). Yellow nutsedge:
+yellowish-tan seedhead, tubers grow only at rhizome ENDS, chestnut/tan-colored tubers.
+Purple nutsedge: red-purple seedhead, tubers form in a CHAIN connected by rhizomes,
+hairy charcoal/black-colored tubers. Purple nutsedge is generally harder to control,
+so correct species ID matters for treatment planning.
+
+FIELD SANDBUR / SANDSPUR (annual, sandy soils)
+Lighter green than most grass weeds, rough leaves. Mainly a physical nuisance/hazard
+- green or brown spiny burs cause discomfort to livestock and disperse by clinging to
+animals, people, clothing, equipment.
+
+CURLY DOCK (perennial, deep taproot, up to 5 ft)
+Basal rosette of wavy-margined leaves, unbranched stem, leaves turn reddish-purple
+with age. Gets progressively harder to control as the plant matures and the taproot
+develops - earlier intervention is meaningfully easier than later.
+
+DANDELION (3 species: Carolina false, common, cat's ear)
+Carolina false dandelion is a winter annual/biennial; common and cat's ear are
+perennials. Distinguishing feature: young leaves of common dandelion are hairless,
+while cat's ear dandelion leaves are densely hairy with more rounded lobes.
+
+RYEGRASS (perennial vs. Italian/annual)
+Both used for winter cover/grazing/hay, both common volunteers. Italian ryegrass has
+long clasping auricles and 9-15+ seeds per seedhead with an awn on seed tips;
+perennial ryegrass has short non-clasping auricles, typically 7-9 seeds, no awn.
+
+PRACTICAL FRAMEWORK FOR ELLIS TO APPLY
+
+1. When a weed is reported or described, first establish: is this a genuine problem
+   weed, a forage species growing somewhere unwanted, or a species with dual
+   identity (like common lespedeza or dallisgrass) where context determines whether
+   it's wanted?
+   2. Check specifically whether the species carries a TOXICITY risk (cross-reference
+   the toxic plants file) before recommending any control approach that assumes it's
+   "just" a competitive nuisance weed.
+3. Recommend starting with cultural control (soil fertility/pH correction) as the
+   foundation, then layering grazing management, mechanical, and/or chemical control
+   as needed - not chemical control as a first resort.
+4. Remind the person that some weed problems take multiple YEARS of consistent
+   management to resolve - this sets realistic expectations rather than implying a
+   single intervention should show fast results.

@@ -1,0 +1,115 @@
+SOURCE: Developing a Regenerative Grazing Plan - Quick-Start Guide
+PUBLISHER: University of Missouri Extension / USDA-NRCS / Missouri Forage and Grassland
+Council (Missouri Climate Trap & Livestock GHG project)
+NOTE: References the fuller Missouri Grazing Manual (M157) for deeper detail on forage
+physiology, fence/water infrastructure, and animal management.
+
+---
+
+CORE PHILOSOPHY
+
+Regenerative grazing management is OUTCOME-focused, not practice-specific. It is NOT
+the same thing as simply practicing daily rotational movement - simply moving animals
+daily through a rotation is NOT automatically "regenerative grazing." What matters is
+managing toward specific desired outcomes: soil health, forage biodiversity, animal
+performance, profitability, etc.
+
+Direct quote: "Regenerative grazing is outcome-focused, not practice-specific... it
+should be clear that simply practicing daily movement of animals through a rotational
+grazing system is NOT regenerative grazing."
+
+THE 8-STEP PROCESS
+
+STEP 1 - IDENTIFY GOALS
+Make goals specific to your operation's context. Write them down and check every
+management decision against them. Common regenerative goals: increasing organic
+matter/sequestering carbon, increasing plant/animal biodiversity, improving
+profitability by a specific amount. No universal right answer - the important part is
+specificity and active monitoring against the written goals.
+
+STEP 2 - CREATE A PASTURE INVENTORY
+List every pasture (one per row on a grazing chart), including crop fields if animals
+ever graze residues/cover crops. Temporary subdivisions from portable fencing (poly
+wire strips) don't need separate listing.
+Create a corresponding map showing water points, fences, features (existing FSA maps,
+apps like MaiaGrazing/PastureMap/AgriWebb, or Google Earth work).
+Record grazeable acres per pasture.
+Note forage species COMPOSITION per pasture (e.g. "cool-season," "warm-season," or a
+mix like "50% cool-season, 50% warm-season") - this drives recovery periods, residue
+height targets, and seasonal growth curve expectations.
+Estimate forage availability per pasture: methods include a grazing stick (canopy
+height), clip-and-weigh within a quadrat, or experienced visual estimation of one
+cow/animal-unit's daily consumption. Large pastures often have a mix of highly and
+poorly productive zones - estimate each separately and sum for a realistic total.
+Determine the optimal RECOVERY PERIOD range for each pasture after grazing. Too short
+= negative impact; too long can also be undesirable. Recovery period is ultimately
+governed by (1) length of grazing events on OTHER pastures and (2) total number of
+paddocks in the operation. Record recovery period by month on the grazing chart for
+planning.
+
+STEP 3 - CALCULATE CARRYING CAPACITY (Animal Unit Days per Acre / ADA)
+Express carrying capacity as total days of grazing a pasture will produce, standardized
+to a "Standard Animal Unit" (1,000 lb cow). Convert estimated forage availability per
+pasture into ADA and record on the chart.
+
+STEP 4 - MAKE AN ANIMAL INVENTORY
+List each species/class of grazing livestock and head count present on day one of the
+plan. Recognize that AU numbers will shift through the year (sales, weight changes in
+growing animals) - update monthly on the chart.
+Example AU calculation: 100 stocker calves at 600 lbs average, using an Animal Unit
+Equivalent (AUE) of 0.6 per calf = 100 x 0.6 = 60 AU total.
+
+STEP 5 - MARK IMPORTANT DATES
+Mark holidays, anniversaries, vacations, and any date no one will be available to move
+animals - these constrain the plan. Also mark:
+- Use limitations/resource concerns (e.g. avoiding mud-prone bottom pastures in wet
+  seasons, avoiding hunting-disturbance areas seasonally)
+- Livestock production-stage windows (calving, breeding seasons - nutritional
+  requirements peak here, so matching forage resources to these windows matters most)
+- Key management events needing corral/handling-facility access (vaccinations,
+  branding, pregnancy diagnosis, AI, shipping)
+
+STEP 6 - PLAN GRAZING MOVEMENTS
+Record planned turn-in and removal dates per pasture, per herd, on the chart (one box
+= one day). When the herd moves, jump to the next pasture's row.
+Counterintuitive but useful technique: plan BACKWARDS - identify calendar dates
+animals need to be somewhere specific (e.g. corrals for vaccination) FIRST, then work
+out how to route the herd there through the pasture sequence.
+Formula: Average grazing period = Recovery Period / (Number of Pastures - 1)
+IMPORTANT: intentionally "mix it up" year to year. Repeating the same pasture sequence
+at the same time every year has downsides (reduced forage species diversity over
+time from repeated same-season pressure). Avoid permanently assigning certain pastures
+to certain seasonal roles (e.g. always "the calving pasture") when practical.
+
+STEP 7 - MONITOR, MANAGE ADAPTIVELY, RE-PLAN
+Record ACTUAL grazing event dates on the chart under the planned lines (use a
+different color to compare plan vs. actual). Compare actual forage
+productivity/utilization against original estimates - lagging growth may signal a
+destocking decision is needed.
+Track rainfall/snowfall on the chart below the animal movement section - relating
+precipitation to forage growth helps predict drought and inform destocking timing.
+"Destock dates": establish specific calendar dates ahead of time at which stocking
+rate will be reduced in response to drought metrics (e.g. percentage of average annual
+rainfall received by a given date, or forage inventory vs. current stocking rate
+comparisons at the start of seasonally dry periods). Committing to dates in advance
+removes the emotional/reactive difficulty of destocking decisions made in the moment.
+At season's end, total the ADA harvested per pasture - this becomes the following
+year's baseline for planning.
+
+STEP 8 - ESTABLISH AND MONITOR OTHER METRICS
+Soil health/fertility monitoring is strongly encouraged: track fertility, soil
+aggregation, water infiltration ability, water holding capacity - establish baselines
+to measure change over time.
+Other potential metrics: pounds of calf weaned per acre, profitability of the grazing
+enterprise and overall operation, quality-of-life metrics for family/employees,
+wildlife or habitat metrics.
+Direct quote: "Establishing baselines and monitoring progress towards your established
+outcomes and goals is what helps make your operation regenerative."
+
+KEY TAKEAWAY
+
+The grazing chart itself (a spreadsheet or paper chart with pastures as rows and
+months/days as columns) is the central planning tool - it holds the pasture inventory,
+ADA figures, animal inventory, important dates, planned AND actual grazing events, and
+rainfall data all in one place, enabling both up-front planning and adaptive
+mid-season replanning.
