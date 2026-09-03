@@ -1,0 +1,247 @@
+SOURCE: Soil Health and Organic Farming - Understanding and Optimizing the Community of Soil Life
+AUTHORS: Mark Schonbeck, Diana Jerkins, Vicki Lowell
+PUBLISHER: Organic Farming Research Foundation (OFRF), 2019
+ORIGINAL URL: https://ofrf.org/wp-content/uploads/2019/09/Soil_Biology_Guide.pdf
+NOTE: Condensed from full guide - detailed resource/citation lists omitted, core science and
+practical guidance retained.
+
+---
+
+THE SOIL FOOD WEB - OVERVIEW
+
+The soil biota (soil life) has total live weight of 1,700-27,000 lb/acre yet accounts for just
+1-5% of total soil organic matter (SOM) - and regulates essentially the entire stock of SOM.
+Nearly all stable SOM ("humus") is now understood to be derived from microbial processing
+of plant residues - largely microbial remains and metabolites tightly bonded to soil minerals.
+
+KEY PRINCIPLE: "If you feed the soil, the soil will feed the plant." Many farmers consider
+soil life their "underground livestock" - it must be fed, watered, and sheltered just like
+above-ground herds.
+
+SOIL FUNCTIONS AND KEY ORGANISMS (summary table)
+
+- Plant nutrition (retaining/recycling nutrients): decomposer bacteria/fungi, earthworms,
+  arthropods
+- Plant nutrition (delivering nutrients to plants): protozoa, nematodes, N-fixing bacteria,
+  mycorrhizal fungi
+- Moisture/drainage/aeration: bacteria (glues), fungi (mycelia), earthworms, arthropods,
+  plant roots
+- Crop protection (pathogen/pest deterrence): pathogen antagonists, predators/parasites
+  of pests
+- Water quality: plant roots and cover, nutrient-immobilizing microbes
+- Carbon sequestration: plant roots, fungi, bacteria, deep-burrowing earthworms
+- Erosion resistance: plant cover/roots, fungal hyphae, bacterial glues
+- Resilience/tilth recovery after disturbance: plant roots, earthworms, arthropods, fungi
+
+ORGANIC PRACTICES TO BUILD SOIL LIFE
+
+- Adding compost and other organic materials
+- Diversifying crop rotation
+- Growing cover crops
+- Utilizing legumes for nitrogen
+- Integrating crops and livestock
+- Limiting tillage, pesticide sprays, and concentrated fertilizer inputs
+
+A meta-analysis of 56 worldwide studies found organically managed soils maintained
+32-84% greater microbial biomass and enzyme activity than the same soils managed
+conventionally.
+
+USDA NRCS FOUR PRINCIPLES OF SOIL HEALTH (cited as foundational roadmap):
+1. Keep soil covered
+2. Maintain living roots
+3. Diversify crops
+4. Minimize soil disturbance
+(A commonly cited 5th principle, per rancher/author Gabe Brown: integrate livestock)
+
+THE ROLE OF PLANT ROOTS
+
+No soil ecosystem survives without living plants - the "solar collector" all terrestrial
+life depends on. Roots occupy roughly 1% of soil volume but account for a quarter to a
+third of total soil respiration, and create the "rhizosphere" - an enriched habitat for
+soil organisms. Prolonged fallow periods without living roots put soil life on a
+"starvation diet," depleting SOM and harming soil health.
+
+In healthy soils with low-to-moderate soluble nutrients, plants may contribute 20-40% of
+their photosynthetic product to soil life through root exudates, mycorrhizae, and other
+symbiotic relationships. Legumes may invest ~20% of production feeding rhizobia bacteria.
+IMPORTANT: when crops are heavily fertilized with readily available N/P, they share LESS
+energy with soil microbiota - saving short-term plant energy but limiting soil biological
+activity and potentially harming long-term soil health.
+
+Annual crops send ~25% of photosynthetic product below ground into roots 3-6 feet deep.
+Perennial prairie plants and forest trees send roughly HALF their photosynthetic product
+into roots that may extend 15+ feet - roots are now believed to be the primary source of
+stable SOM (more than surface residue).
+
+MYCORRHIZAL FUNGI
+
+Associate with about 80% of plant species, including 70% of agricultural crops. Fossil
+evidence shows they co-evolved with the earliest land plants 400+ million years ago.
+Arbuscular mycorrhizal fungi (AMF) form structures called arbuscules inside root tissue
+where nutrient exchange occurs. In a grass-legume mix, a single AMF network can literally
+"ship" legume-fixed nitrogen to the grass and surplus phosphorus from the grass back to
+the legume - a four-way symbiosis (grass + legume + rhizobia + AMF) that enhances forage
+vigor in pasture.
+
+TILLAGE'S EFFECT ON SOIL LIFE
+
+Tillage strongly affects soil life: plowing "turns homes upside down," disking/rotary
+tillage pulverizes aggregates and destroys microbial habitat, kills earthworms, and
+fragments fungal mycelia. It stimulates bacterial growth and speeds mineralization
+(short-term nutrient release) at the cost of long-term stabilization.
+
+Tools that mitigate tillage impact: chisel plow or shallow (3") tillage retain more
+microbial biomass than moldboard plow or disking. Ridge/strip tillage stimulates
+mineralization in the crop row while leaving SOM and fungi intact between rows
+("soil functional zone management").
+
+GRAZING AND LIVESTOCK INTEGRATION
+
+Direct quote: "Integrating crops and livestock, an important principle since the
+beginning of the organic movement, can enhance soil life if grazing is managed well.
+While continuous grazing degrades pastures, management intensive rotational grazing
+(MIG), in which brief (1-3 days) intense grazing is followed by a sufficient recovery
+period (1-6 months depending on climate, season, and pasture condition), enhances forage
+vigor, root growth, rhizodeposition, and dramatically increases SOM."
+
+TABLE: EFFECTS OF FARMING PRACTICES ON SOIL ORGANISMS AND FUNCTIONS (key excerpts)
+
+- Manure: increases bacteria, protozoa, bacteria-feeding nematodes, SOM (if moderate C:N);
+  can decrease mycorrhizal fungi if phosphorus builds up
+- Compost: increases SOM stabilization; can decrease mycorrhizal fungi if P builds up
+- Diverse rotation without fallow: increases SOM, microbial diversity, nutrient cycling
+- Cover crops: increase microbial biomass, active SOM, soil aggregation, mycorrhizal fungi
+  (with grasses/legumes); can increase N leaching risk
+- Sod phase in rotation: increases active/stable SOM, biomass and diversity of most soil
+  organisms, tilth, nutrient cycling; decreases N leaching, erosion, compaction
+- Unplanted fallow: increases soil erosion, compaction, nutrient loss; decreases ALL soil
+  life, especially plant symbionts, SOM, nutrient cycling
+- Livestock integration: increases active/total SOM, nutrient cycling, most soil organisms;
+  can decrease mycorrhizal fungi if phosphorus excesses accumulate
+- Routine tillage (1+ pass/year): increases bacteria, protozoa, mineralization; decreases
+  most fungi, earthworms, other macrofauna, SOM stabilization
+- Intensive tillage: increases erosion and metabolic stress in microbes; decreases ALL
+  soil life, SOM, tilth
+- No-till/reduced till: increases fungi, macrofauna, SOM stabilization; can decrease
+  mineralization of SOM/N and some bacteria
+
+CROP-PREFERRED MICROBIOMES
+
+Different crops prefer different soil microbiomes:
+- Crucifers (cabbage family) and chenopods (beets, spinach, quinoa family): prefer
+  bacteria-dominated soil, do NOT benefit from mycorrhizal fungi. Favored by moderate
+  tillage, near-neutral pH, succulent green manures.
+- Grains, legumes, forages, most vegetables (allium, solanaceous): thrive with a
+  BALANCED mix of bacteria and fungi including AMF. Favored by reduced tillage, mixed
+  cover crops, moderate C:N inputs (~20:1).
+- Fruit/nut trees, grapevines, other woody perennials: prefer FUNGAL-dominated soil,
+  often depend on ectomycorrhizal fungi specifically. Favored by woody organic
+  amendments, undisturbed soil (no tillage), continuous living/mulch ground cover.
+
+BEST MANAGEMENT PRACTICES FOR SOIL LIFE (Concept #2 summary)
+
+- Feed soil biota via plant roots - maximize year-round living plant cover; maintain
+  dormant vegetation/residue cover during dry or frozen seasons
+- Supplement with finished compost or balanced-C:N amendments
+- Diversify: crop rotation, cover/sod crops, intercropping, relay planting, perennial
+  plantings
+- Integrate livestock with crops using management-intensive rotational grazing (MIG)
+- Reduce tillage when practical
+- Minimize other disturbances: excessive N/P, fallow without cover, invasive exotic
+  plants
+- Adjust practices for site-specific factors (climate, rainfall, soil type, production
+  system)
+
+BIOLOGICAL DISEASE MANAGEMENT
+
+Healthy, biologically active soils with ample SOM generally reduce plant disease
+problems - abundant benign microbes crowd out pathogens ("general disease
+suppressiveness"), and biodiverse soils include more natural enemies of pathogens.
+Soil biodiversity can also protect livestock/human health: increased dung beetle and
+manure-decomposing bacteria activity on organic farms helps control pathogenic E. coli
+and livestock parasites.
+
+Strategies: crop rotation (removes susceptible host long enough to control some
+pathogens), cover crops (roll-crimped mulch protects against soilborne pathogens; deep
+roots like sudangrass penetrate hardpan and reduce root rot in following crops),
+organic amendments (raw manure or succulent green manures stimulate competing microbial
+growth that suppresses pathogens).
+
+MICROBIAL INOCULANTS - A REALITY CHECK
+
+Important finding: A multi-year Ohio State study across 2 research stations and 19
+organic farms in 7 states found NO significant yield benefit from 13 commercial
+biostimulant/inoculant products tested on 7 vegetable crops. Reasons inoculants often
+fail: indigenous soil organisms already perform the function; indigenous organisms
+outcompete the added microbes; soil conditions don't favor the applied organisms;
+storage/application problems; or the crop-microbe partnership requirement isn't met.
+
+Rancher Gabe Brown restored 5,000 degraded acres near Bismarck, ND (16"/year rainfall,
+starting at 2% organic matter) using cover crops, diversified rotation, no-till, and
+rotational grazing - building SOM to 7% over 20 years WITHOUT applying a single
+microbial inoculant. His quote: "No matter what you do to the soil, there will still be
+some small bit of life in it, even in the most chemically dependent or heavily tilled
+operations. If you give that life a chance to grow, it will respond... If you build it...
+or if you stop destroying it, they will come."
+
+Takeaway: inoculants are most likely to help on moderately low-fertility soils where the
+applied microbes can actually thrive; on healthy/fertile soils, they often add cost
+without benefit. Legume rhizobia inoculation remains a validated standard practice
+when planting a legume in a field without recent history of that legume.
+
+TAXONOMIC TOUR OF SOIL LIFE (condensed)
+
+Bacteria: small (0.5-5 micrometers), 300-4,000 lb/ac live weight. Billions per teaspoon
+of topsoil, thousands of genotypes. Fix atmospheric nitrogen (Rhizobium in legume
+nodules, free-living Azotobacter, etc.), cycle nutrients, secrete glue-like
+polysaccharides that build soil aggregation.
+
+Archaea: similar to bacteria in size/function but genetically distinct domain. Can be
+~10% of microbial biomass in upland soils. Oxidize sulfur, break down hydrocarbons.
+
+Actinobacteria (Actinomycetes): filamentous, 350-4,000 lb/ac. Digest cellulose and chitin
+that resist other bacteria. Responsible for the "earthy" smell of healthy soil. Thrive
+in warm, moist, near-neutral soil (pH 6.0-7.5) but tolerate drought/salinity well.
+
+Fungi: 900-10,000 lb/ac, often half or more of soil microbial biomass. Convert consumed
+organic material into new biomass far more efficiently than bacteria (up to 50% vs ~20%),
+making them a leading source of stable SOM. Two functional groups: saprophytic
+(decomposer) fungi and mycorrhizal fungi.
+
+Protozoa: 18-250 lb/ac. Prey mostly on bacteria; release surplus nitrogen as
+plant-available ammonium. Key role in delivering plant-available nitrogen from the
+bacteria-rich rhizosphere.
+
+Nematodes: 10-260 lb/ac. Tiny worms occupying diverse niches. Nutrient release from
+nematodes feeding on bacteria/fungi may account for 30-40% of plant-available nitrogen
+in some soils. Only a minority are crop pests (root-feeders); predatory and
+entomopathogenic nematodes provide pest control services.
+
+Micro-arthropods (mites, springtails): 4-450 lb/ac. Shred plant litter, speeding
+microbial access and decomposition. Highly sensitive to tillage - far more abundant in
+sod/pasture than annually-tilled cropland.
+
+Earthworms: 90-3,500 lb/ac live weight, can process twice their own weight in soil daily.
+In a climate supporting 6 months of earthworm activity, worms can turn over 9-450 tons
+of soil per acre annually - effectively performing "biological tillage." Large earthworm
+populations contribute 45-80 lb of plant-available nitrogen per acre per year just from
+their own die-off and decay.
+
+Dung beetles: In grazing systems, consume and bury manure in topsoil, conserving and
+cycling nutrients, protecting surface water quality, and reducing pathogen/parasite
+loads. Grazing ecosystems that have lost native dung beetle populations show markedly
+improved vegetative growth after appropriate species are reintroduced. Directly relevant
+to rotational/mob grazing management - a healthy dung beetle population is a strong
+positive indicator.
+
+PRACTICAL MONITORING METHODS FOR FARMERS (from simplest to more advanced)
+
+- Visual assessment: soil color, tilth/aggregation, surface porosity (rain infiltration),
+  drainage, resistance to root growth
+- Crop performance and resilience to disease/drought/stress
+- Tracking total SOM trends on soil test reports over time
+- Crop nutrition needs from soil (how much fertilizer required to sustain yield)
+- Earthworm counts and visible fungal mycelia
+- Lab tests: POX-C (active carbon), PMC (potentially mineralizable carbon via 4-day
+  respiration test), or a comprehensive soil health test such as the Cornell CASH
+  framework

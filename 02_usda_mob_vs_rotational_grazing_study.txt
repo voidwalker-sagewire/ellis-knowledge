@@ -1,0 +1,80 @@
+SOURCE: Mob or Rotational Grazing for Pastures
+PUBLISHER: USDA ARS Pasture Systems and Watershed Management Research Unit
+CONTACT: Dr. Eric Billman (USDA-ARS), Dr. Kathy Soder (USDA-ARS)
+ORIGINAL URL: https://www.ars.usda.gov/ARSUserFiles/55594/Mob%20vs%20Rotational%20Grazing%20Technical%20Bulletin.pdf
+
+---
+
+A 4-year grazing study assessed how mob and rotational grazing methods affected the yield,
+longevity, persistence, and quality of perennial cool-season pastures. Long-term effects of
+grazing management on forage yield, species diversity, and quality.
+
+WHAT ARE MOB AND ROTATIONAL GRAZING?
+
+Two strategies dominate much of the industry:
+
+Rotational Grazing:
+- 28-35 day rest periods
+- 3-5 day grazing period
+- Moderate stocking rate
+- Consistent grazing events throughout the year
+- Common with domesticated forage species in the eastern U.S.
+
+Mob Grazing:
+- 70-90 day rest periods
+- 2-3 day grazing period
+- Intensive stocking rate
+- Variable yield, only a few grazing events per year
+- Common with native forage species that do not tolerate frequent and low grazing
+
+STUDY DESIGN
+
+Year 0 (2014): Eight 0.25 acre paddocks were seeded in late summer with a mix of alfalfa
+(12 lbs/ac), orchardgrass (5.2 lbs/ac), tall fescue (8.6 lbs/ac), white clover (4.2 lbs/ac), and
+narrowleaf plantain (4.2 lbs/ac). Four paddocks were assigned as rotational grazing, and four
+were mob grazed.
+
+Years 1-4 (2015-2018): Each year six rotational grazing events occurred (15 steers/paddock,
+May-Oct), while two mob grazing events occurred (40 steers/paddock, June and Sept).
+Prior to grazing events, paddocks were subsampled for forage yield and quality. During the
+mob grazing events, all paddocks were sampled for changes in forage species content.
+
+RESULTS: BY THE NUMBERS (final values, 4-year cumulative)
+
+- Yield: Mob = 3.26 ton/acre, Rotational = 4.54 ton/acre
+- Orchardgrass Stand: Mob = 23%, Rotational = 79%
+- Alfalfa Stand: Mob = 26%, Rotational = <1%
+- ADF (Acid Detergent Fiber): Mob = 44%, Rotational = 35%
+
+CHANGES IN FORAGE YIELD WITHIN EACH YEAR
+
+- Forage yield per harvest was initially greater under mob grazing, but began declining
+  after Year 1
+- Forage yield per harvest varied greatly between mob grazing harvests
+- By the end of Year 4, rotational grazing yield was similar to mob grazing
+
+WHAT WAS LEARNED FROM FOUR YEARS OF MOB VS. ROTATIONAL GRAZING
+
+- Forage yield steadily declined over time, but did so faster under mob grazing
+- Grasses persisted better under rotational grazing, while alfalfa persisted better
+  under mob grazing
+- Fiber levels were much poorer under mob grazing
+
+TAKE-HOME MESSAGE
+
+Rotational grazing:
+- Is an excellent strategy for low input cattle operations
+- Yield declined faster under mob grazing than rotational grazing
+- Forage quality was superior under rotational grazing, likely due to less mature plants
+
+Mob grazing:
+- Provides much greater yields than rotational grazing at similar time points throughout
+  the year
+- BUT allows fewer grazing events
+- May be suitable for operations requiring large amounts of forage at specific times of
+  the year
+
+CONCLUSION: Which method is best suited depends on operation goals. Rotational grazing
+favors long-term stand persistence and forage quality with more consistent management
+demands. Mob grazing can deliver higher per-event yields with far less frequent grazing,
+but stand quality and persistence erode faster over time, and fiber (digestibility) suffers.

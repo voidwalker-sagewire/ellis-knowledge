@@ -1,0 +1,243 @@
+SOURCE: Managed Grazing Systems and Fencing for Distribution of Beef
+AUTHORS: Donald Pfost (Agricultural Engineering), James Gerrish (Agronomy), Maurice Davis
+and Mark Kennedy (Natural Resources Conservation Service)
+PUBLISHER: University of Missouri Extension, Publication EQ379
+ORIGINAL URL: https://extension.missouri.edu/publications/eq379
+
+---
+
+WHY MANAGED GRAZING MATTERS FOR WATER QUALITY
+
+Intensively managed grazing can increase productivity/profits while improving water
+quality. Grazing systems management addresses this by: optimizing plant growth (raindrop
+interception, root mass binding soil), and reducing runoff/leaching of nutrients, manure,
+and pesticides. Managed grazing distributes manure more uniformly, improving both
+downstream water quality and on-farm water quality (poor water quality can weaken animal
+immune systems, hurt weight gains, reproduction, and milk production; algae blooms in
+nutrient-rich ponds can be toxic to livestock).
+
+THREE TYPES OF PASTURE SYSTEMS
+
+1. CONTINUOUS GRAZING
+   Advantages: lower setup costs (water/fence), less management required, animals can
+   select preferred plants.
+   Disadvantages: less beef produced per acre; animals use only 30-35% of available
+   grass; less desirable plants dominate over time; difficult to maintain legumes; poor
+   manure distribution.
+
+2. ROTATIONAL GRAZING (2-7 pastures)
+   Advantages: grazing matched to plant growth, rest/regrowth periods, increased forage
+   and animal production, some fields can be set aside for haying/stockpiling.
+   Disadvantages: increased fencing/water costs, more management/labor, still difficulty
+   maintaining legumes, manure distribution still can be concentrated.
+
+3. MANAGEMENT-INTENSIVE GRAZING / MiG (8+ pastures, aka "cell grazing" or
+   "short-duration grazing")
+   Advantages: increases forage production AND utilization (up to 70% of available
+   forage used, vs 30-35% continuous), promotes forage diversity, better animal and
+   forage control, fewer weeds, better nutrient cycling, optimizes beef produced per acre.
+   Disadvantages: highest initial fencing/water costs, highest management/labor demand.
+
+MANAGEMENT-INTENSIVE GRAZING (MiG) GOAL
+
+Use the best part of ALL plants, not just the most palatable ones. Relatively long rest
+periods follow SHORT grazing periods. Grazing periods and move dates are based on degree
+of forage utilization, not a preset calendar.
+
+LAYOUT AND DESIGN PRINCIPLES
+
+- Cattle should have water access within 700-900 feet, ideally IN the paddock rather
+  than accessed via alleys - alleys cause 15-20% of manure to be dropped off-pasture,
+  and cattle drink 15% more water when it's directly in the paddock.
+- Paddocks should be as square as possible (minimizes fencing needed per acre, reduces
+  distance to water). Rectangular paddocks should not exceed 4x length-to-width ratio.
+- Keep soil variation within a single paddock as low as possible - separate bottomland
+  from slopes from hilltops (summits) into different paddocks since forage species
+  suited to each differ (e.g., ladino clover/reed canary grass on bottomland; birdsfoot
+  trefoil/tall fescue on eroded slopes; orchardgrass/alfalfa on productive summits).
+- Southwest slopes warm up earlier in spring; northeast slopes hold more moisture and
+  stay cooler in summer - cattle may concentrate manure on northeast slopes in summer
+  by choosing to lie there.
+- On terraced fields, locate fences at the terrace crest; avoid running fences downslope
+  across terraces. Straight fences are cheaper and easier to build.
+- Aerial photos (from local NRCS/FSA office) and soil survey maps are valuable for
+  paddock layout planning.
+- Lanes connecting buildings to fields should be located in the driest areas (terrace
+  or natural ridge) to avoid gully development from repeated use.
+
+NUMBER OF PADDOCKS
+
+Ideal system moves animals to a fresh paddock DAILY. Benefits: minimal feed waste,
+consistent forage quality daily, reduced parasite infestation, rapid/uniform grazing.
+To achieve a 3-4 day grazing period (a reasonable target), a system needs a MINIMUM of
+8-12 pastures to allow adequate rest.
+
+The carbon-hydrogen-oxygen (CHO) replenishment cycle in forages typically takes 20-40
+days. A 20-day rest may suffice under good growing conditions (spring); midsummer
+cool-season forage may need 40+ days rest. Fewer paddocks are needed at certain times of
+year, or the grazing period can be shortened to compensate. Paddocks not needed for
+grazing can be cut for hay/silage.
+
+PADDOCK SIZE FORMULA
+
+Cell size (acres) = (Daily Intake x number of animals x days in cell) /
+(yield in lbs/acre x utilization rate as decimal)
+
+STOCKING RATE / GRAZING SYSTEM CALCULATION WALKTHROUGH (worked example)
+
+Rule of thumb: grazing animals consume 3 lbs of dry matter (DM) per 100 lbs of body
+weight per day. 1 Animal Unit (AU) = 1,000 lbs live weight, consuming 30 lbs DM/day.
+
+Example: 20 cow/calf pairs averaging 1,250 lbs/pair on 100 acres.
+Step 1: (20 pairs x 1,250 lbs) / 1,000 lbs per AU = 25 AU
+        25 AU x 30 lbs DM/day-AU = 750 lbs DM needed per day
+Step 2: Cool-season grass yielding 2.5 tons/acre/year = ~710 lbs DM/acre per rest period
+        (using 20-day spring rest / 40-day summer-fall rest as basis)
+Step 3: Decide rotation frequency - dairy/stocker for max production: graze 0.5-1 day;
+        beef cow herds: graze less than 5 days, target 3 days or less.
+Step 4 (using 3-day grazing rotation as example):
+   - 710 lbs DM/acre x 100 acres = 71,000 total lbs DM available per rest period
+   - Number of paddocks = (30 days rest / 3 grazing days) + 1 = 11 paddocks
+   - 71,000 lbs / 11 paddocks = 6,455 lbs DM available per paddock per rest period
+   - 6,455 lbs / 3 grazing days = 2,152 lbs DM available per day
+   - 2,152 lbs / 30 lbs DM/day-AU = 71.7 AU stocking rate supportable
+   - At 1.25 AU per cow/calf pair (1,250 lb pairs): 71.7 / 1.25 = 57 cow/calf pairs
+     the 100 acres can carry
+   - 100 acres / 11 paddocks = 9.1 acres per paddock
+
+FENCING SYSTEMS
+
+FIXED FENCING: Interior divider/lane fences typically use one or more 12.5-gauge
+high-tensile electrified wires. Two "hot" wires usually suffice for all cattle sizes in
+lanes/paddocks (not lots/corrals). Small calves can often "graze ahead" of cows
+restrained by a single hot wire. On shallow/rocky soils with poor grounding, a two-wire
+fence (one hot, one grounded) may be needed for consistent control.
+- Advantages: minimum daily labor, low maintenance, low cost per acre on LARGE
+  installations.
+- Disadvantages: high cost per acre on small installations, limited flexibility.
+
+PORTABLE/FLEXIBLE FENCING: Electrified tape or polywire on a reel, supported on
+lightweight step-in plastic posts. Tape is more visible to cattle and deer but has
+shorter lifespan than polywire (flutters in wind). Often used to subdivide large
+fixed-fence areas into daily-move paddocks, powered off a fixed electrified boundary
+fence.
+- Advantages: high flexibility, low cost per acre on small installations.
+- Disadvantages: more labor, higher maintenance.
+
+ELECTRIC FENCE ENERGIZERS (CHARGERS)
+
+Power sources: 6V/12V battery, solar, or mains (120/240V AC). Mains power is preferred
+when available (more reliable output, no battery costs/hassle). Use only UL-approved or
+U.S. Bureau of Standards-approved chargers - NEVER use "homemade" chargers, as they can
+kill people and animals.
+
+Solar chargers: battery + solar panel. Rule of thumb: ~7-10 watts of solar panel per
+joule of charger output, depending on sunlight/panel orientation. A 10-watt panel costs
+roughly $100-300 (at time of publication).
+
+Two charger types:
+- High-impedance (older style): "on" time 0.1 sec or less, 45-60 pulses/min, up to
+  30,000V, ~25 milliamp current. Works well on clean fences but effectively "dies" if
+  shorted by green vegetation.
+- Low-impedance ("New Zealand-type"): lower voltage (2,000-6,000V) but much higher
+  amperage (up to 30-40A). Pulses ~every second for ~0.0003 sec. Maintains charge past
+  a partial short (e.g., grass touching the wire) and won't start grass fires. Pulse
+  rate is adjustable on some units (higher rate like 65 ppm for training/deer-prone
+  fences, lower like 45 ppm for trained animals to conserve battery).
+
+Guard voltage (voltage present at any point an animal may contact): minimum ~2,000V
+usually sufficient for cattle; up to 4,000V may be needed in very dry conditions or for
+well-insulated animals like sheep.
+
+Charger sizing rule of thumb: roughly 1 mile of fence per joule of charger rating (up to
+6 miles/joule claimed by manufacturers under ideal conditions, but real-world grass/weed
+load and insulator quality reduce this). Costs (at time of writing) ranged ~$100 for a
+1-joule battery charger to ~$750 for a 240V/28-joule charger. Buy chargers with excess
+capacity for future expansion, or use multiple chargers on separate zones (never connect
+two chargers to one zone).
+
+GROUNDING
+
+Most electric fences depend on the ground to complete the circuit back through the
+animal to the charger - low resistance to ground is critical (preferably 10-25 ohms).
+Rule of thumb: 3 feet of ground rod per joule of energizer output. Typically 3-4 ground
+rods spaced 10+ feet apart, connected with continuous 12.5-gauge or larger wire. Locate
+ground rods in consistently moist earth if possible (e.g., near a building's roof drip
+line, north side). Keep ground rods at least 30 feet from other grounds and underground
+metal pipes. In very dry/sandy/gravelly soils (low conductivity), an alternating
+hot-wire/ground-wire configuration lets animals complete the circuit even when soil
+conductivity is poor.
+
+LIGHTNING PROTECTION
+
+Mains-powered chargers should use a surge protector. An induction coil (8-10 turns of
+insulated wire, 10-12" diameter coil, at least 20 feet from the charger) acts as a
+lightning "choke." Lightning diverters at the lead-out connection and at high points
+along the fence route surges to ground - each diverter needs its own solid ground
+connection.
+
+HIGH-TENSILE WIRE SPECS
+
+12.5-gauge smooth high-tensile wire (180,000-200,000 psi strength) is standard for
+permanent fencing. Look for Class 3 galvanizing (3x thicker than ordinary barbed wire's
+Class 1). Unrolled with a "spinning jenny" reel; spliced with a figure-eight knot or
+(better) crimped sleeves.
+
+WIRE SPACING GUIDE (from a 1-wire fence at about 2/3 animal shoulder height)
+
+- Cows only: 1 wire, 26-32 inches above ground
+- Cows and calves: 2 wires, 18-24" and 24-36"
+- Hard-to-hold cattle: 3 wires, 11-18", 23-30" (this middle wire can be grounded in
+  very dry/sandy/gravelly conditions), and 34-44"
+
+WIRE TIGHTENERS
+
+Each high-tensile wire needs an in-line tightener every 1/4 mile of straight run to
+adjust tension (reel + locking mechanism). Tension springs are used on short stretches
+and around high-pressure areas (gates, lots).
+
+POLYWIRE AND POLYTAPE (for temporary/strip grazing)
+
+Polywire: looks like colorful polyethylene twine laced with 3, 6, or 9 strands of wire.
+6-9 strand stainless steel is most common for longer runs (less voltage drop). Due to
+resistance, best kept under 2,000 feet of run. Spliced with a simple knot.
+
+Polytape: more visible to animals than polywire, but knots don't always make good
+electrical contact - use commercial splice buckles or a lock washer as a connector.
+
+Reel capacities: polytape 300-1,320 feet; polywire 660-2,640 feet. Geared reels (3:1
+ratio) speed up rewinding.
+
+POSTS AND INSULATORS
+
+Plastic step-in posts with molded-on wire/tape clips (highest clip ~3 ft up) are common
+for strip grazing - no insulators needed. Fiberglass sucker rods (3/8" to 5/8"+) also
+work without insulators, using wire spring clips.
+
+For permanent fencing: wood or steel line posts spaced up to 100 feet apart on level
+ground; 40-60 feet more common on rolling terrain. Corners/ends need 8-foot wood posts
+(5-6"+ diameter tops), set 4 feet deep with H-bracing (floating braces are cheaper/
+easier for multiwire fences, especially in rocky soil).
+
+Use only UV-stabilized high-density polyethylene or polypropylene insulators on
+permanent fences. Minimize steel post use to avoid shorts from cracked/degraded
+insulators. For double-hole insulators, ensure wires cross over each other so the
+insulator is loaded in COMPRESSION, not tension (tension loading can pull it apart).
+
+GATES
+
+Electrified gates can pass current by going overhead (high enough to clear
+livestock/equipment) or by burying insulated wire underground (20,000V-rated
+direct-burial wire is available; running it inside plastic pipe reduces short-circuit
+risk). Gates should be non-electrified when open.
+
+Electrified floodgates: droppers attached to the wire spaced 6" above normal water
+level, with floodgate controllers available to limit current flow when flooded.
+
+TRAINING ANIMALS TO ELECTRIC FENCE
+
+Electric fence is a PSYCHOLOGICAL barrier, not a physical one - animals must be trained
+to respect it. Train with a hot wire inside a permanent fence/corral so animals can't
+escape if they push through. Include an open gate during training so animals learn some
+areas are "safe" to pass through, since they'll be moving through gates regularly in a
+managed grazing system.

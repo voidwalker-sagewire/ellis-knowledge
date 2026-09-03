@@ -1,0 +1,126 @@
+SOURCE: Summary of Mob Grazing in Virginia
+AUTHOR: Benjamin Tracy, Ph.D., Associate Professor, Dept. of Crop and Soil Environmental
+Sciences, Virginia Tech
+ORIGINAL URL: https://grazingguide.net/pdfs/NEPC2017/NEPC2017_s7-1.pdf
+
+---
+
+INTRODUCTION
+
+This paper summarizes several research studies that addressed mob-type grazing in
+Virginia, conducted 2012-2016, comparing three grazing systems: mob, rotational, and
+continuous grazing. Measured: forage productivity, forage nutritional value, animal
+performance, clover populations, and soil health indices.
+
+MOB VS ROTATIONAL GRAZING - DEFINITIONS
+
+Mob grazing involves intensive decision-making to control livestock stocking rates and
+forage removal. First promoted by Allan Savory in the 1980s as part of holistic rangeland
+management, later adopted in eastern pasturelands (Joel Salatin). A large number of
+animals are restricted to a small area, eating or trampling all plants before moving to new
+grass - sometimes after just a few hours. Grazing usually starts later in the season
+(late May/June in Virginia) when pastures have more growth, followed by a long recovery
+period of 90+ days. Mob-grazed pastures may be grazed only once or twice per season.
+
+Rotational grazing uses recurring periods of grazing and rest among three or more
+paddocks - similar in principle to mob grazing except stocking density is lower and
+recovery periods much shorter (15-30 days).
+
+Continuous grazing = minimal management of stocking rate or forage removal control.
+
+CLAIMED BENEFITS OF MOB/ROTATIONAL METHODS (from prior literature)
+
+1. Healthy soil with high organic matter, water-holding capacity, and abundance of
+   microorganisms, earthworms, and dung beetles.
+2. Even distribution of recycled soil nutrients and organic matter from intensive
+   management of animal stocking density.
+3. Desirable plant diversity with few weeds and consistent seasonal ground cover,
+   building organic matter and reducing soil erosion.
+
+STUDY SITES
+
+Three locations: two demonstration farms (Blacksburg and Raphine, VA, 2013-2015) and
+Virginia Tech's Shenandoah Valley Agriculture Research and Experiment Center (SVAREC)
+in Steeles Tavern, VA (2014-2016, replicated 3x). Soils predominately silt loams;
+vegetation dominated by tall fescue, orchardgrass, and Kentucky bluegrass.
+
+GRAZING PROTOCOLS
+
+At Raphine/Blacksburg: mob stocking = two 12-16hr stocking periods/year, stocking
+densities 125,000-140,000 lbs live weight/acre on 0.25-0.5 acre paddocks, 90-120 day
+rest periods. Rotational = 6-7 stocking periods of 3-4 days on 0.75-2 acre paddocks with
+fixed 28-30 day rest periods.
+
+At SVAREC: mob = three stocking periods/year on 0.1 ha paddocks reallocated every 24hr,
+not back-fenced, ~40,000 lbs/acre stocking density, 64-day rest period.
+
+RESULTS
+
+Forage production: Mob-grazed paddocks accumulated ~540 lbs/acre MORE standing forage
+than rotational or continuous - but this was because cattle ate LESS of it, due to trampling
+making much of the grass difficult to graze. Forage accumulation rates didn't differ between
+methods, but disappearance (actual use by cattle) was lower under mob stocking.
+
+Nutritional value: Continuous pastures generally had higher crude protein, mainly due
+to higher white clover content (cattle preferentially select clover for its palatability/protein).
+Nutritive values under mob grazing were reasonable for dry cows but trended toward the
+lower threshold for maintenance by 2015, since grasses were allowed to become excessively
+over-mature each year before grazing.
+
+Clover establishment: Continuous pastures had more white clover (shorter grazing favors
+white clover establishment). Red clover established relatively well under ALL systems -
+its upright growth habit reduced shading by grasses under mob/rotational stocking.
+Contrary to hypothesis, mob grazing did not meaningfully suppress clover establishment.
+
+Soil organic matter (SOM): Averaged 3-3.5% at both demonstration sites. No substantial
+difference in SOM increase between mob/rotational vs. continuous grazing over the
+3-year study period. Soil carbon pools were more strongly affected by site than by
+grazing system - likely because these soils had been established pasture for years and
+were near carbon saturation in surface layers already. Researchers speculate 5-10 years
+may be needed to see significant soil changes from grazing method alone.
+
+Soil compaction: Comparatively low under mob stocking in 2015. Rotational grazing showed
+highest compaction, but this reflected pre-existing site conditions rather than the grazing
+treatment itself. None of the systems showed compaction severe enough to reduce forage
+growth.
+
+Nutrient distribution near water sources: This is a key finding. Under continuous and
+rotational grazing, nitrogen mineralization (a measure of plant-available N) was nearly
+TWICE as high near water sources (0-10m) compared to mob grazing, where N mineralization
+was relatively constant across the pasture. This suggests mob grazing's high stocking
+density reduces cattle congregation near water/shade areas, spreading manure and urine
+nutrients more evenly across the pasture rather than concentrating them near water.
+
+Animal performance (measured only at SVAREC): Cows in mob-grazed pastures were
+significantly lighter at breeding, especially in 2015, with lower body condition scores.
+Calf weaning weights were consistently lower in mob-grazed pastures (though birth weights
+were actually lowest in rotational systems). Hypothesis: long rest periods in mob paddocks
+meant tall fescue plants (70-90% of grasses) had gone to seed before grazing, and tall
+fescue seed carries the highest alkaloid toxin concentration in the plant - possibly reducing
+milk production and cow condition. Reduced available forage from trampling may have also
+contributed.
+
+SUMMARY & CONCLUSIONS
+
+- Mob-grazed pastures accumulate more standing forage, but a significant portion is
+  trampled and never eaten.
+- Forage quality in mob-grazed pastures was reasonably good despite over-maturity,
+  probably suitable for dry (non-lactating) cows.
+- Contrary to expectations, mob grazing did not suppress clover establishment -
+  especially red clover.
+- Little difference found in soil health indices across grazing systems over the
+  3-year study period, though mob grazing showed more even nutrient distribution
+  away from water sources.
+- Cow-calf performance was significantly POORER under mob grazing in 2014-2015,
+  likely linked to toxic tall fescue seed consumption and reduced available forage.
+
+BOTTOM LINE: This Virginia Tech study found little evidence to support broad, year-round
+adoption of mob grazing over standard rotational grazing in tall-fescue-based systems.
+Mob grazing may be better suited to specific, short-term management tasks (e.g.
+vegetation/weed control) rather than as a full-time strategy - particularly in regions
+where tall fescue dominates the sward, due to the toxicosis risk from mature seed heads.
+
+KEY REFERENCES CITED: Allan Savory's Holistic Resource Management (1988); Joel Salatin's
+"An aggressive approach to controlled grazing: Tall grass mob stocking" (Acres U.S.A.,
+2008); Roberts & Andrae on tall fescue toxicosis (2004); Thompson & Stuedemann on fescue
+toxicosis pathophysiology (1993).

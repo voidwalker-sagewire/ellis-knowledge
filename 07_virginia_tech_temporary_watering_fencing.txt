@@ -1,0 +1,93 @@
+SOURCE: Using Temporary Watering and Fencing in a Rotational Grazing System (SPES-710P)
+AUTHORS: Matt Booher (Grassland Agronomist, Virginia Tech) and Bobby Clark (Senior
+Extension Agent, Virginia Cooperative Extension, Shenandoah County)
+PUBLISHER: Virginia Cooperative Extension
+ORIGINAL URL: https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/spes/spes-710/SPES-710.pdf
+
+---
+
+WHY TEMPORARY WATER/FENCE MATTERS
+
+Research shows pasture is poorly utilized beyond 800-1,000 feet from a watering source,
+and perhaps even less on steep terrain. Temporary water troughs and electric fencing let
+farms intensify management as needed: subdividing pastures with frequent moves, using
+large pastures more effectively, or bringing new acreage into the grazing rotation.
+
+TEMPORARY WATERING OPTIONS
+
+Most common approach: tap into an existing pressurized water source (hydrant or
+permanent waterer) and run 3/4" or 1" plastic polyethylene (PE) pipe on top of the
+ground to the desired area. Pipe is often run beneath a division fence to protect it
+from animal traffic. Valves or quick couplers (e.g., the Plasson Quick Coupling Valve)
+installed at regular intervals along the pipe let a portable trough be relocated
+throughout the field.
+
+Examples of setups seen in the field:
+- A permanent waterer mounted on runners, pulled with a four-wheeler
+- A gravity-fed stock tank with a floor-mounted float valve
+- Tapping a pressurized waterer with aboveground PE pipe to extend service to an
+  adjacent field
+- Commercial "drag trough" systems (e.g., Kiwitech 100-liter Drag Trough, Kiwitech
+  Micro Trough) designed for portability
+
+SOLAR-POWERED PUMPING (for surface water sources)
+
+Where no pressurized water source is available, solar power can enable use of surface
+water (ponds, creeks) for more intensive grazing management. Two common setups:
+1. Solar panel powers a submersible or surface-mounted pump that fills a reservoir,
+   which then gravity-feeds a stock tank fitted with a float valve.
+2. Solar panel charges a battery bank, which powers the pump for direct filling of a
+   stock trough.
+
+Some farms mount the reservoir on a wagon and the stock tank on runners for full
+portability - e.g., a solar pump placed in a nearby creek fills a wagon-mounted
+reservoir that gravity-flows to a movable stock tank with a float valve.
+
+Cost guidance: solar panels and compatible DC pumps have become widely available and
+affordable. Farms with LOW water demand (under 2,000 gallons/day) and LOW lift
+requirements (15 feet or less) can generally get a pump + solar panel for a reasonable
+cost. Troughs, reservoirs, and plumbing add to total cost and vary by situation. Water
+demand over 2,000 gal/day and/or lift over 15 feet significantly increases pump and
+solar array costs. "Plug-and-play" solar watering kits are commercially available.
+
+FREEZE PROTECTION FOR ABOVEGROUND WATER
+
+Aboveground watering components are generally limited to spring-through-fall use.
+Safeguards can extend usable season by a couple of weeks on either end:
+- High-density polyethylene (HDPE) or cross-linked polyethylene (PEX) pipe/valves
+  (more freeze-tolerant than standard PE)
+- Specialized temperature-activated drip valves (e.g., the commercially available
+  "Freeze Miser," or similar thermal wax actuators) that open automatically to keep
+  water moving and prevent freezing
+
+TEMPORARY ELECTRIC FENCING
+
+Products: step-in posts, poly wire or poly tape (plastic twine/ribbon with conductive
+wire filaments), and electric netting - all designed for quick install/removal.
+
+Temporary electric fencing is NOT a physical barrier - it's a PSYCHOLOGICAL barrier that
+works well for as-needed subdivision of existing permanent paddocks under high-intensity
+management. Common uses:
+- Strip-grazing stockpiled pasture, rotating livestock every 1-3 days to increase
+  forage utilization
+- Excluding livestock from sensitive areas (a seasonal bog, a newly seeded area)
+
+Due to its flexibility, temporary electric fencing has become the tool of choice for
+many high-intensity grazing operations.
+
+PRACTICAL NOTES FROM FARMERS
+
+Using temporary fencing requires at least moderate physical fitness and time investment.
+However, producers report:
+- More docile livestock when moved frequently under an intensive rotation
+- Better ability to track changing pasture conditions in real time
+- Time spent moving temporary fences is more than offset by reduced time spent making,
+  moving, and feeding hay when the grazing season is extended this way
+
+COST-SHARE AND TECHNICAL SUPPORT (Virginia-specific, but illustrates the general model)
+
+Soil and Water Conservation Districts (SWCDs) and NRCS offices commonly offer technical
+support and cost-sharing for grazing infrastructure: interior fencing, waterers, stream
+exclusion fencing, and other agronomic practices. Worth checking whether an equivalent
+program exists locally/regionally, as these programs substantially reduce upfront
+infrastructure costs for producers transitioning to intensive rotational grazing.

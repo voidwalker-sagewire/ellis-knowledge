@@ -1,0 +1,256 @@
+SOURCE: Colorado Forage Guide (Bulletin #563A)
+AUTHORS: Jennifer L. Cook, Joe E. Brummer, Paul J. Meiman, Thaddeus Gourd
+PUBLISHER: Colorado State University Extension / Grazing Lands Conservation Initiative, 2018
+ORIGINAL URL: https://sam.extension.colostate.edu/wp-content/uploads/sites/2/2016/07/forage-guide.pdf
+NOTE: Condensed - individual cultivar/variety lists (dozens of named varieties per species)
+omitted in favor of species-level characteristics and the practical management framework.
+
+---
+
+SITE CONSIDERATIONS FOR REVEGETATION
+
+Revegetation is expensive (100+ dollars/acre at time of writing) and not guaranteed to
+succeed - evaluate first whether the pasture can instead be RESTORED (deferred grazing,
+weed control, rotational grazing with proper stocking) rather than fully reseeded.
+
+Soil texture drives species selection: loamy soils are the best all-around medium.
+Sandy soils are hard to establish on but, once established, PRODUCE MORE forage than
+any other dryland site type. Clay soils pack hard and need mechanical loosening before
+seeding.
+
+Saline soils (electrical conductivity/EC of 4.0 mmhos/cm or greater): EC of 12+ limits
+species to only a few tolerant options (tall wheatgrass, pubescent wheatgrass, alkali
+sacaton, Russian wildrye). No forage grows above EC 30.
+
+Precipitation drives species options dramatically: a difference of just 2 inches of
+average annual precipitation is enough to change which species will survive best.
+Sites at 12" or less: limited to Russian wildrye and certain crested wheatgrass
+varieties. Species options increase substantially above 14"/year.
+
+BUNCHGRASSES VS SOD-FORMERS
+
+Bunchgrasses grow in clumps/bunches (e.g. crested wheatgrass, orchardgrass). Typically
+produce MORE forage but need more intensive grazing management - growth of some
+bunchgrasses is set back when developing seed stalks are grazed. Some (orchardgrass,
+perennial ryegrass, meadow brome) continually initiate new tillers and are less
+impacted by defoliation.
+
+Sod-formers spread via underground rhizomes that tie soil together (e.g. Kentucky
+bluegrass, western wheatgrass, smooth brome). Typically less productive but MORE
+grazing-tolerant since they resprout from rhizomes even after heavy grazing.
+
+WARM VS COOL SEASON GRASSES
+
+Cool-season grasses (e.g. orchardgrass) grow best in cool, moist spring months, regrow
+in fall with moisture, typically go dormant in summer heat.
+
+Warm-season grasses (e.g. blue grama, bluestems) don't begin growth until soil hits
+~60°F (mid-May), adapted to summer heat, go dormant in fall.
+
+MIXING WARM AND COOL SEASON GRASSES: not advised in the same pasture - cool-season
+grasses get first use of spring moisture/nutrients and tend to dominate over time,
+especially if spring-overgrazed. Better to establish as SEPARATE pastures and use each
+seasonally (cool-season pasture in spring/fall, warm-season in summer) - though this
+may not be practical on small acreages.
+
+NATIVE VS INTRODUCED GRASSES
+
+Native grasses: evolved with local climate/soil, live longer, need little maintenance,
+BUT more expensive seed and need 3-4 years to establish before grazing.
+
+Introduced grasses: establish faster (grazeable in 1-3 years, except Russian wildrye
+which needs up to 4), respond better to fertilizer/irrigation, cheaper seed, but may
+lack the longevity of natives.
+
+Do NOT mix native and introduced grasses in the same seeding - introduced species will
+out-compete natives. Mixtures of native species together interact well and are
+recommended.
+
+LEGUMES IN PASTURE MIXES
+
+Legumes host Rhizobium bacteria in root nodules that convert atmospheric nitrogen into
+plant-available form, sharing some with neighboring grasses over time. Mixing legumes
+and grasses can increase TOTAL forage production by up to 30% (dependent on adequate
+soil moisture). Alfalfa fixes the most nitrogen; clovers and others fix somewhat less.
+Legumes also extend the growing season (make more summer growth than cool-season
+grasses) and generally improve palatability, digestibility, and nutrient content.
+
+BLOAT WARNING: Keep bloat-causing legumes (alfalfa, clovers) to 25% or LESS of a
+grazed grass-legume stand. These cause gas buildup trapped in the rumen that can lead
+to rapid death. Non-bloating legume alternatives include cicer milkvetch, sainfoin,
+and birdsfoot trefoil.
+
+SEED MIXTURES VS MONOCULTURE
+
+Mixtures: more ecologically resilient (disease/insect/climate extremes), more efficient
+users of moisture/light/nutrients across the season, better weed competition. Simple
+3-4 species mixes for irrigated pastures; more species common for dryland. Select
+species similar in palatability, regrowth ability, maturity timing, and competitiveness
+- livestock will overgraze the most palatable species in an unbalanced mix.
+
+Some species are better managed as MONOCULTURES: crested wheatgrass, Russian wildrye
+(both provide forage 2-3 weeks earlier than others - easier to manage without
+competition), pubescent wheatgrass, smooth brome, and tall fescue.
+
+SEEDING PRACTICALITIES
+
+Pure Live Seed (PLS) = seed purity x seed germination (as decimals). Always buy/plant
+based on PLS, not raw bulk weight, to account for dead seed, weed seed, and inert
+matter in the bag.
+Formula: (PLS lbs/acre desired) / (PLS decimal) = bulk lbs/acre to buy.
+
+Seeding window: dormant seeding Nov 15-April 15 is generally best for dryland (soil not
+frozen, ready to grow with spring rain). With irrigation, forage can be seeded 6-8 weeks
+before first hard freeze (roughly late Aug-early Sept).
+
+Newly established dryland grasses should NOT be grazed until after they set seed - this
+takes 2-4 years for natives, at least 1 year for introduced species on dryland.
+Irrigated grasses can be lightly grazed in the seeding year once 4+ leaves and 1-2
+tillers are showing.
+
+GRAZING MANAGEMENT - CORE CONCEPTS
+
+Overgrazing is the #1 cause of pasture decline. It happens when (a) plants aren't given
+adequate regrowth time, or (b) grazing pressure isn't reduced during drought. Forages
+need enough LEAF AREA remaining after grazing to capture sunlight and rebuild root/stem
+carbohydrate reserves.
+
+Recovery period needed varies: dryland pastures typically need 30-90 days; irrigated
+land 15-30 days. Cool-season grasses regrow best in cool weather; warm-season in hot
+weather - both need adequate soil moisture regardless.
+
+DROUGHT RULE: when precipitation is 75% of average or lower for several months,
+drought conditions exist. Grazing management should become MORE conservative (fewer
+animals, shorter periods) during BOTH the drought itself and the growing season that
+follows it - overgrazing during drought greatly increases grass mortality risk.
+
+MINIMUM STUBBLE HEIGHTS (leave this much after grazing, general guide)
+- Most cool-season grasses: 4 inches
+- Crested/western wheatgrass: 3 inches
+- Tall wheatgrass: 6 inches
+- Tall warm-season species: 6 inches
+- Little bluestem, sideoats grama: 4 inches
+- Blue grama: 2 inches
+- Most irrigated grasses: 4 inches; Kentucky bluegrass: 2 inches
+- Alfalfa: 3-4 inches; Birdsfoot trefoil: 4-6 inches; Sainfoin: 3-4 inches
+- White clover: 2 inches; Red/alsike clover: 4 inches
+If pastures are grazed CONTINUOUSLY (no 30+ day rest periods), DOUBLE these stubble
+heights to compensate.
+
+REGRAZING RULE OF THUMB: allow plants to regrow to roughly TWICE their minimum stubble
+height before allowing regrazing.
+
+A PROPERLY grazed pasture looks UNEVEN - most plants grazed to minimum stubble height,
+some shorter, some taller/ungrazed patches (normal, from trampling/dung/urine
+avoidance or natural grazing patterns). If a pasture looks uniformly mowed-short
+across the board, it's overgrazed.
+
+STOCKING RATE AND CARRYING CAPACITY CALCULATIONS
+
+1 Animal Unit (AU) = 1,000 lb cow (or five 200-lb sheep). Adjust proportionally for
+actual animal weight (e.g. 1,300 lb cow = 1.3 AU). 1 AU eats ~25 lbs air-dry forage/day
+(a 1,000-lb horse eats/tramples more - equivalent to 1.25 AU, ~31 lbs/day).
+
+Realistic utilization: even a properly-grazed pasture only yields about 25% of total
+annual forage production to actual livestock consumption - roughly 50% must remain as
+stubble for plant health, and another 25% is lost to trampling, insects, rodents, and
+fouling.
+
+Carrying capacity formula:
+Total forage (lbs) = yield per acre x acres
+Grazeable forage = Total forage x 0.25
+Grazing days = Grazeable forage / (25 lbs/day per AU, or 31 for a horse)
+
+WORKED EXAMPLE: 30-acre pasture producing 1,000 lbs/acre/year forage, grazed by one
+1,000-lb horse (1.25 AU):
+- 1,000 x 30 = 30,000 lbs total forage
+- 30,000 x 0.25 = 7,500 lbs grazeable forage
+- 7,500 / 31 lbs/day = 242 days of grazing for one horse (or 121 days for two horses)
+- Carrying capacity = 242 days / 30 acres = ~8 horse-days per acre per year
+
+GENERAL PASTURE MANAGEMENT GUIDELINES (checklist)
+
+1. Know your pasture's carrying capacity and don't exceed it without justification
+   from actual measured forage growth.
+2. If animal numbers exceed carrying capacity, sell/remove excess or feed supplementally.
+3. Overgrazing happens two ways: leaving animals too long, OR not allowing enough
+   regrowth time between grazings.
+4. Monitor minimum stubble heights and overall pasture appearance; move animals when
+   proper use is reached.
+5. Avoid grazing wet pastures (soil compaction, plant crown damage, trampling risk).
+6. Spring is critical - forages are drawing on root reserves for new growth. Delay
+   grazing until plants reach 5-6 inches (3-5 leaves for grasses).
+7. Vary WHEN plants are grazed each year (don't always graze during the sensitive
+   "boot stage" when seed heads are elevating) to protect long-term plant health.
+8. Rotational systems need a MINIMUM of 4 paddocks (2 is the absolute floor) - typical
+   rest periods run 30-90 days depending on season/moisture.
+9. Restrict animal access to rivers/creeks/ponds to protect water quality.
+
+FOR UNGRAZED PASTURES: mow every other year to recycle nutrients and let light reach
+new leaf growth (skip mowing during drought). Monitor yearly for noxious weeds and
+control before seed set.
+
+SPECIES CHARACTERISTICS QUICK REFERENCE (selected species, condensed from Appendix B/C)
+
+GRASSES (habit / season / origin / min. moisture / soil / notes):
+- Kentucky bluegrass: sod, cool, introduced, needs irrigation, silt-clay soils, low
+  yield potential but excellent longevity, good grazing/trampling tolerance
+- Big bluestem: bunch, warm, native, 14"+ min moisture, sand-silt-clay, high yield,
+  excellent longevity/drought tolerance, fair grazing tolerance (grazed out if
+  mismanaged)
+- Little bluestem: bunch, warm, native, 14"+, high yield, excellent drought tolerance
+- Smooth brome: sod, cool, introduced, 16"+, medium yield, good longevity, fair
+  drought tolerance, fair-poor recovery after grazing (regrows slowly, use lightly)
+- Meadow brome: bunch, cool, introduced, needs irrigation, medium yield, good recovery
+  after cutting/grazing, more winter-hardy than orchardgrass
+- Tall fescue: bunch, cool, introduced, needs irrigation, high yield, good longevity,
+  good grazing tolerance, good recovery. CAUTION: often infected with an endophyte
+  fungus producing alkaloid toxins causing "fescue foot" and toxicosis in livestock -
+  seek ENDOPHYTE-FREE or "novel/friendly endophyte" varieties (e.g. those marketed as
+  MaxQ-type) which retain stress tolerance without the toxin. Pregnant/lactating mares
+  should not consume infected tall fescue.
+- Blue grama: sod, warm, native, 10"+, low yield but excellent drought tolerance and
+  grazing tolerance - very resilient, don't graze below 2"
+- Sideoats grama: bunch, warm, native, 12"+, medium yield, good drought tolerance,
+  fair grazing tolerance
+- Orchardgrass: bunch, cool, introduced, needs irrigation, medium yield, excellent
+  recovery rate after grazing/cutting, but low tolerance to trampling and doesn't
+  tolerate close/continuous grazing
+- Switchgrass: sod, warm, native, 14-16"+, high yield, good drought tolerance, good
+  grazing tolerance
+- Crested wheatgrass: bunch, cool, introduced from Russia, 8-12"+, medium yield,
+  excellent grazing tolerance, provides forage 2-3 weeks EARLIER than most grasses but
+  goes dormant/poor quality by June-August
+- Western wheatgrass: sod, cool, native, 12"+, good yield, excellent salt tolerance,
+  good drought/grazing tolerance
+- Russian wildrye: bunch, cool, introduced, 8"+, excellent drought tolerance and
+  grazing tolerance, difficult to establish, poor for hay (mostly basal leaves) but
+  excellent dryland pasture - good strategy is light spring grazing, saving regrowth
+  for late summer/fall when other grasses are unavailable
+
+LEGUMES:
+- Alfalfa ("Queen of Forages"): highly productive, deep taproot (10-30 ft), widely
+  adapted but needs well-drained soil, CAUSES BLOAT, needs 30-day+ rest periods to
+  persist under grazing, don't graze below 4-6"
+- Red clover: short-lived (2-4 years), self-reseeds, more tolerant of acidic/poorly
+  drained soil than alfalfa, similar bloat risk, high production
+- White clover (including Ladino type): shallow-rooted, spreads via stolons, needs
+  moisture, tolerant of summer heat, causes bloat if over 50% of stand, benefits from
+  frequent spring grazing of companion cool-season grasses
+- Cicer milkvetch: very long-lived, creeping rhizomes, does NOT cause bloat, tolerant
+  of alkaline soil (up to pH 9.8), slow to establish (2-3 years) but can become
+  dominant (up to 80% of a stand) over time, less palatable than other legumes so needs
+  heavier grazing pressure to keep it in check
+- Sainfoin: does NOT cause bloat, deep-rooted, heat/drought/cold resistant, difficult
+  to establish, grows ahead of alfalfa in spring for early high-protein grazing, only
+  ~3 year stand life
+- Birdsfoot trefoil: does NOT cause bloat, long-lived, performs well on poorly-drained
+  clay soils and low-fertility/alkaline soils where alfalfa struggles, highly palatable,
+  withstands grazing better than most legumes, needs taller stubble left (regrowth
+  comes from stem buds, not crown) and 4-6 week rest between grazings
+
+GENERAL SITE-MATCHING PRINCIPLE: match species to soil texture (sand/silt/clay),
+moisture availability, and salinity BEFORE anything else - the guide includes a full
+site-by-site species suggestion table (clay/loam, sandy, saline, gravelly foothills,
+subirrigated, irrigated-adequate-water, irrigated-short-water, low-maintenance) that a
+local NRCS or extension office can help match to a specific property.
