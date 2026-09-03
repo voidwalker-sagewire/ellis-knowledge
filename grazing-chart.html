@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grazing Chart | Ellis</title>
+<style>
+  :root {
+    --bg: #1b2417; --card: #232f1d; --border: #3a4a32;
+    --text: #eef2e8; --text-muted: #a3b195;
+    --accent: #7fb069; --accent-dark: #4d7a38;
+    --planned: #4d7a38; --actual: #d4a13d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px 16px 60px;
+    max-width: 560px; margin: 0 auto;
+  }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+  h2 { font-size: 15px; font-weight: 600; color: var(--accent); margin: 26px 0 10px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .subtitle { font-size: 14px; color: var(--text-muted); margin: 0 0 8px; }
+  label { display: block; font-size: 12px; color: var(--text-muted); margin-bottom: 4px; }
+  input[type="text"], input[type="number"], select {
+    width: 100%; padding: 8px 10px; background: var(--card); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); font-size: 14px; font-family: inherit;
+  }
+  .add-row { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 8px; margin-bottom: 10px; align-items: end; }
+  .add-btn {
+    background: var(--accent-dark); color: white; border: none; padding: 9px;
+    border-radius: 8px; font-size: 13px; cursor: pointer; width: 100%;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 6px; }
+  th, td { text-align: left; padding: 6px 4px; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-weight: 500; font-size: 12px; }
+  .del { color: #c96f6f; cursor: pointer; font-size: 12px; }
+
+  .event-form { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 6px; margin-bottom: 10px; align-items: end; }
+  .event-form select, .event-form input { font-size: 13px; padding: 7px 8px; }
+
+  .chart-wrap { overflow-x: auto; margin-top: 8px; }
+  .chart { min-width: 640px; }
+  .month-labels { display: flex; font-size: 10px; color: var(--text-muted); margin-bottom: 4px; padding-left: 96px; }
+  .month-labels span { flex: 1; text-align: left; }
+  .chart-row { display: flex; align-items: center; height: 30px; margin-bottom: 3px; }
+  .chart-row .label { width: 90px; font-size: 12px; flex-shrink: 0; padding-right: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .chart-row .track { position: relative; flex: 1; height: 20px; background: var(--card); border-radius: 4px; border: 1px solid var(--border); }
+  .bar { position: absolute; top: 1px; bottom: 1px; border-radius: 3px; font-size: 10px; color: #1b2417; display: flex; align-items: center; justify-content: center; overflow: hidden; white-space: nowrap; }
+  .bar.planned { background: var(--planned); color: #eef2e8; }
+  .bar.actual { background: var(--actual); }
+
+  .legend { display: flex; gap: 16px; font-size: 12px; color: var(--text-muted); margin-top: 10px; }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+  .events-list { margin-top: 14px; }
+  .event-item { display: flex; justify-content: space-between; align-items: center; font-size: 13px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+
+  .note { font-size: 12px; color: var(--text-muted); margin-top: 14px; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<h1>Grazing chart</h1>
+<p class="subtitle">Pastures as rows, the year as the timeline. Add pastures, then plan or log grazing events on each one.</p>
+
+<h2>Pasture inventory</h2>
+<div class="add-row">
+  <div><label>Pasture name</label><input type="text" id="p-name" placeholder="e.g. Rocky Ford"></div>
+  <div><label>Acres</label><input type="number" id="p-acres" min="0" step="0.1"></div>
+  <div><label>&nbsp;</label><button class="add-btn" onclick="addPasture()">Add</button></div>
+</div>
+<table id="pasture-table">
+  <thead><tr><th>Pasture</th><th>Acres</th><th></th></tr></thead>
+  <tbody id="pasture-body"></tbody>
+</table>
+
+<h2>Add a grazing event</h2>
+<div class="event-form">
+  <div><label>Pasture</label><select id="e-pasture"></select></div>
+  <div><label>Start (day of yr)</label><input type="number" id="e-start" min="1" max="365" placeholder="1-365"></div>
+  <div><label>Length (days)</label><input type="number" id="e-length" min="1" max="365" placeholder="days"></div>
+  <div><label>Type</label>
+    <select id="e-type"><option value="planned">Planned</option><option value="actual">Actual</option></select>
+  </div>
+</div>
+<button class="add-btn" onclick="addEvent()">Add event</button>
+<p class="note">Day of year is a simple way to place events without a full date picker — day 1 = Jan 1, day 91 = ~Apr 1, day 182 = ~Jul 1, day 274 = ~Oct 1.</p>
+
+<h2>Chart</h2>
+<div class="chart-wrap">
+  <div class="chart">
+    <div class="month-labels">
+      <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span>
+      <span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span>
+    </div>
+    <div id="chart-rows"></div>
+  </div>
+</div>
+<div class="legend">
+  <span><span class="swatch" style="background:var(--planned);"></span> Planned</span>
+  <span><span class="swatch" style="background:var(--actual);"></span> Actual</span>
+</div>
+
+<h2>Events log</h2>
+<div class="events-list" id="events-list"></div>
+
+<script>
+var pastures = [];
+var events = [];
+
+function addPasture() {
+  var name = document.getElementById('p-name').value.trim();
+  var acres = parseFloat(document.getElementById('p-acres').value);
+  if (!name || !acres || acres <= 0) return;
+  pastures.push({ id: Date.now(), name: name, acres: acres });
+  document.getElementById('p-name').value = '';
+  document.getElementById('p-acres').value = '';
+  renderPastures();
+  renderPastureSelect();
+  renderChart();
+}
+
+function removePasture(id) {
+  pastures = pastures.filter(function(p){ return p.id !== id; });
+  events = events.filter(function(e){ return e.pastureId !== id; });
+  renderPastures();
+  renderPastureSelect();
+  renderChart();
+  renderEvents();
+}
+
+function renderPastures() {
+  var body = document.getElementById('pasture-body');
+  body.innerHTML = '';
+  pastures.forEach(function(p) {
+    var tr = document.createElement('tr');
+    tr.innerHTML = '<td>' + p.name + '</td><td>' + p.acres + '</td><td><span class="del" onclick="removePasture(' + p.id + ')">remove</span></td>';
+    body.appendChild(tr);
+  });
+}
+
+function renderPastureSelect() {
+  var sel = document.getElementById('e-pasture');
+  sel.innerHTML = '';
+  pastures.forEach(function(p) {
+    var opt = document.createElement('option');
+    opt.value = p.id;
+    opt.textContent = p.name;
+    sel.appendChild(opt);
+  });
+}
+
+function addEvent() {
+  var pastureId = parseInt(document.getElementById('e-pasture').value);
+  var start = parseInt(document.getElementById('e-start').value);
+  var length = parseInt(document.getElementById('e-length').value);
+  var type = document.getElementById('e-type').value;
+  if (!pastureId || !start || !length || start < 1 || start > 365) return;
+  events.push({ id: Date.now(), pastureId: pastureId, start: start, length: length, type: type });
+  document.getElementById('e-start').value = '';
+  document.getElementById('e-length').value = '';
+  renderChart();
+  renderEvents();
+}
+
+function removeEvent(id) {
+  events = events.filter(function(e){ return e.id !== id; });
+  renderChart();
+  renderEvents();
+}
+
+function renderChart() {
+  var container = document.getElementById('chart-rows');
+  container.innerHTML = '';
+  pastures.forEach(function(p) {
+    var row = document.createElement('div');
+    row.className = 'chart-row';
+    var label = document.createElement('div');
+    label.className = 'label';
+    label.textContent = p.name;
+    var track = document.createElement('div');
+    track.className = 'track';
+    events.filter(function(e){ return e.pastureId === p.id; }).forEach(function(e) {
+      var leftPct = ((e.start - 1) / 365) * 100;
+      var widthPct = (e.length / 365) * 100;
+      var bar = document.createElement('div');
+      bar.className = 'bar ' + e.type;
+      bar.style.left = leftPct + '%';
+      bar.style.width = Math.max(widthPct, 1.5) + '%';
+      bar.title = 'Day ' + e.start + ' + ' + e.length + ' days';
+      track.appendChild(bar);
+    });
+    row.appendChild(label);
+    row.appendChild(track);
+    container.appendChild(row);
+  });
+}
+
+function renderEvents() {
+  var list = document.getElementById('events-list');
+  list.innerHTML = '';
+  if (events.length === 0) {
+    list.innerHTML = '<p class="note">No events logged yet.</p>';
+    return;
+  }
+  events.slice().sort(function(a,b){ return a.start - b.start; }).forEach(function(e) {
+    var pasture = pastures.find(function(p){ return p.id === e.pastureId; });
+    if (!pasture) return;
+    var item = document.createElement('div');
+    item.className = 'event-item';
+    item.innerHTML = '<span>' + pasture.name + ' — day ' + e.start + ', ' + e.length + ' days (' + e.type + ')</span>' +
+      '<span class="del" onclick="removeEvent(' + e.id + ')">remove</span>';
+    list.appendChild(item);
+  });
+}
+
+renderPastures();
+renderPastureSelect();
+renderChart();
+renderEvents();
+</script>
+
+</body>
+</html>
