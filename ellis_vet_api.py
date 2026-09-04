@@ -23,6 +23,7 @@ from typing import Optional, List
 
 from fastapi import FastAPI, HTTPException, Depends, Header
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, EmailStr
 
 import bcrypt
@@ -46,6 +47,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Serves anything in the /static folder at https://ellis.sagewire.dev/tools/<filename>
+# e.g. static/pcs-scorer.html -> https://ellis.sagewire.dev/tools/pcs-scorer.html
+app.mount("/tools", StaticFiles(directory="static"), name="tools")
 
 # ── CONFIG ──
 CHROMA_PATH = "./ellis_knowledge_db"          # same persistent-volume path as v1
