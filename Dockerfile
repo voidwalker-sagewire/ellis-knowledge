@@ -8,6 +8,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
+
+# Install CPU-only torch FIRST, from PyTorch's own CPU wheel index. This
+# droplet has no GPU — without this step, sentence-transformers pulls the
+# default GPU build of torch, which drags in several GB of NVIDIA CUDA
+# packages that aren't needed and can fill the disk during build.
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the app + the already-ingested knowledge base folder
