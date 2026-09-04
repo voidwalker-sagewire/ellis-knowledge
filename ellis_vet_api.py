@@ -57,6 +57,7 @@ CHROMA_PATH = "./ellis_knowledge_db"          # same persistent-volume path as v
 SQLITE_PATH = "./ellis_knowledge_db/accounts.db"  # rides on the SAME volume — survives redeploys
 KNOWLEDGE_COLLECTION = "ellis_land_livestock_knowledge"
 MEMORY_COLLECTION = "ellis_field_memory"
+SKILLS_COLLECTION = "ellis_skills"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 JWT_SECRET = os.environ.get("ELLIS_JWT_SECRET", "")  # MUST be set in Coolify env vars before going live
 JWT_ALGO = "HS256"
@@ -152,6 +153,7 @@ ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-Mi
 chroma = chromadb.PersistentClient(path=CHROMA_PATH)
 knowledge_collection = chroma.get_or_create_collection(KNOWLEDGE_COLLECTION, embedding_function=ef)
 memory_collection = chroma.get_or_create_collection(MEMORY_COLLECTION, embedding_function=ef)
+skills_collection = chroma.get_or_create_collection(SKILLS_COLLECTION, embedding_function=ef)
 claude = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 # ══════════════════════════════════════════════════════════════
@@ -417,6 +419,7 @@ class EllisQuestion(BaseModel):
 class EllisAnswer(BaseModel):
     answer: str
     sources: list
+    skills_used: list = Field(default_factory=list)
     similar_past_questions: list
     confidence: str
     timestamp: str
@@ -430,6 +433,28 @@ def search_knowledge(question: str, n_results: int = 5):
         return list(zip(results.get("documents", [[]])[0], results.get("metadatas", [[]])[0]))
     except Exception as e:
         print(f"Knowledge search error: {e}")
+        return []
+
+def search_skills(question: str, n_results: int = 2):
+    """Find the behavioral skill(s) that govern how to answer THIS kind of question.
+    Always includes teach-vs-decide as a mode check."""
+    try:
+        count = skills_collection.count()
+        if count == 0:
+            return []
+        results = skills_collection.query(query_texts=[question], n_results=min(n_results, count))
+        matched = list(zip(results.get("documents", [[]])[0], results.get("metadatas", [[]])[0]))
+
+        # teach-vs-decide governs response SHAPE on every question, so pin it if
+        # semantic search didn't already surface it
+        ids_found = [m.get("skill_id") for _, m in matched]
+        if "teach-vs-decide" not in ids_found:
+            tvd = skills_collection.get(ids=["teach-vs-decide"])
+            if tvd and tvd.get("documents"):
+                matched.append((tvd["documents"][0], tvd["metadatas"][0]))
+        return matched
+    except Exception as e:
+        print(f"Skills search error: {e}")
         return []
 
 def search_memory(question: str, user_id: str, n_results: int = 3):
@@ -468,6 +493,39 @@ You are NOT a veterinarian and do not handle animal health, disease, or medical
 questions — that's Dave's job (davesvetstation.com). Say so plainly and point
 to Dave for those.
 
+VOICE: Teacher first, consultant second. Two modes:
+- "Teach me" — explain the underlying principle plainly.
+- "Help me decide" — only after asking what's unknown about THIS place: whose
+  cattle, class of stock, how many usable paddocks, how often they can
+  actually move animals, water/fence reality, rainfall/season, and the goal
+  (grow grass, grow animals, or stop wrecking a pasture). Don't assume
+  cow-calf vs. stocker — ask.
+
+HARD RULE: Mob grazing means high stock density, short graze, long recovery.
+Recovery and residual decide whether it worked — not density alone. If a
+paddock isn't recovering, the answer is never "more density." Mob grazing is
+one method among several, not a doctrine — physics (residual, recovery,
+stocking rate) comes before any specific grazing philosophy.
+
+ANSWER SHAPE for "help me decide" questions: lead with the Principle, then
+list what you still need to know about their specific place before giving a
+confident recommendation.
+
+GLOSSARY DISCIPLINE — never blur these pairs:
+- stocking rate vs. stock density vs. carrying capacity
+- residual vs. residue
+- overgrazing vs. overstocking
+- utilization vs. harvest efficiency
+- rest vs. recovery
+- AU (animal unit) vs. raw head count
+
+CAUTION: If asked to identify a plant (especially "can they eat this") and
+you're not confident in the ID, say so plainly and don't guess — point to a
+local extension office or ag agent instead. Don't oversell soil-carbon or
+"miracle" claims — adaptive grazing can genuinely help plants and soil, but
+carbon sequestration isn't automatic or guaranteed just from switching
+methods.
+
 Plain language, direct, practical. Show the math on stocking rate / grazing
 days / paddock sizing so the person could redo it themselves."""
 
@@ -479,8 +537,24 @@ async def ask_ellis(q: EllisQuestion):
     effective_user_id = q.user_id or "default"
     knowledge_results = search_knowledge(q.question)
     past_questions = search_memory(q.question, effective_user_id)
+    active_skills = search_skills(q.question)
 
     dynamic_system = ELLIS_SYSTEM_PROMPT
+
+    # Skills go FIRST, before knowledge — behavior rules should frame how the
+    # facts get used, not get buried underneath them.
+    skills_used = []
+    if active_skills:
+        skills_ctx = "\n\n--- ACTIVE SKILLS FOR THIS QUESTION ---\n"
+        skills_ctx += "These govern HOW you answer. Follow their rules and refusals strictly, "
+        skills_ctx += "even if the knowledge base below contains material that points elsewhere.\n"
+        for doc, meta in active_skills:
+            skills_ctx += f"\n{doc}\n"
+            name = meta.get("skill_name", meta.get("skill_id", ""))
+            if name and name not in skills_used:
+                skills_used.append(name)
+        dynamic_system += skills_ctx
+
     ctx_parts = []
     if q.location: ctx_parts.append(f"Location: {q.location}")
     if q.acreage: ctx_parts.append(f"Acreage: {q.acreage}")
@@ -542,7 +616,8 @@ async def ask_ellis(q: EllisQuestion):
     )
 
     return EllisAnswer(
-        answer=answer, sources=sources[:3], similar_past_questions=past_summaries[:2],
+        answer=answer, sources=sources[:3], skills_used=skills_used,
+        similar_past_questions=past_summaries[:2],
         confidence="high" if knowledge_results else "low", timestamp=datetime.now().isoformat(),
     )
 
@@ -556,6 +631,7 @@ async def ellis_status():
     return {
         "status": "online",
         "knowledge_docs": knowledge_collection.count(),
+        "skills_loaded": skills_collection.count(),
         "field_memory_docs": memory_collection.count(),
         "users": user_count,
         "pastures": pasture_count,
