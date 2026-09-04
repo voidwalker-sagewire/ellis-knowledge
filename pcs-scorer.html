@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pasture Condition Score | Ellis</title>
+<style>
+  :root {
+    --bg: #1b2417; --card: #232f1d; --border: #3a4a32;
+    --text: #eef2e8; --text-muted: #a3b195;
+    --accent: #7fb069; --accent-dark: #4d7a38; --danger: #c96f6f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px 16px 60px;
+    max-width: 520px; margin: 0 auto;
+  }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+  h2 { font-size: 15px; font-weight: 600; color: var(--accent); margin: 24px 0 10px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .subtitle { font-size: 14px; color: var(--text-muted); margin: 0 0 8px; }
+  label { display: block; font-size: 13px; color: var(--text-muted); margin-bottom: 6px; }
+  input[type="text"], input[type="email"], input[type="password"], input[type="number"], select {
+    width: 100%; padding: 9px 11px; background: var(--card); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); font-size: 15px; font-family: inherit;
+  }
+  .field { margin-bottom: 14px; }
+  .btn {
+    background: var(--accent-dark); color: white; border: none; padding: 12px;
+    border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; width: 100%;
+  }
+  .btn-outline {
+    background: transparent; border: 1px solid var(--accent); color: var(--accent);
+    padding: 10px; border-radius: 8px; font-size: 14px; cursor: pointer; width: 100%;
+  }
+  .error { color: var(--danger); font-size: 13px; margin: 8px 0; display: none; }
+  .hidden { display: none; }
+
+  #app-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  #app-header span { font-size: 13px; color: var(--text-muted); }
+  #app-header a { color: var(--accent); font-size: 13px; cursor: pointer; }
+
+  .pasture-select-row { display: flex; gap: 8px; margin-bottom: 16px; }
+  .pasture-select-row select { flex: 1; }
+
+  .indicator {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 14px; margin-bottom: 10px;
+  }
+  .indicator-name { font-size: 14px; font-weight: 500; margin-bottom: 8px; }
+  .score-buttons { display: flex; gap: 6px; }
+  .score-btn {
+    flex: 1; padding: 8px 0; text-align: center; border-radius: 6px; border: 1px solid var(--border);
+    background: transparent; color: var(--text-muted); font-size: 14px; cursor: pointer;
+  }
+  .score-btn.selected { background: var(--accent); color: #1b2417; border-color: var(--accent); font-weight: 600; }
+
+  .total-box {
+    background: var(--card); border: 1px solid var(--accent); border-radius: 12px;
+    padding: 16px; text-align: center; margin: 16px 0;
+  }
+  .total-score { font-size: 32px; font-weight: 700; color: var(--accent); }
+  .total-note { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
+
+  .history-item {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 10px 12px; margin-bottom: 8px; font-size: 13px; display: flex; justify-content: space-between;
+  }
+  .history-score { font-weight: 600; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- AUTH SCREEN -->
+<div id="auth-screen">
+  <h1>Ellis — Pasture Condition Score</h1>
+  <p class="subtitle">Log in to track scores over time for each of your pastures.</p>
+
+  <div id="login-form">
+    <h2>Log in</h2>
+    <div class="field"><label>Email</label><input type="email" id="login-email"></div>
+    <div class="field"><label>Password</label><input type="password" id="login-password"></div>
+    <p class="error" id="login-error"></p>
+    <button class="btn" onclick="login()">Log in</button>
+    <p style="text-align:center; margin-top:14px; font-size:13px;">
+      <a style="color:var(--accent); cursor:pointer;" onclick="showRegister()">Need an account? Register</a>
+    </p>
+  </div>
+
+  <div id="register-form" class="hidden">
+    <h2>Create account</h2>
+    <div class="field"><label>Email</label><input type="email" id="reg-email"></div>
+    <div class="field"><label>Password (8+ characters)</label><input type="password" id="reg-password"></div>
+    <div class="field"><label>Name (optional)</label><input type="text" id="reg-name"></div>
+    <p class="error" id="reg-error"></p>
+    <button class="btn" onclick="register()">Create account</button>
+    <p style="text-align:center; margin-top:14px; font-size:13px;">
+      <a style="color:var(--accent); cursor:pointer;" onclick="showLogin()">Already have an account? Log in</a>
+    </p>
+  </div>
+</div>
+
+<!-- MAIN APP -->
+<div id="main-app" class="hidden">
+  <div id="app-header">
+    <span id="user-email"></span>
+    <a onclick="logout()">Log out</a>
+  </div>
+
+  <h1>Pasture Condition Score</h1>
+
+  <h2>Pasture</h2>
+  <div class="pasture-select-row">
+    <select id="pasture-select" onchange="onPastureChange()"></select>
+  </div>
+  <div class="field">
+    <input type="text" id="new-pasture-name" placeholder="New pasture name">
+    <div style="height:8px;"></div>
+    <input type="number" id="new-pasture-acres" placeholder="Acres (optional)">
+    <div style="height:8px;"></div>
+    <button class="btn-outline" onclick="createPasture()">+ Add new pasture</button>
+  </div>
+
+  <div id="scoring-section" class="hidden">
+    <h2>Score this pasture (1 = poorest, 5 = best)</h2>
+    <div id="indicators-list"></div>
+
+    <div class="field">
+      <label>Precipitation this season</label>
+      <select id="precip"><option value="normal">Normal</option><option value="above">Above normal</option><option value="below">Below normal</option></select>
+    </div>
+    <div class="field">
+      <label>Notes (optional)</label>
+      <input type="text" id="pcs-notes" placeholder="Anything worth remembering">
+    </div>
+
+    <div class="total-box">
+      <div class="total-score" id="total-display">0 / 50</div>
+      <div class="total-note" id="total-note-display">Score all 10 indicators</div>
+    </div>
+
+    <p class="error" id="submit-error"></p>
+    <button class="btn" onclick="submitScore()">Save score</button>
+
+    <h2>History for this pasture</h2>
+    <div id="history-list"><p style="color:var(--text-muted); font-size:13px;">No scores logged yet.</p></div>
+  </div>
+</div>
+
+<script>
+// IMPORTANT: set this to Ellis's real API base URL once the subdomain is live
+const API_BASE = "https://ellis.sagewire.dev";
+
+const INDICATORS = [
+  { key: "percent_desirable_plants", label: "Percent desirable plants" },
+  { key: "percent_legume", label: "Percent legume" },
+  { key: "live_plant_cover", label: "Live plant cover" },
+  { key: "plant_diversity", label: "Plant diversity" },
+  { key: "plant_residue_litter", label: "Plant residue & litter as soil cover" },
+  { key: "grazing_utilization_severity", label: "Grazing utilization & severity" },
+  { key: "livestock_concentration_areas", label: "Livestock concentration areas" },
+  { key: "soil_compaction_regeneration", label: "Soil compaction & regeneration" },
+  { key: "plant_vigor", label: "Plant vigor" },
+  { key: "erosion", label: "Erosion" },
+];
+
+let token = localStorage.getItem("ellis_token") || null;
+let currentUserEmail = localStorage.getItem("ellis_email") || "";
+let pastures = [];
+let selectedPastureId = null;
+let scores = {};
+
+function showRegister() {
+  document.getElementById("login-form").classList.add("hidden");
+  document.getElementById("register-form").classList.remove("hidden");
+}
+function showLogin() {
+  document.getElementById("register-form").classList.add("hidden");
+  document.getElementById("login-form").classList.remove("hidden");
+}
+
+async function apiCall(path, method, body, auth) {
+  const headers = { "Content-Type": "application/json" };
+  if (auth && token) headers["Authorization"] = "Bearer " + token;
+  const res = await fetch(API_BASE + path, {
+    method: method,
+    headers: headers,
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const data = await res.json().catch(function(){ return {}; });
+  if (!res.ok) throw new Error(data.detail || "Request failed");
+  return data;
+}
+
+async function register() {
+  const email = document.getElementById("reg-email").value.trim();
+  const password = document.getElementById("reg-password").value;
+  const name = document.getElementById("reg-name").value.trim();
+  const errEl = document.getElementById("reg-error");
+  errEl.style.display = "none";
+  try {
+    const data = await apiCall("/ellis/auth/register", "POST", { email: email, password: password, display_name: name || null }, false);
+    onAuthSuccess(data);
+  } catch (e) {
+    errEl.textContent = e.message;
+    errEl.style.display = "block";
+  }
+}
+
+async function login() {
+  const email = document.getElementById("login-email").value.trim();
+  const password = document.getElementById("login-password").value;
+  const errEl = document.getElementById("login-error");
+  errEl.style.display = "none";
+  try {
+    const data = await apiCall("/ellis/auth/login", "POST", { email: email, password: password }, false);
+    onAuthSuccess(data);
+  } catch (e) {
+    errEl.textContent = e.message;
+    errEl.style.display = "block";
+  }
+}
+
+function onAuthSuccess(data) {
+  token = data.token;
+  currentUserEmail = data.email;
+  localStorage.setItem("ellis_token", token);
+  localStorage.setItem("ellis_email", currentUserEmail);
+  showMainApp();
+}
+
+function logout() {
+  token = null;
+  localStorage.removeItem("ellis_token");
+  localStorage.removeItem("ellis_email");
+  document.getElementById("main-app").classList.add("hidden");
+  document.getElementById("auth-screen").classList.remove("hidden");
+}
+
+async function showMainApp() {
+  document.getElementById("auth-screen").classList.add("hidden");
+  document.getElementById("main-app").classList.remove("hidden");
+  document.getElementById("user-email").textContent = currentUserEmail;
+  renderIndicators();
+  await loadPastures();
+}
+
+async function loadPastures() {
+  try {
+    pastures = await apiCall("/ellis/pastures", "GET", null, true);
+    const sel = document.getElementById("pasture-select");
+    sel.innerHTML = '<option value="">Select a pasture...</option>';
+    pastures.forEach(function(p) {
+      const opt = document.createElement("option");
+      opt.value = p.id;
+      opt.textContent = p.name + (p.acres ? " (" + p.acres + " ac)" : "");
+      sel.appendChild(opt);
+    });
+  } catch (e) {
+    if (e.message.includes("expired") || e.message.includes("Invalid session")) logout();
+  }
+}
+
+async function createPasture() {
+  const name = document.getElementById("new-pasture-name").value.trim();
+  const acres = parseFloat(document.getElementById("new-pasture-acres").value) || null;
+  if (!name) return;
+  await apiCall("/ellis/pastures", "POST", { name: name, acres: acres }, true);
+  document.getElementById("new-pasture-name").value = "";
+  document.getElementById("new-pasture-acres").value = "";
+  await loadPastures();
+}
+
+function onPastureChange() {
+  const sel = document.getElementById("pasture-select");
+  selectedPastureId = sel.value || null;
+  const section = document.getElementById("scoring-section");
+  if (selectedPastureId) {
+    section.classList.remove("hidden");
+    scores = {};
+    renderIndicators();
+    loadHistory();
+  } else {
+    section.classList.add("hidden");
+  }
+}
+
+function renderIndicators() {
+  const container = document.getElementById("indicators-list");
+  container.innerHTML = "";
+  INDICATORS.forEach(function(ind) {
+    const div = document.createElement("div");
+    div.className = "indicator";
+    let buttonsHtml = "";
+    for (let i = 1; i <= 5; i++) {
+      buttonsHtml += '<button class="score-btn" data-key="' + ind.key + '" data-val="' + i + '" onclick="selectScore(\'' + ind.key + '\', ' + i + ')">' + i + '</button>';
+    }
+    div.innerHTML = '<div class="indicator-name">' + ind.label + '</div><div class="score-buttons">' + buttonsHtml + '</div>';
+    container.appendChild(div);
+  });
+  updateTotal();
+}
+
+function selectScore(key, val) {
+  scores[key] = val;
+  document.querySelectorAll('.score-btn[data-key="' + key + '"]').forEach(function(btn) {
+    btn.classList.toggle("selected", parseInt(btn.dataset.val) === val);
+  });
+  updateTotal();
+}
+
+function updateTotal() {
+  const scored = INDICATORS.filter(function(i){ return scores[i.key] !== undefined; });
+  const total = scored.reduce(function(sum, i){ return sum + scores[i.key]; }, 0);
+  document.getElementById("total-display").textContent = total + " / 50";
+  let note = "Score all 10 indicators";
+  if (scored.length === 10) {
+    if (total >= 45) note = "No changes needed at this time.";
+    else if (total >= 35) note = "Minor changes would enhance condition.";
+    else if (total >= 25) note = "Improvements would benefit productivity/environment.";
+    else if (total >= 15) note = "Needs immediate management changes.";
+    else note = "Major effort required.";
+  } else {
+    note = (10 - scored.length) + " indicator(s) remaining";
+  }
+  document.getElementById("total-note-display").textContent = note;
+}
+
+async function submitScore() {
+  const errEl = document.getElementById("submit-error");
+  errEl.style.display = "none";
+  const scoredKeys = Object.keys(scores);
+  if (scoredKeys.length < 10) {
+    errEl.textContent = "Score all 10 indicators before saving.";
+    errEl.style.display = "block";
+    return;
+  }
+  try {
+    await apiCall("/ellis/pcs/submit", "POST", {
+      pasture_id: parseInt(selectedPastureId),
+      indicators: scores,
+      precipitation: document.getElementById("precip").value,
+      notes: document.getElementById("pcs-notes").value || null,
+    }, true);
+    scores = {};
+    renderIndicators();
+    document.getElementById("pcs-notes").value = "";
+    await loadHistory();
+  } catch (e) {
+    errEl.textContent = e.message;
+    errEl.style.display = "block";
+  }
+}
+
+async function loadHistory() {
+  const list = document.getElementById("history-list");
+  try {
+    const history = await apiCall("/ellis/pcs/history/" + selectedPastureId, "GET", null, true);
+    if (history.length === 0) {
+      list.innerHTML = '<p style="color:var(--text-muted); font-size:13px;">No scores logged yet.</p>';
+      return;
+    }
+    list.innerHTML = "";
+    history.slice().reverse().forEach(function(h) {
+      const date = new Date(h.scored_at).toLocaleDateString();
+      const div = document.createElement("div");
+      div.className = "history-item";
+      div.innerHTML = '<span>' + date + '</span><span class="history-score">' + h.total_score + '/50</span>';
+      list.appendChild(div);
+    });
+  } catch (e) {
+    list.innerHTML = '<p style="color:var(--text-muted); font-size:13px;">Could not load history.</p>';
+  }
+}
+
+// Resume session if already logged in
+if (token) {
+  showMainApp();
+}
+</script>
+
+</body>
+</html>

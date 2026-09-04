@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grazing Plan Checklist | Ellis</title>
+<style>
+  :root {
+    --bg: #1b2417; --card: #232f1d; --border: #3a4a32;
+    --text: #eef2e8; --text-muted: #a3b195;
+    --accent: #7fb069; --accent-dark: #4d7a38;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px 16px 60px;
+    max-width: 520px; margin: 0 auto;
+  }
+  h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+  h2 { font-size: 15px; font-weight: 600; color: var(--accent); margin: 28px 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .subtitle { font-size: 14px; color: var(--text-muted); margin: 0 0 8px; }
+  label { display: block; font-size: 13px; color: var(--text-muted); margin-bottom: 6px; }
+  .field { margin-bottom: 14px; }
+  input[type="text"], input[type="number"], input[type="date"], select, textarea {
+    width: 100%; padding: 9px 11px; background: var(--card); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); font-size: 15px; font-family: inherit;
+  }
+  textarea { resize: vertical; min-height: 60px; }
+  .check-row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 14px; }
+  .check-row input { width: 18px; height: 18px; accent-color: var(--accent); flex-shrink: 0; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .weed-row { display: flex; gap: 8px; margin-bottom: 8px; }
+  .weed-row input { flex: 1; }
+  .small-btn {
+    background: var(--card); border: 1px solid var(--border); color: var(--accent);
+    padding: 6px 12px; border-radius: 6px; font-size: 13px; cursor: pointer;
+  }
+  .generate-btn {
+    width: 100%; background: var(--accent-dark); color: white; border: none;
+    padding: 14px; border-radius: 10px; font-size: 16px; font-weight: 600;
+    margin-top: 24px; cursor: pointer;
+  }
+  .generate-btn:active { background: var(--accent); }
+  #plan-output {
+    display: none; margin-top: 24px; background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px; white-space: pre-wrap; font-size: 14px; line-height: 1.6;
+  }
+  .copy-btn {
+    margin-top: 12px; width: 100%; background: transparent; border: 1px solid var(--accent);
+    color: var(--accent); padding: 10px; border-radius: 8px; font-size: 14px; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<h1>Grazing plan checklist</h1>
+<p class="subtitle">Fill this in field by field. At the end, it compiles into a written plan you can copy, print, or hand to an NRCS office.</p>
+
+<h2>Producer objectives</h2>
+<div id="objectives">
+  <label class="check-row"><input type="checkbox" value="Increase forage diversity"> Increase forage diversity</label>
+  <label class="check-row"><input type="checkbox" value="Increase forage yields"> Increase forage yields</label>
+  <label class="check-row"><input type="checkbox" value="Improve grazing utilization"> Improve grazing utilization</label>
+  <label class="check-row"><input type="checkbox" value="Use less hay or silage"> Use less hay or silage</label>
+  <label class="check-row"><input type="checkbox" value="Increase profit"> Increase profit</label>
+  <label class="check-row"><input type="checkbox" value="Improve water quality"> Improve water quality</label>
+  <label class="check-row"><input type="checkbox" value="Increase number of livestock"> Increase number of livestock</label>
+  <label class="check-row"><input type="checkbox" value="Improve animal performance"> Improve animal performance</label>
+  <label class="check-row"><input type="checkbox" value="Reduce reliance on outside feed sources"> Reduce reliance on outside feed sources</label>
+  <label class="check-row"><input type="checkbox" value="Extend the grazing season"> Extend the grazing season</label>
+  <label class="check-row"><input type="checkbox" value="Grass-finished / organic / direct-market"> Grass-finished, organic, or direct-market</label>
+</div>
+
+<h2>Soils basics</h2>
+<div class="three-col">
+  <div class="field"><label>Last soil test</label><input type="text" id="soil-test-year" placeholder="e.g. 2025"></div>
+  <div class="field"><label>Last lime applied</label><input type="text" id="lime-year" placeholder="e.g. 2024"></div>
+  <div class="field"><label>Last fertilizer</label><input type="text" id="fert-year" placeholder="e.g. 2025"></div>
+</div>
+
+<h2>Forage information</h2>
+<div class="field"><label>Current grazing method</label>
+  <select id="method"><option>Continuous</option><option selected>Rotational</option><option>Management-intensive (MIG)</option><option>Mob / high-density</option></select>
+</div>
+<div class="field"><label>Forage species present</label><input type="text" id="forage-species" placeholder="e.g. tall fescue, red clover, orchardgrass"></div>
+<div class="field"><label>Hay fields grazed? When / how long</label><input type="text" id="hay-fields" placeholder="e.g. yes, Nov-Dec after last cutting"></div>
+<div class="field"><label>Season extension methods in use</label><input type="text" id="extension-methods" placeholder="e.g. stockpiling fescue, turnips"></div>
+
+<h2>Weed / brush problems</h2>
+<div id="weed-list">
+  <div class="weed-row"><input type="text" placeholder="Weed"><input type="text" placeholder="Paddock / location"></div>
+</div>
+<button class="small-btn" onclick="addWeedRow()">+ Add another</button>
+
+<h2>Herd / paddock health flags</h2>
+<div class="check-row"><input type="checkbox" id="flag-gain"> Poor rates of gain</div>
+<div class="check-row"><input type="checkbox" id="flag-breeding"> Breeding problems</div>
+<div class="check-row"><input type="checkbox" id="flag-calving"> Calving problems</div>
+
+<h2>Fencing & map items</h2>
+<div class="two-col">
+  <div class="field"><label>Existing paddocks</label><input type="number" id="paddocks-existing" min="0"></div>
+  <div class="field"><label>Planned paddocks</label><input type="number" id="paddocks-planned" min="0"></div>
+</div>
+<div class="field"><label>Perimeter fence type</label>
+  <select id="perimeter-fence"><option>Barbed wire</option><option>Woven wire</option><option selected>High-tensile electric</option></select>
+</div>
+<div class="field"><label>Cross-fence type</label>
+  <select id="cross-fence"><option selected>High-tensile electric</option><option>Polywire / temporary</option><option>Woven wire</option></select>
+</div>
+<div class="field"><label>Erosion or other concerns</label><textarea id="erosion-notes" placeholder="Streambanks, gullies, bare areas to note for follow-up"></textarea></div>
+
+<h2>Livestock information</h2>
+<div class="three-col">
+  <div class="field"><label>Species / class</label><input type="text" id="livestock-class" placeholder="Cow/calf pairs"></div>
+  <div class="field"><label>Head count</label><input type="number" id="livestock-head" min="0"></div>
+  <div class="field"><label>Avg weight (lb)</label><input type="number" id="livestock-weight" min="0"></div>
+</div>
+<div class="two-col">
+  <div class="field"><label>Breeding season</label><input type="text" id="breeding-season" placeholder="e.g. 90-day, spring"></div>
+  <div class="field"><label>Calving months</label><input type="text" id="calving-months" placeholder="e.g. March-April"></div>
+</div>
+
+<h2>Watering</h2>
+<div class="two-col">
+  <div class="field"><label>Water source(s)</label><input type="text" id="water-source" placeholder="Pond, well, rural water"></div>
+  <div class="field"><label>Troughs frost-free?</label>
+    <select id="frost-free"><option>Yes</option><option>No</option><option>N/A</option></select>
+  </div>
+</div>
+
+<button class="generate-btn" onclick="generatePlan()">Generate written plan</button>
+
+<div id="plan-output"></div>
+<button class="copy-btn" id="copy-btn" style="display:none;" onclick="copyPlan()">Copy plan text</button>
+
+<script>
+function addWeedRow() {
+  var list = document.getElementById('weed-list');
+  var row = document.createElement('div');
+  row.className = 'weed-row';
+  row.innerHTML = '<input type="text" placeholder="Weed"><input type="text" placeholder="Paddock / location">';
+  list.appendChild(row);
+}
+
+function generatePlan() {
+  var objectives = Array.from(document.querySelectorAll('#objectives input:checked')).map(function(el){ return el.value; });
+  var weedRows = document.querySelectorAll('#weed-list .weed-row');
+  var weeds = [];
+  weedRows.forEach(function(row) {
+    var inputs = row.querySelectorAll('input');
+    if (inputs[0].value.trim()) {
+      weeds.push(inputs[0].value.trim() + (inputs[1].value.trim() ? ' — ' + inputs[1].value.trim() : ''));
+    }
+  });
+
+  var healthFlags = [];
+  if (document.getElementById('flag-gain').checked) healthFlags.push('Poor rates of gain');
+  if (document.getElementById('flag-breeding').checked) healthFlags.push('Breeding problems');
+  if (document.getElementById('flag-calving').checked) healthFlags.push('Calving problems');
+
+  var g = function(id) { return document.getElementById(id).value.trim(); };
+
+  var lines = [];
+  lines.push('GRAZING MANAGEMENT PLAN');
+  lines.push('Generated ' + new Date().toLocaleDateString());
+  lines.push('');
+  lines.push('OBJECTIVES');
+  lines.push(objectives.length ? objectives.map(function(o){return '- ' + o;}).join('\n') : '(none selected)');
+  lines.push('');
+  lines.push('SOILS');
+  lines.push('Last soil test: ' + (g('soil-test-year') || 'not recorded'));
+  lines.push('Last lime applied: ' + (g('lime-year') || 'not recorded'));
+  lines.push('Last fertilizer applied: ' + (g('fert-year') || 'not recorded'));
+  lines.push('');
+  lines.push('FORAGE');
+  lines.push('Current grazing method: ' + document.getElementById('method').value);
+  lines.push('Forage species: ' + (g('forage-species') || 'not recorded'));
+  lines.push('Hay field grazing: ' + (g('hay-fields') || 'not recorded'));
+  lines.push('Season extension methods: ' + (g('extension-methods') || 'none noted'));
+  lines.push('');
+  lines.push('WEED / BRUSH PROBLEMS');
+  lines.push(weeds.length ? weeds.map(function(w){return '- ' + w;}).join('\n') : 'None noted');
+  lines.push('');
+  lines.push('HERD HEALTH FLAGS');
+  lines.push(healthFlags.length ? healthFlags.map(function(h){return '- ' + h;}).join('\n') : 'None flagged');
+  lines.push('');
+  lines.push('FENCING & PADDOCKS');
+  lines.push('Existing paddocks: ' + (g('paddocks-existing') || '0'));
+  lines.push('Planned paddocks: ' + (g('paddocks-planned') || '0'));
+  lines.push('Perimeter fence: ' + document.getElementById('perimeter-fence').value);
+  lines.push('Cross fence: ' + document.getElementById('cross-fence').value);
+  if (g('erosion-notes')) { lines.push('Erosion / concerns: ' + g('erosion-notes')); }
+  lines.push('');
+  lines.push('LIVESTOCK');
+  lines.push('Class: ' + (g('livestock-class') || 'not recorded'));
+  lines.push('Head count: ' + (g('livestock-head') || 'not recorded'));
+  lines.push('Average weight: ' + (g('livestock-weight') ? g('livestock-weight') + ' lb' : 'not recorded'));
+  lines.push('Breeding season: ' + (g('breeding-season') || 'not recorded'));
+  lines.push('Calving months: ' + (g('calving-months') || 'not recorded'));
+  lines.push('');
+  lines.push('WATER');
+  lines.push('Source(s): ' + (g('water-source') || 'not recorded'));
+  lines.push('Frost-free troughs: ' + document.getElementById('frost-free').value);
+  lines.push('');
+  lines.push('--- Ask Ellis to review this plan and flag anything missing or worth reconsidering. ---');
+
+  var out = document.getElementById('plan-output');
+  out.textContent = lines.join('\n');
+  out.style.display = 'block';
+  document.getElementById('copy-btn').style.display = 'block';
+  out.scrollIntoView({ behavior: 'smooth' });
+}
+
+function copyPlan() {
+  var text = document.getElementById('plan-output').textContent;
+  navigator.clipboard.writeText(text).then(function() {
+    var btn = document.getElementById('copy-btn');
+    var original = btn.textContent;
+    btn.textContent = 'Copied';
+    setTimeout(function(){ btn.textContent = original; }, 1500);
+  });
+}
+</script>
+
+</body>
+</html>
