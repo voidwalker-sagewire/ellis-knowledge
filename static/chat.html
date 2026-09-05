@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Ellis — Land & Livestock AI</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Source+Sans+3:wght@400;600&display=swap');
+
+  :root {
+    --bg:#0f140d; --panel:#1a2314; --panel2:#212c19; --border:#3a4a32;
+    --accent:#7fb069; --accent-dim:#1a2a12; --accent-muted:#4d7a38;
+    --text:#eef2e8; --muted:#8a9a7d; --red:#e04040; --red-dim:#3d1010;
+    --blue:#4a9eff; --blue-dim:#0a1a2a;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; -webkit-tap-highlight-color:transparent; }
+  body { background:var(--bg); color:var(--text); font-family:'Source Sans 3',sans-serif; min-height:100vh; display:flex; flex-direction:column; }
+
+  header { background:var(--bg); border-bottom:3px solid var(--accent); padding:10px 14px; display:flex; align-items:center; gap:10px; position:sticky; top:0; z-index:100; }
+  .logo { font-family:'Oswald',sans-serif; font-size:1.5rem; font-weight:700; color:var(--accent); }
+  .logo-sub { font-size:0.6rem; letter-spacing:2px; color:var(--muted); text-transform:uppercase; margin-top:2px; }
+  .hdr-right { margin-left:auto; display:flex; align-items:center; gap:6px; }
+  .hdr-btn { background:var(--panel2); border:1px solid var(--border); border-radius:8px; padding:6px 12px; font-size:0.75rem; color:var(--muted); cursor:pointer; text-decoration:none; font-family:'Source Sans 3',sans-serif; display:flex; align-items:center; min-height:36px; }
+  .hdr-btn:hover { border-color:var(--accent); color:var(--accent); }
+
+  .status-bar { padding:7px 14px; display:flex; align-items:center; gap:8px; font-size:0.75rem; font-weight:600; }
+  .status-bar.ok { background:var(--accent-dim); border-bottom:1px solid var(--accent); color:var(--accent); }
+  .status-bar.warn { background:#2a2000; border-bottom:1px solid #d4a13d; color:#d4a13d; }
+  .status-bar.err { background:var(--red-dim); border-bottom:1px solid var(--red); color:var(--red); }
+
+  .chat-wrap { flex:1; overflow-y:auto; padding:14px 14px 150px; display:flex; flex-direction:column; gap:14px; }
+
+  .msg { display:flex; flex-direction:column; gap:6px; }
+  .msg.user { align-items:flex-end; }
+  .msg.assistant { align-items:flex-start; }
+
+  .bubble { max-width:85%; padding:12px 16px; border-radius:14px; line-height:1.6; font-size:0.88rem; }
+  .msg.user .bubble { background:var(--accent); color:#0f140d; border-radius:14px 14px 4px 14px; font-weight:600; }
+  .msg.assistant .bubble { background:var(--panel); border:1px solid var(--border); border-radius:14px 14px 14px 4px; color:var(--text); }
+
+  .sources { font-size:0.68rem; color:var(--muted); padding:4px 8px; }
+  .sources span { background:var(--panel2); border:1px solid var(--border); border-radius:4px; padding:2px 6px; margin-right:4px; display:inline-block; margin-top:2px; }
+
+  .skills-used { font-size:0.68rem; color:var(--accent); padding:2px 8px; }
+  .skills-used span { background:var(--accent-dim); border:1px solid var(--accent-muted); border-radius:4px; padding:2px 6px; margin-right:4px; display:inline-block; margin-top:2px; }
+
+  .past-q { font-size:0.72rem; color:var(--blue); background:var(--blue-dim); border:1px solid #1a3a5a; border-radius:6px; padding:6px 10px; margin-top:4px; }
+  .past-q-label { font-size:0.6rem; text-transform:uppercase; letter-spacing:1px; color:var(--blue); margin-bottom:2px; font-family:'Oswald',sans-serif; }
+
+  .disclaimer { font-size:0.72rem; color:var(--muted); background:var(--panel2); border:1px solid var(--border); border-radius:8px; padding:10px 14px; margin:0 14px 10px; line-height:1.6; }
+  .disclaimer strong { color:var(--accent); }
+
+  .input-bar { position:fixed; bottom:0; left:0; right:0; background:var(--panel); border-top:2px solid var(--accent); padding:10px 14px; display:flex; flex-direction:column; gap:8px; z-index:50; }
+  .context-row { display:flex; gap:6px; flex-wrap:wrap; }
+  .ctx-input { background:var(--bg); border:1px solid var(--border); border-radius:6px; color:var(--text); font-size:0.72rem; padding:4px 8px; outline:none; flex:1; min-width:80px; min-height:30px; }
+  .ctx-input::placeholder { color:var(--muted); font-size:0.68rem; }
+  .ctx-input:focus { border-color:var(--accent); }
+  .input-row { display:flex; gap:8px; }
+  #questionInput { flex:1; background:var(--bg); border:2px solid var(--accent); border-radius:10px; color:var(--text); font-family:'Source Sans 3',sans-serif; font-size:0.95rem; padding:12px 14px; outline:none; resize:none; min-height:52px; max-height:120px; line-height:1.5; }
+  #questionInput::placeholder { color:var(--muted); font-size:0.85rem; }
+  .ask-btn { background:var(--accent); border:none; border-radius:10px; color:#0f140d; font-family:'Oswald',sans-serif; font-size:1rem; font-weight:700; padding:12px 18px; cursor:pointer; min-height:52px; min-width:72px; transition:background .15s; }
+  .ask-btn:disabled { opacity:0.4; cursor:not-allowed; }
+  .icon-btn { background:var(--accent-dim); border:2px solid var(--accent-muted); color:var(--accent); min-width:52px; min-height:52px; border-radius:10px; font-size:1.2rem; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+
+  .typing { display:flex; gap:4px; align-items:center; padding:14px 16px; }
+  .typing span { width:8px; height:8px; border-radius:50%; background:var(--muted); animation:typing 1.2s infinite; }
+  .typing span:nth-child(2) { animation-delay:0.2s; }
+  .typing span:nth-child(3) { animation-delay:0.4s; }
+  @keyframes typing { 0%,100%{opacity:0.3;transform:scale(0.8)} 50%{opacity:1;transform:scale(1)} }
+
+  .empty-state { text-align:center; padding:40px 20px; color:var(--muted); }
+  .empty-icon { font-size:3rem; margin-bottom:12px; opacity:0.5; }
+  .empty-title { font-family:'Oswald',sans-serif; font-size:1.1rem; color:var(--accent); margin-bottom:8px; }
+  .empty-desc { font-size:0.82rem; line-height:1.7; max-width:280px; margin:0 auto; }
+  .quick-q { display:inline-block; background:var(--accent-dim); border:1px solid var(--accent-muted); border-radius:8px; color:var(--accent); font-size:0.78rem; padding:6px 12px; margin:4px; cursor:pointer; }
+  .quick-q:hover { background:var(--accent); color:#0f140d; }
+</style>
+</head>
+<body id="app">
+
+<header>
+  <div>
+    <div class="logo">🌾 ELLIS</div>
+    <div class="logo-sub">Land, Livestock & Sustainable Systems</div>
+  </div>
+  <div class="hdr-right">
+    <a href="/tools/pcs-score" class="hdr-btn">📋 PCS</a>
+    <a href="/tools/grazing-calculator" class="hdr-btn">🧮 Calc</a>
+    <a href="/tools/grazing-chart" class="hdr-btn">📅 Chart</a>
+  </div>
+</header>
+
+<div class="status-bar warn" id="statusBar">⏳ Waking up Ellis...</div>
+
+<div class="disclaimer">
+  <strong>🌾 Land & Livestock Reference</strong> — Ellis handles grazing, soil, fencing, water, and forage questions. For animal health and medical questions, ask Dave at davesvetstation.com instead.
+</div>
+
+<div class="chat-wrap" id="chatWrap">
+  <div class="empty-state" id="emptyState">
+    <div class="empty-icon">🌾</div>
+    <div class="empty-title">Hey. I'm Ellis. What's going on out there?</div>
+    <div class="empty-desc">Ask me about grazing, pasture condition, fencing, water, forage, or weeds. Plain language is fine — I'll teach you the principle, or help you decide, whichever you need.</div>
+    <div style="margin-top:16px;">
+      <div class="quick-q" onclick="quickAsk('Should I mob graze this pasture harder if it isnt bouncing back?')">Paddock not recovering</div>
+      <div class="quick-q" onclick="quickAsk('Whats the difference between stocking rate and stock density?')">Rate vs. density</div>
+      <div class="quick-q" onclick="quickAsk('How do I calculate grazing days for a pasture?')">Grazing days math</div>
+      <div class="quick-q" onclick="quickAsk('What is a good stubble height to leave when grazing?')">Residual height</div>
+      <div class="quick-q" onclick="quickAsk('How do I set up temporary electric fencing for strip grazing?')">Temporary fencing</div>
+      <div class="quick-q" onclick="quickAsk('When should I start stockpiling fescue for winter grazing?')">Stockpiling fescue</div>
+    </div>
+  </div>
+</div>
+
+<div class="input-bar">
+  <div class="context-row">
+    <input class="ctx-input" id="ctxLocation" placeholder="📍 Location (optional)" />
+    <input class="ctx-input" id="ctxAcreage" placeholder="📏 Acreage (optional)" />
+    <input class="ctx-input" id="ctxMethod" placeholder="🐄 Grazing method (optional)" />
+  </div>
+  <div class="input-row">
+    <textarea id="questionInput" placeholder="Describe what you're seeing, or ask a question..." rows="1"></textarea>
+    <label for="photoInput" class="icon-btn" title="Attach a photo (e.g. a plant to identify)">📷</label>
+    <input type="file" id="photoInput" accept="image/*" style="display:none;" onchange="handlePhoto(this)" />
+    <button class="ask-btn" id="askBtn" onclick="askQuestion()">ASK</button>
+  </div>
+  <div id="photoPreviewBar" style="display:none;align-items:center;gap:8px;padding:4px 0;">
+    <img id="photoPreview" style="height:40px;border-radius:6px;border:1px solid var(--accent);" />
+    <span style="font-size:0.72rem;color:var(--accent);">📷 Photo attached</span>
+    <button onclick="clearPhoto()" style="background:none;border:none;color:var(--muted);cursor:pointer;font-size:0.9rem;">✕</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  var API_BASE = 'https://ellis.sagewire.dev';
+  var conversationHistory = [];
+  var MAX_HISTORY = 8;
+  var isLoading = false;
+  var pendingPhoto = null;
+
+  function checkStatus() {
+    fetch(API_BASE + '/ellis/status')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var bar = document.getElementById('statusBar');
+        if (data.knowledge_docs > 0) {
+          bar.textContent = '✅ Ellis is ready — ' + data.knowledge_docs + ' references, ' + (data.skills_loaded || 0) + ' skills loaded';
+          bar.className = 'status-bar ok';
+        } else {
+          bar.textContent = '⚠️ Ellis has no knowledge yet';
+          bar.className = 'status-bar warn';
+        }
+      })
+      .catch(function() {
+        var bar = document.getElementById('statusBar');
+        bar.textContent = '❌ Ellis is offline — check server connection';
+        bar.className = 'status-bar err';
+      });
+  }
+
+  var ta = document.getElementById('questionInput');
+  ta.addEventListener('input', function() {
+    this.style.height = 'auto';
+    this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+  });
+  ta.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      askQuestion();
+    }
+  });
+
+  window.quickAsk = function(q) {
+    document.getElementById('questionInput').value = q;
+    askQuestion();
+  };
+
+  window.handlePhoto = function(input) {
+    if (!input.files || !input.files.length) return;
+    var file = input.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      var dataUrl = e.target.result;
+      pendingPhoto = { base64: dataUrl.split(',')[1], type: file.type || 'image/jpeg' };
+      document.getElementById('photoPreview').src = dataUrl;
+      document.getElementById('photoPreviewBar').style.display = 'flex';
+    };
+    reader.readAsDataURL(file);
+  };
+
+  window.clearPhoto = function() {
+    pendingPhoto = null;
+    document.getElementById('photoInput').value = '';
+    document.getElementById('photoPreviewBar').style.display = 'none';
+  };
+
+  window.askQuestion = function() {
+    if (isLoading) return;
+    var q = document.getElementById('questionInput').value.trim();
+    if (!q) return;
+
+    document.getElementById('emptyState').style.display = 'none';
+    addMessage('user', q);
+    document.getElementById('questionInput').value = '';
+    document.getElementById('questionInput').style.height = 'auto';
+
+    isLoading = true;
+    document.getElementById('askBtn').disabled = true;
+    var typingEl = addTyping();
+
+    var location = document.getElementById('ctxLocation').value.trim();
+    var acreage = document.getElementById('ctxAcreage').value.trim();
+    var method = document.getElementById('ctxMethod').value.trim();
+
+    conversationHistory.push({ role: 'user', content: q });
+    if (conversationHistory.length > MAX_HISTORY) conversationHistory = conversationHistory.slice(-MAX_HISTORY);
+
+    var requestBody = {
+      question: q,
+      location: location || null,
+      acreage: acreage || null,
+      grazing_method: method || null,
+      user_id: localStorage.getItem('ellis_email') || 'default',
+      conversation_history: conversationHistory.slice(0, -1)
+    };
+
+    if (pendingPhoto) {
+      requestBody.image_base64 = pendingPhoto.base64;
+      requestBody.image_type = pendingPhoto.type;
+    }
+
+    fetch(API_BASE + '/ellis/ask', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(requestBody)
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      typingEl.remove();
+      addAssistantMessage(data);
+      if (data.answer) {
+        conversationHistory.push({ role: 'assistant', content: data.answer });
+        if (conversationHistory.length > MAX_HISTORY) conversationHistory = conversationHistory.slice(-MAX_HISTORY);
+      }
+      clearPhoto();
+    })
+    .catch(function() {
+      typingEl.remove();
+      addMessage('assistant', '❌ Could not reach Ellis. Check your connection.');
+    })
+    .finally(function() {
+      isLoading = false;
+      document.getElementById('askBtn').disabled = false;
+    });
+  };
+
+  function addMessage(role, text) {
+    var wrap = document.getElementById('chatWrap');
+    var div = document.createElement('div');
+    div.className = 'msg ' + role;
+    var bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.textContent = text;
+    div.appendChild(bubble);
+    wrap.appendChild(div);
+    wrap.scrollTop = wrap.scrollHeight;
+    return div;
+  }
+
+  function addAssistantMessage(data) {
+    var wrap = document.getElementById('chatWrap');
+    var div = document.createElement('div');
+    div.className = 'msg assistant';
+
+    var bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.innerHTML = esc(data.answer || 'No response.').replace(/\n/g, '<br>');
+    div.appendChild(bubble);
+
+    if (data.skills_used && data.skills_used.length > 0) {
+      var sk = document.createElement('div');
+      sk.className = 'skills-used';
+      sk.innerHTML = '🧭 ' + data.skills_used.map(function(s) {
+        return '<span>' + esc(s) + '</span>';
+      }).join('');
+      div.appendChild(sk);
+    }
+
+    if (data.sources && data.sources.length > 0) {
+      var src = document.createElement('div');
+      src.className = 'sources';
+      src.innerHTML = '📚 Sources: ' + data.sources.map(function(s) {
+        var name = s.split('/').pop() || s;
+        return '<span>' + esc(name) + '</span>';
+      }).join('');
+      div.appendChild(src);
+    }
+
+    if (data.similar_past_questions && data.similar_past_questions.length > 0) {
+      var past = document.createElement('div');
+      past.className = 'past-q';
+      past.innerHTML = '<div class="past-q-label">💭 You asked something similar before</div>' + esc(data.similar_past_questions[0]);
+      div.appendChild(past);
+    }
+
+    wrap.appendChild(div);
+    wrap.scrollTop = wrap.scrollHeight;
+  }
+
+  function addTyping() {
+    var wrap = document.getElementById('chatWrap');
+    var div = document.createElement('div');
+    div.className = 'msg assistant';
+    var bubble = document.createElement('div');
+    bubble.className = 'bubble typing';
+    bubble.innerHTML = '<span></span><span></span><span></span>';
+    div.appendChild(bubble);
+    wrap.appendChild(div);
+    wrap.scrollTop = wrap.scrollHeight;
+    return div;
+  }
+
+  function esc(s) {
+    return String(s)
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;');
+  }
+
+  checkStatus();
+})();
+</script>
+</body>
+</html>
