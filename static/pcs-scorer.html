@@ -85,6 +85,20 @@
     <button class="btn" onclick="login()">Log in</button>
     <p style="text-align:center; margin-top:14px; font-size:13px;">
       <a style="color:var(--accent); cursor:pointer;" onclick="showRegister()">Need an account? Register</a>
+      &nbsp;·&nbsp;
+      <a style="color:var(--accent); cursor:pointer;" onclick="showReset()">Forgot password?</a>
+    </p>
+  </div>
+
+  <div id="reset-form" class="hidden">
+    <h2>Reset password</h2>
+    <p class="subtitle" style="margin-bottom:14px;">Enter your account email and a new password.</p>
+    <div class="field"><label>Email</label><input type="email" id="reset-email"></div>
+    <div class="field"><label>New password (8+ characters)</label><input type="password" id="reset-password"></div>
+    <p class="error" id="reset-error"></p>
+    <button class="btn" onclick="resetPassword()">Reset password</button>
+    <p style="text-align:center; margin-top:14px; font-size:13px;">
+      <a style="color:var(--accent); cursor:pointer;" onclick="showLogin()">Back to log in</a>
     </p>
   </div>
 
@@ -168,11 +182,18 @@ let scores = {};
 
 function showRegister() {
   document.getElementById("login-form").classList.add("hidden");
+  document.getElementById("reset-form").classList.add("hidden");
   document.getElementById("register-form").classList.remove("hidden");
 }
 function showLogin() {
   document.getElementById("register-form").classList.add("hidden");
+  document.getElementById("reset-form").classList.add("hidden");
   document.getElementById("login-form").classList.remove("hidden");
+}
+function showReset() {
+  document.getElementById("login-form").classList.add("hidden");
+  document.getElementById("register-form").classList.add("hidden");
+  document.getElementById("reset-form").classList.remove("hidden");
 }
 
 async function apiCall(path, method, body, auth) {
@@ -210,6 +231,20 @@ async function login() {
   errEl.style.display = "none";
   try {
     const data = await apiCall("/ellis/auth/login", "POST", { email: email, password: password }, false);
+    onAuthSuccess(data);
+  } catch (e) {
+    errEl.textContent = e.message;
+    errEl.style.display = "block";
+  }
+}
+
+async function resetPassword() {
+  const email = document.getElementById("reset-email").value.trim();
+  const newPassword = document.getElementById("reset-password").value;
+  const errEl = document.getElementById("reset-error");
+  errEl.style.display = "none";
+  try {
+    const data = await apiCall("/ellis/auth/reset-password", "POST", { email: email, new_password: newPassword }, false);
     onAuthSuccess(data);
   } catch (e) {
     errEl.textContent = e.message;
