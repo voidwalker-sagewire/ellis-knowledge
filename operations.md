@@ -8,18 +8,26 @@ stop, deploy, and troubleshoot this thing" doc — not the knowledge base index
 
 ## What's actually running — CONFIRMED LIVE
 
-- **Server:** `[SERVER_HOSTNAME - see internal ops wiki, not here]` (DigitalOcean droplet, [SERVER_IP - see internal ops wiki, not here])
+> **Note on placeholders below:** this repo is public. Real server IPs and
+> hostnames are deliberately replaced with placeholders here after an
+> earlier accidental leak — see "Server security hardening" further down.
+> Actual values live in Coolify env vars / a private notes location, not
+> in this file.
+
+- **Server:** `[SERVER_HOSTNAME - see internal ops wiki, not here]`
+  (DigitalOcean droplet, `[SERVER_IP - see internal ops wiki, not here]`)
 - **Deployment manager:** Coolify (same box as Dave/Alice/Joe/Hazel)
 - **Domain:** `https://ellis.sagewire.dev` — **confirmed live**, DNS and
   Traefik routing both work end to end (was an open item, is now done)
 - **Container port:** 5011 (internal only — not published to the host, same
   as the other four vet assistants. Traefik routes to it, the host itself
   can't `curl localhost:5011` directly.)
-- **GitHub repo:** `voidwalker-sagewire/ellis-knowledge` — ONE repo, holds
-  everything: knowledge `.txt` files, skills (`ellis_skills.json`), the
-  ingest scripts, the API (`ellis_vet_api.py`), the Sheets provisioner
-  (`ellis_sheet_provisioner.py`), the HTML tools under `static/`,
-  `Dockerfile`, `requirements.txt`.
+- **GitHub repo:** `voidwalker-sagewire/ellis-knowledge` — ONE repo. Knowledge
+  `.txt` files live in the `knowledge_base/` subfolder; everything else
+  (code, skills, tools, config) stays in the repo root: the API
+  (`ellis_vet_api.py`), skills (`ellis_skills.json`), the ingest scripts,
+  the Sheets provisioner (`ellis_sheet_provisioner.py`), the HTML tools
+  under `static/`, `Dockerfile`, `requirements.txt`.
 
 ## Storage — what survives a redeploy and what doesn't
 
@@ -86,10 +94,11 @@ this actually works now:
 curl -s https://ellis.sagewire.dev/ellis/status
 ```
 
-**Re-run knowledge ingest** (only after adding NEW knowledge files):
+**Re-run knowledge ingest** (only after adding NEW knowledge files — point
+it at the `knowledge_base/` subfolder, not the repo root):
 ```
 cd ~/ellis-knowledge && git pull
-python3 ellis_knowledge_ingest.py --dir .
+python3 ellis_knowledge_ingest.py --dir knowledge_base
 ```
 
 **Re-run skills ingest** (after adding/editing a skill in `ellis_skills.json`):
@@ -149,25 +158,32 @@ docker exec -it <container_id> python3 ellis_sheet_provisioner.py
 
 ## Frontend tools (served as static files)
 
-All served from the same container under `/tools/`:
+All served from the same container under `/tools/`, and all share one
+navigation bar and login-status indicator via `nav.js` (included on every
+page). Since all tools live under the same origin, logging in on ANY page
+makes every other page show the same logged-in state automatically — no
+separate login system per tool, just a shared indicator reading the same
+`localStorage` keys (`ellis_token`, `ellis_email`).
+
 - `https://ellis.sagewire.dev/tools/chat.html` — the actual conversational
   interface, cloned from Dave's working pattern. Shows sources and
   `skills_used` under each answer. **This is the main way to actually talk
   to Ellis** — everything else is a specialized form.
 - `https://ellis.sagewire.dev/tools/grazing-calculator.html` — grazing days
-  math (acreage, yield, method → grazing days). Stateless, nothing saved.
+  math (acreage, yield, method → grazing days). No data persistence.
 - `https://ellis.sagewire.dev/tools/grazing-plan-checklist.html` — fillable
-  intake form, generates a written plan doc. Stateless, nothing saved.
+  intake form, generates a written plan doc. No data persistence.
 - `https://ellis.sagewire.dev/tools/grazing-chart.html` — visual rotation
-  timeline. Stateless, nothing saved, browser-tab-only data.
+  timeline. No data persistence, browser-tab-only.
 - `https://ellis.sagewire.dev/tools/pcs-score` — pasture condition scorer,
   the one tool with real login + persistence (SQLite, see note above about
   this moving to Sheets).
 
-**Known gap:** these four tools + the pastures/PCS storage are not unified
-— no shared login across the calculator/checklist/chart, no cross-linking
-between them (chat.html links out to the others; they don't link back or to
-each other). Flagged, not yet fixed.
+**Still open:** the calculator/checklist/chart don't save any data anywhere
+— nav.js unifies navigation and login *visibility* across all five tools,
+it does not give the stateless three their own data persistence. That's
+separate, larger work, deliberately not done yet since paddock data is
+moving to Sheets rather than a new SQLite table.
 
 ## Google Sheets / Onboarding integration
 
@@ -219,6 +235,32 @@ upgrade, a Shared Drive owned by a human with the service account added as
 a member, or some other approach) — not a quick code fix. Don't spend more
 time patching this without picking a direction first.
 
+## Server security hardening (done)
+
+- **SSH:** key-based login only, password authentication disabled
+  (`PasswordAuthentication no` in `/etc/ssh/sshd_config`). Keep the private
+  key backed up somewhere durable — there is no password fallback anymore.
+- **Firewall (ufw):** active, default-deny incoming. Only 22 (SSH), 80
+  (HTTP), 443 (HTTPS) allowed, both IPv4 and IPv6. Check with
+  `ufw status verbose`.
+- **fail2ban:** installed and running, watching SSH via
+  `/etc/fail2ban/jail.local` (5 failed attempts in 10 minutes → 1 hour ban).
+  Check with `fail2ban-client status sshd`. Seeing banned IPs here is
+  normal background internet noise, not a sign of anything wrong.
+- **API key rotation:** if any API key is ever pasted into a chat, log
+  output, or anywhere outside Coolify's env vars, rotate it immediately at
+  console.anthropic.com — treat it as compromised the moment it's visible
+  outside the vault, regardless of where.
+- **Public repo hygiene:** the repo is public. Never put real IPs, internal
+  hostnames, or credentials directly in any file that gets committed — use
+  placeholders in anything checked into git, keep the real values in
+  Coolify env vars or a private notes location only.
+- **Not yet done:** git history was not scrubbed after an IP/hostname leak
+  earlier — low priority for now since this is a single-operator dev
+  server with no customer data on it yet. Revisit before onboarding any
+  real customer: full history rewrite (`git filter-repo` or similar) plus
+  a fresh clone on the server to stay in sync.
+
 ## Known open items (not yet built)
 
 - **Billing/payments** — `plan` field exists, nothing charges anyone yet
@@ -227,7 +269,9 @@ time patching this without picking a direction first.
   conversation** (the "tell Ellis what you did, it fills out the form"
   idea) — not started. The provisioner only builds the Sheet's structure;
   nothing yet reads a conversation and writes a row into it.
-- **Unifying the four HTML tools** — shared login, shared data, cross-links
+- **Navigation/login now unified** (`nav.js`) across all five tools — done.
+  Still open: the calculator/checklist/chart still have no data
+  persistence of their own (see Frontend tools section above).
 - **Other planned tools** (not started): paddock size planner, stockpile
   grazing planner, water system sizer, BCS-to-feeding-target converter,
   weed/toxic plant ID flow (as a dedicated tool, distinct from the chat
