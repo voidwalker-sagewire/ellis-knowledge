@@ -17,7 +17,7 @@
 (function () {
   var TABS = [
     { label: '💬 Chat', href: '/tools/chat.html', match: 'chat.html' },
-    { label: '📋 PCS Score', href: '/tools/pcs-score', match: 'pcs-score' },
+    { label: '📋 PCS Score', href: '/tools/pcs-scorer.html', match: 'pcs-score' },
     { label: '🧮 Calculator', href: '/tools/grazing-calculator.html', match: 'grazing-calculator' },
     { label: '📝 Plan', href: '/tools/grazing-plan-checklist.html', match: 'grazing-plan-checklist' },
     { label: '📅 Chart', href: '/tools/grazing-chart.html', match: 'grazing-chart' },
@@ -101,7 +101,7 @@
   if (token && email) {
     accountHtml = '<span>👤 ' + escapeHtml(email) + '</span><a id="ellis-nav-logout">Log out</a>';
   } else {
-    accountHtml = '<a href="/tools/pcs-score">Log in</a>';
+    accountHtml = '<a href="/tools/pcs-scorer.html">Log in</a>';
   }
 
   var nav = document.createElement('div');
