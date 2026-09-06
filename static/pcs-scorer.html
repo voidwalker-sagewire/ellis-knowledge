@@ -70,6 +70,7 @@
 </style>
 </head>
 <body>
+<script src="/tools/nav.js"></script>
 
 <!-- AUTH SCREEN -->
 <div id="auth-screen">
@@ -102,11 +103,6 @@
 
 <!-- MAIN APP -->
 <div id="main-app" class="hidden">
-  <div id="app-header">
-    <span id="user-email"></span>
-    <a onclick="logout()">Log out</a>
-  </div>
-
   <h1>Pasture Condition Score</h1>
 
   <h2>Pasture</h2>
@@ -240,7 +236,6 @@ function logout() {
 async function showMainApp() {
   document.getElementById("auth-screen").classList.add("hidden");
   document.getElementById("main-app").classList.remove("hidden");
-  document.getElementById("user-email").textContent = currentUserEmail;
   renderIndicators();
   await loadPastures();
 }
