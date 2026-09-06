@@ -51,7 +51,7 @@ DRIVE_SCOPES = ["https://www.googleapis.com/auth/drive"]
 
 ELLIS_TAB_NAME = "Ellis"
 ELLIS_COLUMNS = [
-    "paddock_name", "date_in", "date_out", "head_count", "class_of_stock",
+    "row_id", "paddock_name", "date_in", "date_out", "head_count", "class_of_stock",
     "days_rest", "residual_note", "weeds", "wet_dry", "notes"
 ]
 
@@ -173,7 +173,7 @@ def add_ellis_tab_to_existing_sheet(sheet_id, token):
 
     header_resp = sheets_request(
         "PUT",
-        f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}/values/{ELLIS_TAB_NAME}!A1:J1?valueInputOption=RAW",
+        f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}/values/{ELLIS_TAB_NAME}!A1:K1?valueInputOption=RAW",
         token,
         json_body={"values": [ELLIS_COLUMNS]},
     )
@@ -198,7 +198,7 @@ def create_new_sheet_with_ellis_tab(operation_name, contact_email, sheets_token,
 
     sheets_request(
         "PUT",
-        f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}/values/{ELLIS_TAB_NAME}!A1:J1?valueInputOption=RAW",
+        f"https://sheets.googleapis.com/v4/spreadsheets/{sheet_id}/values/{ELLIS_TAB_NAME}!A1:K1?valueInputOption=RAW",
         sheets_token,
         json_body={"values": [ELLIS_COLUMNS]},
     )
