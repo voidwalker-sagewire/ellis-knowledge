@@ -102,11 +102,15 @@ def get_session_answers(session_id: str) -> dict:
 
 
 def get_pending_sessions() -> list:
-    """COMPLETED ellis-setup sessions whose Sheet hasn't been provisioned yet."""
+    """BLOCKED ellis-setup sessions (fields answered, waiting on an external
+    requirement) whose Sheet hasn't been provisioned yet. Sessions with a
+    required EXTERNAL requirement never reach COMPLETED on their own — they
+    sit at BLOCKED until something satisfies that requirement, which is
+    exactly the job this function is finding work for."""
     flow_id = get_flow_id()
     resp = requests.get(
         f"{ONBOARDING_API_BASE}/sessions",
-        params={"flow_id": flow_id, "status": "COMPLETED", "limit": 100},
+        params={"flow_id": flow_id, "status": "BLOCKED", "limit": 100},
         timeout=15,
     )
     resp.raise_for_status()
