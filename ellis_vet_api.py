@@ -179,6 +179,10 @@ class AuthResponse(BaseModel):
 class PlanUpdate(BaseModel):
     plan: str  # "free" or "paid" for now — expand later (e.g. "paid_monthly", "paid_annual")
 
+class PasswordResetRequest(BaseModel):
+    email: EmailStr
+    new_password: str = Field(min_length=8)
+
 ADMIN_EMAILS = [e.strip() for e in os.environ.get("ELLIS_ADMIN_EMAILS", "").split(",") if e.strip()]
 # Set ELLIS_ADMIN_EMAILS in Coolify env vars (comma-separated) to control who can flip plans manually
 # until real billing (Stripe or similar) is wired up. Example: "mike@sagewire.dev"
@@ -211,6 +215,30 @@ async def login(req: LoginRequest):
 
     if not user or not verify_password(req.password, user["password_hash"]):
         raise HTTPException(status_code=401, detail="Incorrect email or password")
+
+    token = create_token(user["id"], user["email"])
+    return AuthResponse(token=token, user_id=user["id"], email=user["email"], display_name=user["display_name"], plan=user["plan"])
+
+@app.post("/ellis/auth/reset-password", response_model=AuthResponse)
+async def reset_password(req: PasswordResetRequest):
+    # SECURITY NOTE: this resets a password given ONLY an email address — no
+    # proof the requester actually owns that email. That's acceptable right
+    # now because this is a single-operator dev system with no real
+    # customers. Before onboarding anyone else, replace this with a real
+    # flow: generate a short-lived reset token, email it via a real sending
+    # service (SendGrid/SES/Resend/etc — none is wired up yet), and only
+    # accept the new password alongside a valid, unexpired token. Do not
+    # ship this endpoint as-is to a multi-user system.
+    conn = get_db()
+    user = conn.execute("SELECT * FROM users WHERE email = ?", (req.email,)).fetchone()
+    if not user:
+        conn.close()
+        raise HTTPException(status_code=404, detail="No account found with that email")
+
+    new_hash = hash_password(req.new_password)
+    conn.execute("UPDATE users SET password_hash = ? WHERE id = ?", (new_hash, user["id"]))
+    conn.commit()
+    conn.close()
 
     token = create_token(user["id"], user["email"])
     return AuthResponse(token=token, user_id=user["id"], email=user["email"], display_name=user["display_name"], plan=user["plan"])
